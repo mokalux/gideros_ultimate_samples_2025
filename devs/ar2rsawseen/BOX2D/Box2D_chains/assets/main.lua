@@ -1,0 +1,227 @@
+--include box2d library
+require "box2d"
+
+--let's create separate scene and hold everything there
+--then it will be easier to reuse it if you want to use SceneManager class
+scene = gideros.class(Sprite)
+
+--on scene initialization
+function scene:init()
+	--create world instance
+	self.world = b2.World.new(0, 10, true)
+	
+	local screenW = application:getContentWidth()
+	local screenH = application:getContentHeight()
+	--create bounding walls outside the scene
+	self:wall(0,screenH/2,10,screenH)
+	self:wall(screenW/2,0,screenW,10)
+	self:wall(screenW,screenH/2,10,screenH)
+	self:wall(screenW/2,screenH,screenW,10)
+	
+	--create empty box2d body for joint
+	--since mouse cursor is not a body
+	--we need dummy body to create joint
+	local ground = self.world:createBody({})
+	
+	local lastLink = self:chain(400,100, 20, 10, 0)
+	local x, y = lastLink:getPosition()
+	--create ball
+	self.ball = self:ball(x, y)
+	--[[local jointDef = b2.createRevoluteJointDef(self.ball.body, lastLink, x, y)
+	local revoluteJoint = self.world:createJoint(jointDef)
+	revoluteJoint:setMaxMotorTorque(1)
+	revoluteJoint:enableMotor(true)]]
+	
+	local jointDef = b2.createWheelJointDef(lastLink, ground, x, y, 1,1)
+	local wheelJoint = self.world:createJoint(jointDef)
+	wheelJoint:setSpringFrequencyHz(6)
+	wheelJoint:setSpringDampingRatio(1)
+	
+	
+	--joint with dummy body
+	local mouseJoint = nil
+
+	-- create a mouse joint on mouse down
+	function self:onMouseDown(event)
+		if self.ball:hitTestPoint(event.x, event.y) then
+			local jointDef = b2.createMouseJointDef(ground, self.ball.body, event.x, event.y, 100000)
+			mouseJoint = self.world:createJoint(jointDef)
+		end
+	end
+	
+	-- update the target of mouse joint on mouse move
+	function self:onMouseMove(event)
+		if mouseJoint ~= nil then
+			mouseJoint:setTarget(event.x, event.y)
+		end
+	end
+	
+	-- destroy the mouse joint on mouse up
+	function self:onMouseUp(event)
+		if mouseJoint ~= nil then
+			self.world:destroyJoint(mouseJoint)
+			mouseJoint = nil
+		end
+	end
+
+	-- register for mouse events
+	self:addEventListener(Event.MOUSE_DOWN, self.onMouseDown, self)
+	self:addEventListener(Event.MOUSE_MOVE, self.onMouseMove, self)
+	self:addEventListener(Event.MOUSE_UP, self.onMouseUp, self)
+	
+	--set up debug drawing
+	local debugDraw = b2.DebugDraw.new()
+	self.world:setDebugDraw(debugDraw)
+	self:addChild(debugDraw)
+	
+	--run world
+	self:addEventListener(Event.ENTER_FRAME, self.onEnterFrame, self)
+	--remove event on exiting scene
+	self:addEventListener("exitBegin", self.onExitBegin, self)
+end
+
+-- for creating objects using shape
+-- as example - bounding walls
+function scene:wall(x, y, width, height)
+	local wall = Shape.new()
+	--define wall shape
+	wall:beginPath()
+	
+	--we make use (0;0) as center of shape,
+	--thus we have half of width and half of height in each direction
+	wall:moveTo(-width/2,-height/2)
+	wall:lineTo(width/2, -height/2)
+	wall:lineTo(width/2, height/2)
+	wall:lineTo(-width/2, height/2)
+	wall:closePath()
+	wall:endPath()
+	wall:setPosition(x,y)
+	
+	--create box2d physical object
+	local body = self.world:createBody{type = b2.STATIC_BODY}
+	body:setPosition(wall:getX(), wall:getY())
+	body:setAngle(wall:getRotation() * math.pi/180)
+	local poly = b2.PolygonShape.new()
+	poly:setAsBox(wall:getWidth()/2, wall:getHeight()/2)
+	local fixture = body:createFixture{shape = poly, density = 1.0, 
+	friction = 0.1, restitution = 0.8}
+	wall.body = body
+	wall.body.type = "wall"
+	
+	--add to scene
+	self:addChild(wall)
+	
+	--return created object
+	return wall
+end
+
+-- for creating objects using image
+-- as example - ball
+function scene:ball(x, y)
+    --create ball bitmap object from ball graphic
+    local ball = Bitmap.new(Texture.new("./ball.png"))
+    --reference center of the ball for positioning
+    ball:setAnchorPoint(0.5,0.5)
+     
+    ball:setPosition(x,y)
+     
+    --get radius
+    local radius = ball:getWidth()/2
+     
+    --create box2d physical object
+    local body = self.world:createBody{type = b2.DYNAMIC_BODY}
+    body:setPosition(ball:getX(), ball:getY())
+    body:setAngle(ball:getRotation() * math.pi/180)
+    local circle = b2.CircleShape.new(0, 0, radius)
+    local fixture = body:createFixture{shape = circle, density = 1.0, 
+    friction = 0.1, restitution = 0.2}
+    ball.body = body
+    ball.body.type = "ball"
+     
+    --add to scene
+    self:addChild(ball)
+     
+    --return created object
+    return ball
+end
+
+--running the world
+function scene:onEnterFrame() 
+	-- edit the step values if required. These are good defaults!
+	self.world:step(1/60, 8, 3)
+	--iterate through all child sprites
+	for i = 1, self:getNumChildren() do
+		--get specific sprite
+		local sprite = self:getChildAt(i)
+		-- check if sprite HAS a body (ie, physical object reference we added)
+		if sprite.body then
+			--update position to match box2d world object's position
+			--get physical body reference
+			local body = sprite.body
+			--get body coordinates
+			local bodyX, bodyY = body:getPosition()
+			--apply coordinates to sprite
+			sprite:setPosition(bodyX, bodyY)
+			--apply rotation to sprite
+			sprite:setRotation(body:getAngle() * 180 / math.pi)
+		end
+	end
+end
+
+function scene:chain(x, y, radius, amount, rotation)
+
+	--create and store circle shape
+	local shape = b2.CircleShape.new(0, 0, radius)
+	
+	-- and our fixture definition
+	local fixtureDef = {shape = shape, density = 1.0, friction = 1, restitution = 0.3}
+	
+	--create empty box2d body for starting joint
+	local ground = self.world:createBody({})
+	
+	-- start to create the chain
+	local prevBody = ground
+	
+	for i=0,amount-1 do
+		local newax = ((-1 * math.sin(rotation))*(radius*i))
+        local neway = (math.cos(rotation) * (radius * i))
+		local newX = x + newax
+		local newY = y + neway
+		local bodyDef = {type = b2.DYNAMIC_BODY, position = {x = newX, y = newY}, allowSleep = false}
+		local body = self.world:createBody(bodyDef)
+		body:createFixture(fixtureDef)
+
+		local bitmap = Bitmap.new(Texture.new("ball.png"))
+		bitmap:setAnchorPoint(0.5, 0.5)
+		bitmap:setScale((radius*2)/bitmap:getWidth())
+		bitmap:setPosition(body:getPosition())
+		self:addChild(bitmap)
+		
+		bitmap.body = body
+	
+		-- attach each pair of bridge elements with revolute joint
+		local jointDef = b2.createWheelJointDef(prevBody, body, newX, newY, 1,1)
+		local wheelJoint = self.world:createJoint(jointDef)
+		wheelJoint:setSpringFrequencyHz(6)
+		wheelJoint:setSpringDampingRatio(1)
+		
+		-- attach each pair of chain elements with revolute joint
+		--[[local jointDef = b2.createRevoluteJointDef(prevBody, body, newX, newY)
+		local revoluteJoint = self.world:createJoint(jointDef)
+		revoluteJoint:setMaxMotorTorque(1)
+		revoluteJoint:enableMotor(true)]]
+	
+		prevBody = body
+	end
+	return prevBody
+end
+
+--removing event on exiting scene
+--just in case you're using SceneManager
+function scene:onExitBegin()
+  self:removeEventListener(Event.ENTER_FRAME, self.onEnterFrame, self)
+end
+
+--add created scene to stage or sceneManager
+local mainScene = scene.new()
+stage:addChild(mainScene)
