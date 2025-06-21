@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="480" logicalHeight="800" windowWidth="0" windowHeight="0" autorotation="3" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="3" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales>
+            <scale suffix="@2" scale="2"/>
+        </imageScales>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/config.lua"/>
+    <file name="assets/levelScene.lua"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/packs.lua"/>
+    <file name="assets/test.lua" excludeFromExecution="1"/>
+    <folder name="texturepacks">
+        <file name="assets/texturepacks/LevelScene.png"/>
+        <file name="assets/texturepacks/LevelScene.txt"/>
+    </folder>
+    <folder name="scenes">
+        <file name="assets/scenes/AboutScene.lua"/>
+        <file name="assets/scenes/LevelScene.lua"/>
+        <file name="assets/scenes/LevelselectScene.lua"/>
+        <file name="assets/scenes/OptionsScene.lua"/>
+        <file name="assets/scenes/StartScene.lua"/>
+    </folder>
+    <folder name="objects">
+        <file name="assets/objects/MainBall.lua"/>
+        <file name="assets/objects/TouchBall.lua"/>
+    </folder>
+    <folder name="levels">
+        <file name="assets/levels/1-1.json"/>
+        <file name="assets/levels/1-2.json"/>
+        <file name="assets/levels/1-3.json"/>
+    </folder>
+    <folder name="images">
+        <file name="assets/images/ball.png"/>
+        <file name="assets/images/bg.jpg"/>
+        <file name="assets/images/left.png"/>
+        <file name="assets/images/level_locked.png"/>
+        <file name="assets/images/level_unlocked.png"/>
+        <file name="assets/images/logo.png"/>
+        <file name="assets/images/right.png"/>
+        <file name="assets/images/testbg.png"/>
+    </folder>
+    <folder name="fonts">
+        <file name="assets/fonts/deftone stylus.ttf"/>
+    </folder>
+    <folder name="classes">
+        <file name="assets/classes/Button.lua"/>
+        <file name="assets/classes/GameManager.lua"/>
+        <file name="assets/classes/Settings.lua"/>
+        <file name="assets/classes/TextWrap.lua"/>
+        <file name="assets/classes/dataSaver.lua"/>
+        <file name="assets/classes/easing.lua"/>
+        <file name="assets/classes/json.lua"/>
+        <file name="assets/classes/scenemanager.lua"/>
+    </folder>
+</project>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="480" logicalHeight="800" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="1" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="1" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/config.lua"/>
+    <file name="assets/help.lua"/>
+    <file name="assets/level.lua"/>
+    <file name="assets/level_select.lua"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/options.lua"/>
+    <file name="assets/pack_select.lua"/>
+    <file name="assets/packs.json"/>
+    <file name="assets/start.lua"/>
+    <file name="assets/tahoma.ttf"/>
+    <folder name="images">
+        <file name="assets/images/back_down.png"/>
+        <file name="assets/images/back_up.png"/>
+        <file name="assets/images/button_down.png"/>
+        <file name="assets/images/button_up.png"/>
+        <file name="assets/images/crate.png"/>
+        <file name="assets/images/crate_locked.png"/>
+        <file name="assets/images/gideros_mobile.png"/>
+        <file name="assets/images/help_down.png"/>
+        <file name="assets/images/help_up.png"/>
+        <file name="assets/images/left-down.png"/>
+        <file name="assets/images/left-up.png"/>
+        <file name="assets/images/levelselect_down.png"/>
+        <file name="assets/images/levelselect_up.png"/>
+        <file name="assets/images/menu_down.png"/>
+        <file name="assets/images/menu_up.png"/>
+        <file name="assets/images/musicoff_down.png"/>
+        <file name="assets/images/musicoff_up.png"/>
+        <file name="assets/images/musicon_down.png"/>
+        <file name="assets/images/musicon_up.png"/>
+        <file name="assets/images/next_down.png"/>
+        <file name="assets/images/next_up.png"/>
+        <file name="assets/images/options_down.png"/>
+        <file name="assets/images/options_up.png"/>
+        <file name="assets/images/packselect_down.png"/>
+        <file name="assets/images/packselect_up.png"/>
+        <file name="assets/images/pause_down.png"/>
+        <file name="assets/images/pause_up.png"/>
+        <file name="assets/images/reset_down.png"/>
+        <file name="assets/images/reset_up.png"/>
+        <file name="assets/images/resume_down.png"/>
+        <file name="assets/images/resume_up.png"/>
+        <file name="assets/images/right-down.png"/>
+        <file name="assets/images/right-up.png"/>
+        <file name="assets/images/soundsoff_down.png"/>
+        <file name="assets/images/soundsoff_up.png"/>
+        <file name="assets/images/soundson_down.png"/>
+        <file name="assets/images/soundson_up.png"/>
+        <file name="assets/images/start_down.png"/>
+        <file name="assets/images/start_up.png"/>
+    </folder>
+    <folder name="classes">
+        <file name="assets/classes/AceSlide.lua"/>
+        <file name="assets/classes/GameManager.lua"/>
+        <file name="assets/classes/Music.lua"/>
+        <file name="assets/classes/Popup.lua"/>
+        <file name="assets/classes/Settings.lua"/>
+        <file name="assets/classes/Sounds.lua"/>
+        <file name="assets/classes/TextWrap.lua"/>
+        <file name="assets/classes/View.lua"/>
+        <file name="assets/classes/button.lua"/>
+        <file name="assets/classes/dataSaver.lua"/>
+        <file name="assets/classes/easing.lua"/>
+        <file name="assets/classes/gtween.lua"/>
+        <file name="assets/classes/json.lua"/>
+        <file name="assets/classes/lib.lua"/>
+        <file name="assets/classes/scenemanager.lua"/>
+    </folder>
+    <folder name="audio">
+        <file name="assets/audio/complete.mp3"/>
+        <file name="assets/audio/hit.wav"/>
+        <file name="assets/audio/main.mp3"/>
+    </folder>
+</project>
