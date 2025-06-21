@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="6" logicalWidth="480" logicalHeight="800" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="1" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/main.lua"/>
+    <file name="assets/readme.txt"/>
+    <folder name="ui">
+        <file name="assets/ui/line.lua"/>
+        <file name="assets/ui/rect.lua"/>
+    </folder>
+    <folder name="scenes">
+        <file name="assets/scenes/blank_scene.lua"/>
+        <file name="assets/scenes/cutscene_scene.lua"/>
+    </folder>
+    <folder name="scenemanager">
+        <file name="assets/scenemanager/easing.lua"/>
+        <file name="assets/scenemanager/scenemanager.lua"/>
+    </folder>
+    <folder name="resources">
+        <file name="assets/resources/bglogo.png"/>
+    </folder>
+    <folder name="font">
+        <file name="assets/font/consolas18.png"/>
+        <file name="assets/font/consolas18.txt"/>
+    </folder>
+    <folder name="core">
+        <file name="assets/core/tablex.lua" excludeFromExecution="1"/>
+    </folder>
+    <folder name="config">
+        <file name="assets/config/cutsceneconfig.lua" excludeFromExecution="1"/>
+        <folder name="cutscenes">
+            <file name="assets/config/cutscenes/first_cutscene.lua" excludeFromExecution="1"/>
+            <file name="assets/config/cutscenes/second_cutscene.lua" excludeFromExecution="1"/>
+        </folder>
+    </folder>
+</project>
