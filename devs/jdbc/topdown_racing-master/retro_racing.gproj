@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="480" logicalHeight="800" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="30" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/main.lua"/>
+    <file name="assets/player.lua"/>
+    <file name="assets/tree.lua"/>
+    <folder name="scenes">
+        <file name="assets/scenes/game.lua"/>
+        <file name="assets/scenes/track.lua"/>
+    </folder>
+    <folder name="images">
+        <file name="assets/images/black.png"/>
+        <file name="assets/images/block_grass.png"/>
+        <file name="assets/images/blue.png"/>
+        <file name="assets/images/blue_car.png"/>
+        <file name="assets/images/brown.png"/>
+        <file name="assets/images/circle_yellow.png"/>
+        <file name="assets/images/darkblue.png"/>
+        <file name="assets/images/darkbrown.png"/>
+        <file name="assets/images/darkpurple.png"/>
+        <file name="assets/images/darkred.png"/>
+        <file name="assets/images/darkyellow.png"/>
+        <file name="assets/images/goal.png"/>
+        <file name="assets/images/grass.png"/>
+        <file name="assets/images/green.png"/>
+        <file name="assets/images/green_car.png"/>
+        <file name="assets/images/jdbc_games.png"/>
+        <file name="assets/images/left.png"/>
+        <file name="assets/images/orange_car.png"/>
+        <file name="assets/images/pause.png"/>
+        <file name="assets/images/pink_car.png"/>
+        <file name="assets/images/purple.png"/>
+        <file name="assets/images/red.png"/>
+        <file name="assets/images/red_car.png"/>
+        <file name="assets/images/right.png"/>
+        <file name="assets/images/tile1.png"/>
+        <file name="assets/images/tile1_blue.png"/>
+        <file name="assets/images/tile2.png"/>
+        <file name="assets/images/tile3.png"/>
+        <file name="assets/images/tile4.png"/>
+        <file name="assets/images/tile5.png"/>
+        <file name="assets/images/tile6.png"/>
+        <file name="assets/images/tree_short.png"/>
+        <file name="assets/images/tree_ugly.png"/>
+        <file name="assets/images/white_car.png"/>
+        <file name="assets/images/yellow.png"/>
+        <file name="assets/images/yellow_car.png"/>
+    </folder>
+    <folder name="fonts">
+        <file name="assets/fonts/futur1.ttf"/>
+    </folder>
+    <folder name="classes">
+        <file name="assets/classes/GiderosCodingEasy.lua"/>
+        <file name="assets/classes/camera.lua"/>
+        <file name="assets/classes/easing.lua"/>
+        <file name="assets/classes/gtween.lua"/>
+        <file name="assets/classes/scenemanager.lua"/>
+        <file name="assets/classes/vector.lua"/>
+    </folder>
+</project>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="480" logicalHeight="800" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="1" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="1" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/main.lua"/>
+    <file name="assets/scene.lua"/>
+    <file name="assets/shapes.lua"/>
+    <file name="assets/soundmanager.lua"/>
+    <file name="assets/utils.lua"/>
+    <folder name="sprites">
+        <file name="assets/sprites/open_house_sign_0.png"/>
+        <file name="assets/sprites/player_left.png"/>
+        <file name="assets/sprites/player_right.png"/>
+        <file name="assets/sprites/player_straight.png"/>
+        <file name="assets/sprites/player_uphill_left.png"/>
+        <file name="assets/sprites/player_uphill_right.png"/>
+        <file name="assets/sprites/player_uphill_straight.png"/>
+        <file name="assets/sprites/sprites.png"/>
+    </folder>
+    <folder name="music">
+        <file source="music/racer.mp3"/>
+        <file name="assets/music/racer.mp3"/>
+    </folder>
+    <folder name="fonts">
+        <file name="assets/fonts/Akashi.ttf"/>
+    </folder>
+    <folder name="background">
+        <file name="assets/background/background.png"/>
+        <file name="assets/background/background.svg"/>
+        <file name="assets/background/hills.png"/>
+        <file name="assets/background/sky.png"/>
+        <file name="assets/background/trees.png"/>
+    </folder>
+</project>

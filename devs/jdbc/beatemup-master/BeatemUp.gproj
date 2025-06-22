@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="0" logicalWidth="320" logicalHeight="480" windowWidth="0" windowHeight="0" autorotation="0" orientation="0" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins>
+            <plugin name="JSON" enabled="1"/>
+        </plugins>
+        <exports/>
+    </properties>
+    <file name="assets/dataSaver.lua" excludeFromExecution="1"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/socket.lua"/>
+    <folder name="websocket">
+        <file name="assets/websocket/client_async.lua" excludeFromExecution="1"/>
+        <file name="assets/websocket/coxpcall.lua" excludeFromExecution="1"/>
+        <file name="assets/websocket/frame.lua" excludeFromExecution="1"/>
+        <file name="assets/websocket/handshake.lua" excludeFromExecution="1"/>
+        <file name="assets/websocket/sync.lua" excludeFromExecution="1"/>
+        <file name="assets/websocket/tools.lua" excludeFromExecution="1"/>
+    </folder>
+    <folder name="images">
+        <file name="assets/images/jdbc_games.png"/>
+    </folder>
+    <folder name="colyseus">
+        <file name="assets/colyseus/.editorconfig"/>
+        <file name="assets/colyseus/auth.lua" excludeFromExecution="1"/>
+        <file name="assets/colyseus/client.lua" excludeFromExecution="1"/>
+        <file name="assets/colyseus/connection.lua" excludeFromExecution="1"/>
+        <file name="assets/colyseus/eventemitter.lua" excludeFromExecution="1"/>
+        <file name="assets/colyseus/events.lua"/>
+        <file name="assets/colyseus/protocol.lua" excludeFromExecution="1"/>
+        <file name="assets/colyseus/push.lua" excludeFromExecution="1"/>
+        <file name="assets/colyseus/room.lua" excludeFromExecution="1"/>
+        <file name="assets/colyseus/serialization.lua" excludeFromExecution="1"/>
+        <file name="assets/colyseus/storage.lua" excludeFromExecution="1"/>
+        <file name="assets/colyseus/utils.lua" excludeFromExecution="1"/>
+        <folder name="state_listener">
+            <file name="assets/colyseus/state_listener/compare.lua" excludeFromExecution="1"/>
+            <file name="assets/colyseus/state_listener/state_container.lua" excludeFromExecution="1"/>
+        </folder>
+        <folder name="serialization">
+            <file name="assets/colyseus/serialization/bit.lua" excludeFromExecution="1"/>
+            <file name="assets/colyseus/serialization/fossil_delta.lua" excludeFromExecution="1"/>
+            <file name="assets/colyseus/serialization/json.lua" excludeFromExecution="1"/>
+            <file name="assets/colyseus/serialization/schema.lua" excludeFromExecution="1"/>
+            <folder name="schema">
+                <file name="assets/colyseus/serialization/schema/schema.lua" excludeFromExecution="1"/>
+            </folder>
+            <folder name="fossil_delta">
+                <file name="assets/colyseus/serialization/fossil_delta/fossil_delta.lua" excludeFromExecution="1"/>
+            </folder>
+        </folder>
+        <folder name="messagepack">
+            <file name="assets/colyseus/messagepack/MessagePack.lua" excludeFromExecution="1"/>
+        </folder>
+    </folder>
+</project>

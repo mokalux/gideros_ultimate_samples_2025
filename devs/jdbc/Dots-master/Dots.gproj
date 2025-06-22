@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="480" logicalHeight="800" windowWidth="0" windowHeight="0" autorotation="0" orientation="0" fps="30" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="1" encryptAssets="1" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins>
+            <plugin name="JSON" enabled="1"/>
+        </plugins>
+        <exports/>
+    </properties>
+    <file name="assets/dot.lua"/>
+    <file name="assets/gamestate.lua"/>
+    <file name="assets/hud.lua"/>
+    <file name="assets/i18n.lua"/>
+    <file name="assets/ideas.txt"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/parse.lua"/>
+    <file name="assets/pause.lua"/>
+    <file name="assets/scoreoid.lua"/>
+    <file name="assets/social.lua"/>
+    <file name="assets/sounds.lua"/>
+    <file name="assets/submit.lua"/>
+    <folder name="sounds">
+        <file name="assets/sounds/guitar1.mp3"/>
+        <file name="assets/sounds/guitar2.mp3"/>
+        <file name="assets/sounds/guitar3.mp3"/>
+        <file name="assets/sounds/guitar4.mp3"/>
+        <file name="assets/sounds/guitar5.mp3"/>
+        <file name="assets/sounds/guitar6.mp3"/>
+        <file name="assets/sounds/guitar7.mp3"/>
+        <file name="assets/sounds/piano_a.wav"/>
+        <file name="assets/sounds/piano_b.wav"/>
+        <file name="assets/sounds/piano_c.wav"/>
+        <file name="assets/sounds/piano_d.wav"/>
+        <file name="assets/sounds/piano_e.wav"/>
+    </folder>
+    <folder name="screenshots">
+        <file name="assets/screenshots/game_480_800.png"/>
+        <file name="assets/screenshots/game_diagonal_480_800.png"/>
+        <file name="assets/screenshots/modes2_480_800.png"/>
+        <file name="assets/screenshots/modes_480_800.png"/>
+        <file name="assets/screenshots/powerup1_480_800.png"/>
+        <file name="assets/screenshots/powerup2_480_800.png"/>
+        <file name="assets/screenshots/powerup3_480_800.png"/>
+        <file name="assets/screenshots/screenshot1.png"/>
+        <file name="assets/screenshots/shop-itunes.png"/>
+        <file name="assets/screenshots/shop_480_800.png"/>
+    </folder>
+    <folder name="scenes">
+        <file name="assets/scenes/game.lua"/>
+        <file name="assets/scenes/leaderboard.lua"/>
+        <file name="assets/scenes/menu.lua"/>
+        <file name="assets/scenes/modes.lua"/>
+        <file name="assets/scenes/powerup.lua"/>
+        <file name="assets/scenes/score.lua"/>
+        <file name="assets/scenes/shop.lua"/>
+    </folder>
+    <folder name="icons">
+        <file name="assets/icons/descarga.png"/>
+        <file name="assets/icons/gideros_1600_500.png"/>
+        <file name="assets/icons/gideros_1600_500.xcf"/>
+        <file name="assets/icons/icon_1024.jpg"/>
+        <file name="assets/icons/icon_1024.png"/>
+        <file name="assets/icons/icon_114.png"/>
+        <file name="assets/icons/icon_128.jpg"/>
+        <file name="assets/icons/icon_200.png"/>
+        <file name="assets/icons/icon_32.png"/>
+        <file name="assets/icons/icon_512.png"/>
+        <file name="assets/icons/icon_512.xcf"/>
+        <file name="assets/icons/icon_512_transparent.xcf"/>
+        <file name="assets/icons/icon_64.jpg"/>
+        <file name="assets/icons/inapp_15000.png"/>
+        <file name="assets/icons/inapp_15000_114.png"/>
+        <file name="assets/icons/inapp_300000.png"/>
+        <file name="assets/icons/inapp_300000_114.png"/>
+        <file name="assets/icons/inapp_45000.png"/>
+        <file name="assets/icons/inapp_45000_114.png"/>
+        <file name="assets/icons/promotional.png"/>
+        <file name="assets/icons/promotional.xcf"/>
+    </folder>
+    <folder name="gfx">
+        <file name="assets/gfx/1_gems.png"/>
+        <file name="assets/gfx/2_gems.png"/>
+        <file name="assets/gfx/3_gems.png"/>
+        <file name="assets/gfx/4_gems.png"/>
+        <file name="assets/gfx/5_gems.png"/>
+        <file name="assets/gfx/6_gems.png"/>
+        <file name="assets/gfx/7_gems.png"/>
+        <file name="assets/gfx/bulb_blue.png"/>
+        <file name="assets/gfx/bulb_green.png"/>
+        <file name="assets/gfx/bulb_red.png"/>
+        <file name="assets/gfx/bulb_yellow.png"/>
+        <file name="assets/gfx/circle_blue.png"/>
+        <file name="assets/gfx/circle_green.png"/>
+        <file name="assets/gfx/circle_grey.png"/>
+        <file name="assets/gfx/circle_orange.png"/>
+        <file name="assets/gfx/circle_red.png"/>
+        <file name="assets/gfx/circle_yellow.png"/>
+        <file name="assets/gfx/clock.png"/>
+        <file name="assets/gfx/clock_blue.png"/>
+        <file name="assets/gfx/gear_grey.png"/>
+        <file name="assets/gfx/gear_red.png"/>
+        <file name="assets/gfx/green_light.png"/>
+        <file name="assets/gfx/hyperlink_green.png"/>
+        <file name="assets/gfx/hyperlink_grey.png"/>
+        <file name="assets/gfx/jdbc_games.png"/>
+        <file name="assets/gfx/logo_fb.png"/>
+        <file name="assets/gfx/medal.png"/>
+        <file name="assets/gfx/pause-red.png"/>
+        <file name="assets/gfx/play.png"/>
+        <file name="assets/gfx/powerup_trash.png"/>
+        <file name="assets/gfx/red_light.png"/>
+        <file name="assets/gfx/ring_5.png"/>
+        <file name="assets/gfx/shopping_cart_green.png"/>
+        <file name="assets/gfx/speaker_blue.png"/>
+        <file name="assets/gfx/trash_grey.png"/>
+        <file name="assets/gfx/trash_yellow.png"/>
+        <file name="assets/gfx/user_default.jpg"/>
+        <file name="assets/gfx/yellow_light.png"/>
+        <folder name="Match-3_Graphics_Pack">
+            <file name="assets/gfx/Match-3_Graphics_Pack/GameOverText.png"/>
+            <file name="assets/gfx/Match-3_Graphics_Pack/GameTitleLogo.png"/>
+            <folder name="Game Field Images">
+                <file name="assets/gfx/Match-3_Graphics_Pack/Game Field Images/GameFieldBorder.bmp"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Game Field Images/GameFieldBottom.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Game Field Images/ScoreArea.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Game Field Images/SpeedIncImage.png"/>
+            </folder>
+            <folder name="Block Images">
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Blank.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Circle0.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Circle1.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Circle2.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Diamond0.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Diamond1.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Diamond2.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Hex0.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Hex1.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Hex2.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Square0.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Square1.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Square2.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Star0.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Star1.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Star2.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Triangle0.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Triangle1.png"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/Block Images/Triangle2.png"/>
+            </folder>
+            <folder name="BG Images">
+                <file name="assets/gfx/Match-3_Graphics_Pack/BG Images/GameOverBGTile.bmp"/>
+                <file name="assets/gfx/Match-3_Graphics_Pack/BG Images/StandardBGTile.bmp"/>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="fonts">
+        <file name="assets/fonts/CC BY SA License.txt"/>
+        <file name="assets/fonts/ComicBookCommando.ttf"/>
+        <file name="assets/fonts/DroidSansFallback.ttf"/>
+        <file name="assets/fonts/futur1.ttf"/>
+        <file name="assets/fonts/new_academy.ttf"/>
+    </folder>
+    <folder name="classes">
+        <file name="assets/classes/GiderosCodingEasy.lua"/>
+        <file name="assets/classes/ads.lua"/>
+        <file name="assets/classes/billing.lua"/>
+        <file name="assets/classes/button.lua"/>
+        <file name="assets/classes/dataSaver.lua" excludeFromExecution="1"/>
+        <file name="assets/classes/easing.lua"/>
+        <file name="assets/classes/gtween.lua"/>
+        <file name="assets/classes/scenemanager.lua"/>
+    </folder>
+</project>
