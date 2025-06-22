@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="0" logicalWidth="320" logicalHeight="480" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/main.lua"/>
+    <file name="assets/uiGradient.lua" excludeFromExecution="1"/>
+    <folder name="gradients">
+        <file name="assets/gradients/gradients.json"/>
+        <file name="assets/gradients/gradients_demo.json"/>
+    </folder>
+    <folder name="Sources">
+        <folder name="Images">
+            <folder name="Splash">
+                <file name="assets/Sources/Images/Splash/splashWhite.psd"/>
+                <file name="assets/Sources/Images/Splash/splashWhite_001.png"/>
+                <file name="assets/Sources/Images/Splash/splashWhite_002.png"/>
+                <file name="assets/Sources/Images/Splash/splashWhite_003.png"/>
+                <file name="assets/Sources/Images/Splash/splashWhite_004.png"/>
+                <file name="assets/Sources/Images/Splash/splashWhite_005.png"/>
+                <file name="assets/Sources/Images/Splash/splashWhite_006.png"/>
+                <file name="assets/Sources/Images/Splash/splashWhite_007.png"/>
+                <file name="assets/Sources/Images/Splash/splashWhite_008.png"/>
+                <file name="assets/Sources/Images/Splash/splashWhite_009.png"/>
+            </folder>
+            <folder name="Landscapes">
+                <file name="assets/Sources/Images/Landscapes/jeremiah-berman-282409.png"/>
+                <file name="assets/Sources/Images/Landscapes/pexels-photo-89432.png"/>
+            </folder>
+            <folder name="Faces">
+                <file name="assets/Sources/Images/Faces/ariel-lustre-208615.png"/>
+                <file name="assets/Sources/Images/Faces/peruvianModel_Maju_001.png"/>
+            </folder>
+        </folder>
+        <folder name="Fonts">
+            <file name="assets/Sources/Fonts/Roboto-Regular.ttf"/>
+        </folder>
+    </folder>
+    <folder name="Samples">
+        <file name="assets/Samples/Sample001.lua" excludeFromExecution="1"/>
+        <file name="assets/Samples/Sample002.lua" excludeFromExecution="1"/>
+        <file name="assets/Samples/Sample003.lua" excludeFromExecution="1"/>
+        <file name="assets/Samples/Sample004.lua" excludeFromExecution="1"/>
+    </folder>
+    <folder name="Results">
+        <file name="assets/Results/RegularPolygons.png"/>
+        <file name="assets/Results/big_fog.png"/>
+        <file name="assets/Results/big_rainbow.png"/>
+        <file name="assets/Results/cosmicFusion.png"/>
+        <file name="assets/Results/firewatch.png"/>
+        <file name="assets/Results/mango.png"/>
+        <file name="assets/Results/royalblue.png"/>
+    </folder>
+</project>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="144" height="90" tilewidth="8" tileheight="8" nextobjectid="449">
+ <tileset firstgid="1" name="platformIndustrial_sheet" tilewidth="64" tileheight="64">
+  <image source="platformIndustrial_sheet.png" trans="ffffff" width="1024" height="512"/>
+ </tileset>
+ <objectgroup name="Terrain">
+  <object id="415" name="yellow001" x="96" y="208">
+   <polyline points="0,0 0,-128 32,-128 32,0 40,0 40,-136 -8,-136 -8,0 0,0"/>
+  </object>
+  <object id="416" name="silo001" x="528" y="103.273">
+   <polyline points="0,0.727273 0,-7.27273 16,-7.27273 16,72.7273 -144,72.7273 -144,-7.27273 -128,-7.27273 -128,0.727 -128,8.727 -128,64.727 0,64.727 0,8.727 0,0.727273"/>
+  </object>
+  <object id="417" name="sensor_yellow001" type="dynamic" x="192" y="528">
+   <polyline points="0,0 8,0 -64,-80 -192,-80 -192,184 256,184 256,-56 448,-56 448,-80 128,-80 56,0 64,0 72,0 72,184 -8,184 -8,0 0,0"/>
+  </object>
+  <object id="418" name="rightwall" x="488" y="64">
+   <polyline points="0,0 -8,0 -8,-96 664,-96 664,640 -40,640 -40,576 344,576 344,640 664,640 664,536 88,536 88,472 664,472 664,192 216,192 216,128 344,128 344,0 408,0 408,88 664,88 664,-64 0,-64 0,0"/>
+  </object>
+  <object id="419" name="leftwall" x="440" y="64">
+   <polyline points="0,0 8,0 8,-96 -448,-96 -448,384 -440,384 -440,-64 0,-64 0,0"/>
+  </object>
+  <object id="420" name="base" x="420" y="168" width="88" height="8"/>
+  <object id="421" name="base" x="162" y="704" width="128" height="8"/>
+  <object id="447" x="840" y="456">
+   <polyline points="0,0 0,-24 -16,-24 -16,-88 32,-88 32,-136 96,-136 96,-88 144,-88 144,-24 128,-24 128,0 0,0"/>
+  </object>
+ </objectgroup>
+ <layer name="Background" width="144" height="90">
+  <data encoding="base64" compression="zlib">
+   eJzt2EERADAIA0Gs1U79C8ABv06B2TWQvC8CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAO7u8DAAAAADyl/wAAAADUzvB9/QcAAACgNr3/ALBTAnA8AkM=
+  </data>
+ </layer>
+ <objectgroup name="Gear">
+  <object id="424" x="80" y="16" width="64" height="64"/>
+  <object id="425" x="448" y="416" width="64" height="64"/>
+  <object id="426" x="512" y="416" width="64" height="64"/>
+  <object id="427" x="576" y="416" width="64" height="64"/>
+  <object id="428" x="640" y="504" width="64" height="64"/>
+  <object id="429" x="704" y="504" width="64" height="64"/>
+  <object id="430" x="768" y="504" width="64" height="64"/>
+  <object id="433" x="896" y="504" width="64" height="64"/>
+  <object id="434" x="64" y="512" width="64" height="64"/>
+  <object id="435" x="320" y="512" width="64" height="64"/>
+  <object id="445" x="960" y="504" width="64" height="64"/>
+  <object id="446" x="1024" y="504" width="64" height="64"/>
+ </objectgroup>
+ <layer name="Layer1" width="144" height="90">
+  <data encoding="base64" compression="zlib">
+   eJzt3bGNAjEQBVBniAYOIrgEkYAIqAChK+BiEkiogAIpjYB4MdKsmMX7XuivkSf+XmlLAQAAAMixyV4AAAAAAN7wk70ADMBv9gIA0Jht4AwA6N+tku+Sc/gE3/MBQNykks8q+bqvRQCgQfPGcwAAAAAAAAD4VsvsBQAAAAAIW5Ry78qmpZy7zl/NAQAAADBMq0r+95EtoH+HYP4fvP8SvL+W+2cBAAAAMHa1/qRmH5w/Buf1P0CXU/YCkCj7/wBDzwEAxqbWn1yD89n3639gvPQ/AAAAT633P9nvi94nIY/+p20P2QcPmA==
+  </data>
+ </layer>
+ <objectgroup name="Sensor">
+  <object id="436" name="yellow001" type="blue001" x="208" y="688" width="30" height="5"/>
+ </objectgroup>
+ <objectgroup name="Doors">
+  <object id="437" name="yellow001" x="96" y="208" width="32" height="8"/>
+  <object id="438" name="blue001" x="448" y="48" width="32" height="8"/>
+ </objectgroup>
+ <layer name="Layer2" width="144" height="90">
+  <data encoding="base64" compression="zlib">
+   eJzt3cENQEAQQNG9iQqEu6hACYpQgxr0pjQOrmxiwwbvJZs5/MNOBxMCAAAAAAAAAAD815h7AQAAAAAAAAAA4FAR6dXLOwAAAAAAAAAAAAAAAAAAAAAA15SJ/W6p+9U3dwAAAAAAgKc1OgAAAAAAAPARue+jx3oX6fBlfQhLSm9P+ry9aZ9HhsT/9bx9BQQZFIg=
+  </data>
+ </layer>
+ <objectgroup name="Box">
+  <object id="439" x="128" y="320" width="64" height="64"/>
+  <object id="440" x="104" y="384" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="Liquid">
+  <object id="441" name="yellow001" type="yellow" x="96" y="80" width="32" height="112"/>
+ </objectgroup>
+ <objectgroup name="Silo">
+  <object id="442" name="Silo001" type="water" x="448" y="-32" width="32" height="80"/>
+  <object id="443" name="blue001" type="sensor" x="434" y="156" width="60" height="5"/>
+ </objectgroup>
+ <objectgroup name="Buttons">
+  <object id="444" name="yellow" x="832" y="64" width="64" height="128"/>
+ </objectgroup>
+</map>

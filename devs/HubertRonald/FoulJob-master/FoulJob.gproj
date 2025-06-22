@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="640" logicalHeight="960" windowWidth="0" windowHeight="0" autorotation="3" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="3" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="7" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.bsb.fouljob" osx_signingId="" osx_installerId="" osx_category="25" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="1" encryptAssets="1" app_icon="iTunesArtwork@2x.png" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="splashL.png" splash_v_image="splashP.png" app_name="Foul Job" splashScaleMode="0">
+        <imageScales>
+            <scale suffix="@2x" scale="2"/>
+            <scale suffix="@1.5x" scale="1.5"/>
+        </imageScales>
+        <plugins>
+            <plugin name="Ads" enabled="0"/>
+            <plugin name="Bitop" enabled="0"/>
+            <plugin name="Camera" enabled="0"/>
+            <plugin name="Clipper" enabled="0"/>
+            <plugin name="Controller" enabled="0"/>
+            <plugin name="Countly" enabled="0"/>
+            <plugin name="Exampleplugin" enabled="0"/>
+            <plugin name="Facebook" enabled="0">
+                <property name="fbAppId" value=""/>
+            </plugin>
+            <plugin name="Firebase" enabled="0"/>
+            <plugin name="Flurry" enabled="0"/>
+            <plugin name="GameKit" enabled="0"/>
+            <plugin name="Gaming" enabled="0">
+                <property name="gmsApiKey" value=""/>
+                <property name="gmsAppId" value=""/>
+                <property name="gmsFwGamecircle" value="0"/>
+                <property name="gmsFwGamekit" value="0"/>
+                <property name="gmsFwGoogle" value="0"/>
+                <property name="gmsVersion" value="9.2.0"/>
+            </plugin>
+            <plugin name="Google Licensing plugin" enabled="0"/>
+            <plugin name="Google Play Services" enabled="0">
+                <property name="gmsAppId" value=""/>
+                <property name="gmsVersion" value="7.8.0"/>
+            </plugin>
+            <plugin name="Iab" enabled="0">
+                <property name="iabAmazon" value="0"/>
+                <property name="iabGoogle" value="0"/>
+            </plugin>
+            <plugin name="JSON" enabled="0"/>
+            <plugin name="Lpeg" enabled="0"/>
+            <plugin name="Lua Socket" enabled="0"/>
+            <plugin name="LuaFileSystem" enabled="0"/>
+            <plugin name="LuaSqlite3" enabled="0"/>
+            <plugin name="MFI Controller" enabled="0"/>
+            <plugin name="Media plugin" enabled="0"/>
+            <plugin name="Microphone" enabled="0"/>
+            <plugin name="Native" enabled="0"/>
+            <plugin name="Require" enabled="0">
+                <property name="reqAccel" value="0"/>
+                <property name="reqCanOpenUrl" value=""/>
+                <property name="reqCompass" value="0"/>
+                <property name="reqEnable64bits" value="0"/>
+                <property name="reqExpRegCompliance" value="0"/>
+                <property name="reqFullOrientation" value="0"/>
+                <property name="reqGps" value="0"/>
+                <property name="reqGyro" value="0"/>
+                <property name="reqMaxAspect" value="0"/>
+                <property name="reqNoGps" value="0"/>
+                <property name="reqNoVibrator" value="0"/>
+                <property name="reqPhoneOnly" value="0"/>
+                <property name="reqTVCompat" value="0"/>
+                <property name="reqTVExtCompat" value="0"/>
+                <property name="reqTouch" value="0"/>
+                <property name="reqWriteExternalStorage" value="0"/>
+            </plugin>
+            <plugin name="Store Detector" enabled="0"/>
+            <plugin name="StoreKit" enabled="0"/>
+            <plugin name="Struct" enabled="0"/>
+            <plugin name="TextToSpeech" enabled="0"/>
+            <plugin name="iAd" enabled="0"/>
+        </plugins>
+        <exports>
+            <export name="APK">
+                <property name="androidPath" value=""/>
+                <property name="androidSdk" value=""/>
+                <property name="androidTarget" value="19"/>
+                <property name="androidTools" value=""/>
+                <property name="buildApk" value="1"/>
+                <property name="deployApk" value="0"/>
+                <property name="javaPath" value=""/>
+                <property name="keyAlias" value=""/>
+                <property name="keyStore" value=""/>
+                <property name="packageName" value="com.yourdomain.yourapp"/>
+            </export>
+        </exports>
+    </properties>
+    <file name="assets/init.lua"/>
+    <file name="assets/main.lua"/>
+    <folder name="Library">
+        <file name="assets/Library/Camera.lua" excludeFromExecution="1"/>
+        <file name="assets/Library/button.lua" excludeFromExecution="1"/>
+        <file name="assets/Library/easing.lua" excludeFromExecution="1"/>
+        <file name="assets/Library/gtween.lua" excludeFromExecution="1"/>
+        <file name="assets/Library/scenemanager.lua" excludeFromExecution="1"/>
+        <file name="assets/Library/tilemap.lua" excludeFromExecution="1"/>
+    </folder>
+    <folder name="Game">
+        <file name="assets/Game/Box.lua" excludeFromExecution="1"/>
+        <file name="assets/Game/Engine.lua" excludeFromExecution="1"/>
+        <file name="assets/Game/Gear.lua" excludeFromExecution="1"/>
+        <file name="assets/Game/selectWorld.lua" excludeFromExecution="1"/>
+    </folder>
+    <folder name="Canvas">
+        <file name="assets/Canvas/Bubble.png"/>
+        <folder name="Worlds">
+            <file name="assets/Canvas/Worlds/Level001_001.lua" excludeFromExecution="1"/>
+            <file name="assets/Canvas/Worlds/Level001_001.tmx"/>
+            <file name="assets/Canvas/Worlds/Level001_002.lua" excludeFromExecution="1"/>
+            <file name="assets/Canvas/Worlds/Level001_002.tmx"/>
+            <file name="assets/Canvas/Worlds/platformIndustrial_067.png"/>
+            <file name="assets/Canvas/Worlds/platformIndustrial_067@2x.png"/>
+            <file name="assets/Canvas/Worlds/platformIndustrial_072.png"/>
+            <file name="assets/Canvas/Worlds/platformIndustrial_072@2x.png"/>
+            <file name="assets/Canvas/Worlds/platformIndustrial_sheet.png"/>
+            <file name="assets/Canvas/Worlds/platformIndustrial_sheet.txt"/>
+            <file name="assets/Canvas/Worlds/platformIndustrial_sheet@2x.png"/>
+            <file name="assets/Canvas/Worlds/platformIndustrial_sheet@2x.txt"/>
+        </folder>
+        <folder name="UI">
+            <file name="assets/Canvas/UI/buttonSwitchBase.png"/>
+        </folder>
+    </folder>
+</project>
