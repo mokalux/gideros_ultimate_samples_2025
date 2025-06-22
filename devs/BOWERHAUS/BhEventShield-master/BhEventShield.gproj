@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="768" logicalHeight="1024" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="1" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales>
+            <scale suffix="@2x" scale="2"/>
+        </imageScales>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/BhEventShield.lua"/>
+    <file name="assets/GesturePadDemo.lua"/>
+    <file name="assets/init.lua"/>
+    <file name="assets/main.lua"/>
+    <folder name="gfx">
+        <file name="assets/gfx/BhDesk.png"/>
+    </folder>
+    <folder name="Libraries">
+        <file name="assets/Libraries/BhAutoRotation.lua"/>
+        <file name="assets/Libraries/BhButton.lua" excludeFromExecution="1"/>
+        <file name="assets/Libraries/BhGesturePad.lua" excludeFromExecution="1"/>
+        <file name="assets/Libraries/BhHelpers.lua"/>
+        <file name="assets/Libraries/BhWritingSurface.lua" excludeFromExecution="1"/>
+        <file name="assets/Libraries/DataDumper.lua" excludeFromExecution="1"/>
+        <file name="assets/Libraries/Gestures.lua"/>
+        <file name="assets/Libraries/Json.lua" excludeFromExecution="1"/>
+        <file name="assets/Libraries/easing.lua" excludeFromExecution="1"/>
+        <file name="assets/Libraries/gtween.lua"/>
+        <file name="assets/Libraries/strict.lua" excludeFromExecution="1"/>
+        <folder name="Images">
+            <file name="assets/Libraries/Images/BhGesturePad.png"/>
+            <file name="assets/Libraries/Images/BhGesturePad.txt"/>
+            <file name="assets/Libraries/Images/BhGesturePad@2x.png"/>
+            <file name="assets/Libraries/Images/BhGesturePad@2x.txt"/>
+        </folder>
+        <folder name="Fonts">
+            <file name="assets/Libraries/Fonts/Tahoma.ttf"/>
+        </folder>
+    </folder>
+    <folder name="Images">
+        <file name="assets/Images/BhEventShield.png"/>
+        <file name="assets/Images/BhEventShield.txt"/>
+        <file name="assets/Images/BhEventShield@2x.png"/>
+        <file name="assets/Images/BhEventShield@2x.txt"/>
+    </folder>
+</project>
