@@ -1,0 +1,22 @@
+list all files in folder and sub folders
+
+dir /s /b /o:gn
+
+https://stackoverflow.com/questions/15214486/command-to-list-all-files-in-a-folder-as-well-as-sub-folders-in-windows
+
+The below post gives the solution for your scenario.
+
+dir /s /b /o:gn
+
+/S Displays files in specified directory and all subdirectories.
+
+/B Uses bare format (no heading information or summary).
+
+/O List by files in sorted order.
+
+Then in :gn, g sorts by folders and then files, and n puts those files in alphabetical order.
+
+edited May 4, 2021 at 10:29
+Freerey
+answered Mar 5, 2013 at 2:13
+user1985027

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="1" logicalWidth="480" logicalHeight="800" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="0" touchToMouse="0" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins>
+            <plugin name="Bitop" enabled="0"/>
+            <plugin name="Camera" enabled="0"/>
+            <plugin name="Clipper" enabled="0"/>
+            <plugin name="Controller" enabled="0"/>
+            <plugin name="Countly" enabled="0"/>
+            <plugin name="Flurry" enabled="0"/>
+            <plugin name="Gaming" enabled="0"/>
+            <plugin name="Google Play Services" enabled="0"/>
+            <plugin name="JSON" enabled="0"/>
+            <plugin name="Lpeg" enabled="0"/>
+            <plugin name="Lua Socket" enabled="0"/>
+            <plugin name="LuaFileSystem" enabled="0"/>
+            <plugin name="LuaSqlite3" enabled="0"/>
+            <plugin name="Media plugin" enabled="0"/>
+            <plugin name="Native" enabled="0"/>
+            <plugin name="Store Detector" enabled="0"/>
+            <plugin name="Struct" enabled="0"/>
+        </plugins>
+        <exports>
+            <export name="APK">
+                <property name="androidPath" value=""/>
+                <property name="androidSdk" value="23"/>
+                <property name="androidTarget" value="19"/>
+                <property name="androidTools" value="23.0.1"/>
+                <property name="javaPath" value=""/>
+                <property name="keyAlias" value=""/>
+                <property name="keyStore" value=""/>
+                <property name="packageName" value="com.yourdomain.yourapp"/>
+            </export>
+        </exports>
+    </properties>
+    <file name="assets/Layout.lua"/>
+    <file name="assets/init.lua"/>
+    <file name="assets/main.lua"/>
+    <folder name="resources">
+        <file name="assets/resources/BlissPro-Bold.otf"/>
+        <file name="assets/resources/FreeMono.otf"/>
+        <file name="assets/resources/backbutton.png"/>
+        <file name="assets/resources/fruits.png"/>
+        <file name="assets/resources/fruits.txt"/>
+        <file name="assets/resources/leftbutton.png"/>
+        <file name="assets/resources/rightbutton.png"/>
+        <file name="assets/resources/ringtile.png"/>
+        <file name="assets/resources/skyworld.png"/>
+        <file name="assets/resources/splashscreen.png"/>
+        <file name="assets/resources/splashscreen.txt"/>
+    </folder>
+    <folder name="images">
+        <file name="assets/images/american.jpg"/>
+        <file name="assets/images/apple.jpg"/>
+        <file name="assets/images/beautiful.jpg"/>
+        <file name="assets/images/bull.jpg"/>
+        <file name="assets/images/checkmate.jpg"/>
+        <file name="assets/images/children.jpg"/>
+        <file name="assets/images/city.jpg"/>
+        <file name="assets/images/coins.jpg"/>
+        <file name="assets/images/dog.jpg"/>
+        <file name="assets/images/elephant.jpg"/>
+        <file name="assets/images/gleise.jpg"/>
+        <file name="assets/images/goat.jpg"/>
+        <file name="assets/images/iman.jpg"/>
+        <file source="images/iman.jpg"/>
+        <file name="assets/images/monument.jpg"/>
+        <file name="assets/images/nature.jpg"/>
+        <file name="assets/images/northern.jpg"/>
+        <file name="assets/images/parachute.jpg"/>
+        <file name="assets/images/posing.jpg"/>
+        <file name="assets/images/raindrop.jpg"/>
+        <file name="assets/images/raspberries.jpg"/>
+        <file name="assets/images/roe.jpg"/>
+        <file name="assets/images/sailing.jpg"/>
+        <file name="assets/images/ship.jpg"/>
+        <file name="assets/images/snail.jpg"/>
+        <file name="assets/images/spider.jpg"/>
+        <file name="assets/images/table.jpg"/>
+        <file name="assets/images/thermometer.jpg"/>
+        <file name="assets/images/tomatoes.jpg"/>
+        <file name="assets/images/water.jpg"/>
+        <file name="assets/images/web.jpg"/>
+        <file name="assets/images/yellowstone.jpg"/>
+        <file name="assets/images/yosemite.jpg"/>
+    </folder>
+    <folder name="examples">
+        <file name="assets/examples/colors.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/dialog.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/file_explorer.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/manual_grid.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/multiline_text.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/positioning.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/sizing.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/sliders.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/slideshow.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/splashscreen.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/template_grid.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/text_effects.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/texturing.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/thumbnail_viewer.lua" excludeFromExecution="1"/>
+        <file name="assets/examples/zooming.lua" excludeFromExecution="1"/>
+    </folder>
+</project>
