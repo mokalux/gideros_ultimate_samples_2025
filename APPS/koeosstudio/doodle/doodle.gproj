@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties retinaDisplay="0" osx_bundle="com.yourdomain." html5_fbinstant="0" macos_category="5" architecture="0" osx_signingId="" html5_fbload="100" backgroundColor="#ffffff" vsync="1" macos_bundle="com.yourdomain.yourapp-macos" splash_v_image="" windowWidth="0" disableSplash="0" html5_crash="" splashScaleMode="0" windowHeight="0" qtexp_domain="giderosmobile.com" scaleMode="5" encryptAssets="0" osx_category="5" touchToMouse="1" qtexp_platform="0" orientation="1" version="1.0" splash_h_image="" ios_bundle="com.yourdomain.yourapp-ios" tv_icon="" atv_bundle="com.yourdomain.yourapp-atv" qtexp_org="GiderosMobile" app_icon="" build_number="1" fps="30" version_code="1" encryptCode="0" iosDevice="0" html5_wasm="0" logicalWidth="320" winrt_org="GiderosMobile" logicalHeight="480" mouseToTouch="1" mouseTouchOrder="0" exportMode="0" osx_installerId="" html5_host="" app_name="" html5_symbols="0" html5_mem="256" html5_pack="0" autorotation="0" winrt_package="com.yourdomain.yourapp" html5_pwa="0" mainluaOnly="0">
+  <imageScales/>
+  <plugins/>
+  <exports>
+   <export name="APK">
+    <property value="" name="androidPath"/>
+    <property value="" name="androidSdk"/>
+    <property value="30" name="androidTarget"/>
+    <property value="" name="androidTools"/>
+    <property value="0" name="buildAab"/>
+    <property value="1" name="buildApk"/>
+    <property value="0" name="deployApk"/>
+    <property value="0" name="forOculus"/>
+    <property value="" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="0" name="oculusHT"/>
+    <property value="0" name="oculusHTR"/>
+    <property value="com.yourdomain.yourapp" name="packageName"/>
+    <property value="0" name="timestampApk"/>
+   </export>
+  </exports>
+ </properties>
+ <file name="assets/button.lua"/>
+ <file name="assets/canvas.lua"/>
+ <file name="assets/main.lua"/>
+</project>

@@ -1,0 +1,9 @@
+koeosstudio
+
+https://forum.gideros.rocks/profile/koeosstudio
+
+
+https://forum.gideros.rocks/discussion/8709/i-made-a-simple-canvas-class-with-undo-and-redo-function-that-can-be-used-for-simple-doodling/p1
+
+https://forum.gideros.rocks/discussion/8446/is-there-a-better-implementation-to-record-gesture#latest
+
