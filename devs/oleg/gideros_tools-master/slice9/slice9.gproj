@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties osx_category="5" html5_pack="0" exportMode="0" build_number="1" backgroundColor="#ffffff" winrt_org="GiderosMobile" tv_icon="" ios_bundle="com.yourdomain." html5_fbload="100" retinaDisplay="0" touchToMouse="1" fps="60" orientation="1" scaleMode="3" app_name="" splashScaleMode="0" encryptCode="0" mouseToTouch="1" html5_symbols="0" html5_host="" osx_signingId="" logicalHeight="800" mainluaOnly="0" win_org="GiderosMobile" html5_fbinstant="0" html5_crash="" html5_wasm="0" iosDevice="0" osx_installerId="" app_icon="" winrt_package="com.yourdomain.yourapp" vsync="0" splash_v_image="" splash_h_image="" macos_bundle="com.yourdomain.yourapp-macos" architecture="0" disableSplash="0" html5_mem="256" osx_domain="giderosmobile.com" osx_org="GiderosMobile" autorotation="0" win_domain="giderosmobile.com" windowHeight="0" version="1.0" mouseTouchOrder="0" encryptAssets="0" logicalWidth="600" version_code="1" atv_bundle="com.yourdomain.yourapp-atv" html5_pwa="0" windowWidth="0" osx_bundle="com.yourdomain." macos_category="5">
+  <imageScales/>
+  <plugins>
+   <plugin name="Lua Socket" enabled="0"/>
+  </plugins>
+  <exports/>
+ </properties>
+ <folder name="class">
+  <file name="assets/class/slice9.lua"/>
+ </folder>
+ <folder name="img">
+  <file name="assets/img/17.png"/>
+  <file name="assets/img/HARD.png"/>
+  <file name="assets/img/Tileset-Pack-1-Sheet_02.png"/>
+  <file name="assets/img/Tileset-Pack-1-Sheet_04.png"/>
+  <file name="assets/img/Tileset-Pack-1-Sheet_08.png"/>
+  <file name="assets/img/Tileset-Pack-1-Sheet_09.png"/>
+  <file name="assets/img/Tileset-Pack-1-Sheet_12.png"/>
+  <file name="assets/img/Tileset-Pack-1-Sheet_14.png"/>
+  <file name="assets/img/Tileset-Pack-1-Sheet_15.png"/>
+  <file name="assets/img/Tileset-Pack-1-Sheet_18.png"/>
+  <file name="assets/img/Tileset-Pack-1-Sheet_25.png"/>
+  <file name="assets/img/Tileset-Pack-1-Sheet_26.png"/>
+  <file name="assets/img/brick_tiles_v2_01.png"/>
+  <file name="assets/img/shop290x248.png"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>
