@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="480" logicalHeight="800" windowWidth="0" windowHeight="0" autorotation="0" orientation="0" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/WAVreader.lua"/>
+    <file name="assets/main.lua"/>
+    <folder name="wav">
+        <file name="assets/wav/mini_sin_1200Hz_-6dBFS_3s.wav"/>
+        <file name="assets/wav/sin_1200Hz_-6dBFS_3s.wav"/>
+        <file name="assets/wav/woods.wav"/>
+        <folder name="formats">
+            <file name="assets/wav/formats/16 bit PCM.wav"/>
+            <file name="assets/wav/formats/24 bit PCM.wav"/>
+            <file name="assets/wav/formats/32 bit FLOAT.wav"/>
+            <file name="assets/wav/formats/32 bit PCM.wav"/>
+            <file name="assets/wav/formats/64 bit FLOAT.wav"/>
+            <file name="assets/wav/formats/8 bit PCM.wav"/>
+            <file name="assets/wav/formats/A-Law.wav"/>
+            <file name="assets/wav/formats/U-Law.wav"/>
+        </folder>
+    </folder>
+</project>

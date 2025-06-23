@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties orientation="1" ios_bundle="com.yourdomain.yourapp-ios" mouseToTouch="1" architecture="0" html5_fbinstant="0" app_icon="" osx_org="GiderosMobile" html5_fbload="100" html5_wasm="0" win_domain="giderosmobile.com" encryptAssets="0" windowWidth="0" disableSplash="0" iosDevice="0" scaleMode="3" logicalHeight="800" html5_symbols="0" splash_v_image="" app_name="" tv_icon="" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" retinaDisplay="0" mouseTouchOrder="0" version_code="1" winrt_org="GiderosMobile" exportMode="0" touchToMouse="1" logicalWidth="600" mainluaOnly="0" backgroundColor="#ffffff" autorotation="0" html5_pack="0" vsync="1" winrt_package="com.yourdomain.yourapp" atv_bundle="com.yourdomain.yourapp-atv" windowHeight="0" osx_installerId="" version="1.0" encryptCode="0" osx_category="5" osx_signingId="" win_org="GiderosMobile" splash_h_image="" splashScaleMode="0" osx_bundle="com.yourdomain." build_number="1" fps="60" html5_host="" osx_domain="giderosmobile.com" html5_crash="" html5_mem="256">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="1" name="LuaFileSystem"/>
+  </plugins>
+  <exports/>
+ </properties>
+ <folder name="ParticlesEditor">
+  <folder name="images">
+   <folder name="Rotated">
+    <file name="assets/ParticlesEditor/images/Rotated/flame_05_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/flame_06_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/muzzle_01_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/muzzle_02_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/muzzle_03_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/muzzle_04_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/muzzle_05_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/spark_05_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/spark_06_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/trace_01_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/trace_02_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/trace_03_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/trace_04_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/trace_05_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/trace_06_rotated.png"/>
+    <file name="assets/ParticlesEditor/images/Rotated/trace_07_rotated.png"/>
+   </folder>
+   <file name="assets/ParticlesEditor/images/circle_01.png"/>
+   <file name="assets/ParticlesEditor/images/circle_02.png"/>
+   <file name="assets/ParticlesEditor/images/circle_03.png"/>
+   <file name="assets/ParticlesEditor/images/circle_04.png"/>
+   <file name="assets/ParticlesEditor/images/circle_05.png"/>
+   <file name="assets/ParticlesEditor/images/dirt_01.png"/>
+   <file name="assets/ParticlesEditor/images/dirt_02.png"/>
+   <file name="assets/ParticlesEditor/images/dirt_03.png"/>
+   <file name="assets/ParticlesEditor/images/fire_01.png"/>
+   <file name="assets/ParticlesEditor/images/fire_02.png"/>
+   <file name="assets/ParticlesEditor/images/flame_01.png"/>
+   <file name="assets/ParticlesEditor/images/flame_02.png"/>
+   <file name="assets/ParticlesEditor/images/flame_03.png"/>
+   <file name="assets/ParticlesEditor/images/flame_04.png"/>
+   <file name="assets/ParticlesEditor/images/flame_05.png"/>
+   <file name="assets/ParticlesEditor/images/flame_06.png"/>
+   <file name="assets/ParticlesEditor/images/flare_01.png"/>
+   <file name="assets/ParticlesEditor/images/light_01.png"/>
+   <file name="assets/ParticlesEditor/images/light_02.png"/>
+   <file name="assets/ParticlesEditor/images/light_03.png"/>
+   <file name="assets/ParticlesEditor/images/magic_01.png"/>
+   <file name="assets/ParticlesEditor/images/magic_02.png"/>
+   <file name="assets/ParticlesEditor/images/magic_03.png"/>
+   <file name="assets/ParticlesEditor/images/magic_04.png"/>
+   <file name="assets/ParticlesEditor/images/magic_05.png"/>
+   <file name="assets/ParticlesEditor/images/muzzle_01.png"/>
+   <file name="assets/ParticlesEditor/images/muzzle_02.png"/>
+   <file name="assets/ParticlesEditor/images/muzzle_03.png"/>
+   <file name="assets/ParticlesEditor/images/muzzle_04.png"/>
+   <file name="assets/ParticlesEditor/images/muzzle_05.png"/>
+   <file name="assets/ParticlesEditor/images/scorch_01.png"/>
+   <file name="assets/ParticlesEditor/images/scorch_02.png"/>
+   <file name="assets/ParticlesEditor/images/scorch_03.png"/>
+   <file name="assets/ParticlesEditor/images/scratch_01.png"/>
+   <file name="assets/ParticlesEditor/images/slash_01.png"/>
+   <file name="assets/ParticlesEditor/images/slash_02.png"/>
+   <file name="assets/ParticlesEditor/images/slash_03.png"/>
+   <file name="assets/ParticlesEditor/images/slash_04.png"/>
+   <file name="assets/ParticlesEditor/images/smoke_01.png"/>
+   <file name="assets/ParticlesEditor/images/smoke_02.png"/>
+   <file name="assets/ParticlesEditor/images/smoke_03.png"/>
+   <file name="assets/ParticlesEditor/images/smoke_04.png"/>
+   <file name="assets/ParticlesEditor/images/smoke_05.png"/>
+   <file name="assets/ParticlesEditor/images/smoke_06.png"/>
+   <file name="assets/ParticlesEditor/images/smoke_07.png"/>
+   <file name="assets/ParticlesEditor/images/smoke_08.png"/>
+   <file name="assets/ParticlesEditor/images/smoke_09.png"/>
+   <file name="assets/ParticlesEditor/images/smoke_10.png"/>
+   <file name="assets/ParticlesEditor/images/spark_01.png"/>
+   <file name="assets/ParticlesEditor/images/spark_02.png"/>
+   <file name="assets/ParticlesEditor/images/spark_03.png"/>
+   <file name="assets/ParticlesEditor/images/spark_04.png"/>
+   <file name="assets/ParticlesEditor/images/spark_05.png"/>
+   <file name="assets/ParticlesEditor/images/spark_06.png"/>
+   <file name="assets/ParticlesEditor/images/spark_07.png"/>
+   <file name="assets/ParticlesEditor/images/star_01.png"/>
+   <file name="assets/ParticlesEditor/images/star_02.png"/>
+   <file name="assets/ParticlesEditor/images/star_03.png"/>
+   <file name="assets/ParticlesEditor/images/star_04.png"/>
+   <file name="assets/ParticlesEditor/images/star_05.png"/>
+   <file name="assets/ParticlesEditor/images/star_06.png"/>
+   <file name="assets/ParticlesEditor/images/star_07.png"/>
+   <file name="assets/ParticlesEditor/images/star_08.png"/>
+   <file name="assets/ParticlesEditor/images/star_09.png"/>
+   <file name="assets/ParticlesEditor/images/symbol_01.png"/>
+   <file name="assets/ParticlesEditor/images/symbol_02.png"/>
+   <file name="assets/ParticlesEditor/images/trace_01.png"/>
+   <file name="assets/ParticlesEditor/images/trace_02.png"/>
+   <file name="assets/ParticlesEditor/images/trace_03.png"/>
+   <file name="assets/ParticlesEditor/images/trace_04.png"/>
+   <file name="assets/ParticlesEditor/images/trace_05.png"/>
+   <file name="assets/ParticlesEditor/images/trace_06.png"/>
+   <file name="assets/ParticlesEditor/images/trace_07.png"/>
+   <file name="assets/ParticlesEditor/images/twirl_01.png"/>
+   <file name="assets/ParticlesEditor/images/twirl_02.png"/>
+   <file name="assets/ParticlesEditor/images/twirl_03.png"/>
+   <file name="assets/ParticlesEditor/images/window_01.png"/>
+   <file name="assets/ParticlesEditor/images/window_02.png"/>
+   <file name="assets/ParticlesEditor/images/window_03.png"/>
+   <file name="assets/ParticlesEditor/images/window_04.png"/>
+  </folder>
+  <file name="assets/ParticlesEditor/Emitter.lua"/>
+  <file name="assets/ParticlesEditor/ImGuiExt.lua"/>
+  <file name="assets/ParticlesEditor/MaterialIcons-Regular.ttf"/>
+  <file name="assets/ParticlesEditor/SubEmitter.lua"/>
+  <file name="assets/ParticlesEditor/init.lua"/>
+  <file name="assets/ParticlesEditor/utils.lua"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>

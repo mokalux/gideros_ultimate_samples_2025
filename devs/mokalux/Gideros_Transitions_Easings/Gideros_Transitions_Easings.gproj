@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties mainluaOnly="0" autorotation="0" osx_org="GiderosMobile" backgroundColor="#ffffff" mouseTouchOrder="0" build_number="1" osx_category="5" retinaDisplay="0" packageName="com.yourdomain.yourapp" osx_bundle="com.yourdomain." osx_installerId="" tv_icon="" osx_domain="giderosmobile.com" html5_fbinstant="0" mouseToTouch="1" html5_pack="1" splashScaleMode="0" win_domain="mokalux.com" logicalHeight="800" windowWidth="0" version_code="1" exportMode="0" logicalWidth="480" orientation="1" html5_crash="" html5_mem="256" android_template="0" html5_fbload="100" fps="60" winrt_org="GiderosMobile" windowHeight="0" vsync="1" win_org="mokalux" splash_h_image="" ios_bundle="com.yourdomain." app_name="Gideros Transitions &amp; Easings" iosDevice="0" app_icon="" html5_wasm="0" disableSplash="0" html5_host="" encryptCode="1" osx_signingId="" winrt_package="com.yourdomain.yourapp" architecture="2" encryptAssets="1" version="1.0" touchToMouse="1" html5_symbols="1" splash_v_image="" scaleMode="5">
+  <imageScales/>
+  <plugins>
+   <plugin name="Easing" enabled="1"/>
+   <plugin name="JSON" enabled="1"/>
+   <plugin name="SceneManager" enabled="1"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property value="" name="androidPath"/>
+    <property value="" name="androidSdk"/>
+    <property value="26" name="androidTarget"/>
+    <property value="" name="androidTools"/>
+    <property value="1" name="buildAab"/>
+    <property value="0" name="buildApk"/>
+    <property value="0" name="deployApk"/>
+    <property value="" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="com.yourdomain.yourapp" name="packageName"/>
+    <property value="0" name="timestampApk"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="classes">
+  <file name="assets/classes/buttons.lua"/>
+  <file name="assets/classes/save_prefs.lua"/>
+ </folder>
+ <folder name="fonts">
+  <file name="assets/fonts/JetBrainsMono-Bold.ttf"/>
+  <file name="assets/fonts/JetBrainsMono-Regular.ttf"/>
+ </folder>
+ <folder name="gfx">
+  <file name="assets/gfx/gideros-icon-1024.png"/>
+  <file name="assets/gfx/gideros-mobile-1000x2000.png"/>
+ </folder>
+ <folder name="scenes">
+  <file name="assets/scenes/scene1.lua"/>
+  <file name="assets/scenes/scene2.lua"/>
+ </folder>
+ <folder name="tiled">
+  <file name="assets/tiled/layout.tmx"/>
+ </folder>
+ <file name="assets/init.lua"/>
+ <file name="assets/main.lua"/>
+</project>

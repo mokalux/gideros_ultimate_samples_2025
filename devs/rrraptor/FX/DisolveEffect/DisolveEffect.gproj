@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties version="1.0" encryptAssets="0" splash_v_image="" osx_domain="giderosmobile.com" macos_bundle="com.yourdomain.yourapp-macos" windowWidth="0" mouseTouchOrder="0" macos_category="5" osx_category="5" app_icon="" app_name="" iosDevice="0" html5_fbinstant="0" windowHeight="0" build_number="1" html5_host="" html5_pwa="0" backgroundColor="#ffffff" splash_h_image="" atv_bundle="com.yourdomain.yourapp-atv" osx_signingId="" win_org="GiderosMobile" html5_mem="256" mainluaOnly="0" html5_crash="" html5_symbols="0" fps="60" osx_bundle="com.yourdomain." tv_icon="" osx_org="GiderosMobile" retinaDisplay="0" disableSplash="0" orientation="1" winrt_org="GiderosMobile" splashScaleMode="0" scaleMode="3" autorotation="0" vsync="0" version_code="1" html5_pack="0" html5_fbload="100" osx_installerId="" html5_wasm="0" ios_bundle="com.yourdomain." logicalWidth="320" mouseToTouch="1" architecture="0" logicalHeight="480" touchToMouse="1" encryptCode="0" win_domain="giderosmobile.com" exportMode="0" winrt_package="com.yourdomain.yourapp">
+  <imageScales/>
+  <plugins>
+   <plugin name="FastNoise" enabled="1"/>
+  </plugins>
+  <exports/>
+ </properties>
+ <file name="assets/SUI.lua"/>
+ <file name="assets/fs.glsl"/>
+ <file name="assets/logo.png"/>
+ <file name="assets/main.lua"/>
+ <file name="assets/vs.glsl"/>
+</project>

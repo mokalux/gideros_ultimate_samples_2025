@@ -1,0 +1,1 @@
+application:setBackgroundColor(0x323232)
