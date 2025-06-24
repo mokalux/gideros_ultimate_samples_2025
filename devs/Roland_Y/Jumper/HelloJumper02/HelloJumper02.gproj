@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties encryptAssets="0" win_org="GiderosMobile" splashScaleMode="0" orientation="0" osx_domain="giderosmobile.com" autorotation="0" macos_category="5" retinaDisplay="0" html5_fbinstant="0" mouseToTouch="1" win_domain="giderosmobile.com" version_code="1" macos_bundle="com.yourdomain.yourapp-macos" osx_installerId="" html5_fbload="100" iosDevice="0" logicalWidth="320" scaleMode="0" osx_bundle="com.yourdomain." disableSplash="0" mainluaOnly="0" fps="60" html5_symbols="0" tv_icon="" windowWidth="0" build_number="1" logicalHeight="480" html5_pack="0" html5_pwa="0" osx_category="5" splash_v_image="" windowHeight="0" osx_signingId="" winrt_package="com.yourdomain.yourapp" splash_h_image="" ios_bundle="com.yourdomain.yourapp-ios" winrt_org="GiderosMobile" atv_bundle="com.yourdomain.yourapp-atv" encryptCode="0" app_name="" backgroundColor="#ffffff" exportMode="0" version="1.0" architecture="0" html5_wasm="0" html5_host="" vsync="0" html5_mem="256" touchToMouse="1" app_icon="" osx_org="GiderosMobile" mouseTouchOrder="0" html5_crash="">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="Jumper">
+  <folder name="core">
+   <file name="assets/Jumper/core/assert.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/core/bheap.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/core/heuristics.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/core/lookuptable.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/core/node.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/core/path.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/core/utils.lua" excludeFromExecution="1"/>
+  </folder>
+  <folder name="search">
+   <file name="assets/Jumper/search/astar.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/search/bfs.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/search/dfs.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/search/dijkstra.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/search/jps.lua" excludeFromExecution="1"/>
+   <file name="assets/Jumper/search/thetastar.lua" excludeFromExecution="1"/>
+  </folder>
+  <file name="assets/Jumper/grid.lua" excludeFromExecution="1"/>
+  <file name="assets/Jumper/pathfinder.lua" excludeFromExecution="1"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>

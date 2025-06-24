@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties app_icon="" backgroundColor="#ffffff" osx_bundle="com.yourdomain." splashScaleMode="0" vsync="0" windowHeight="0" osx_domain="giderosmobile.com" html5_wasm="0" retinaDisplay="0" fps="60" atv_bundle="com.yourdomain.yourapp-atv" html5_fbinstant="0" splash_h_image="" version_code="1" macos_category="5" html5_crash="" build_number="1" splash_v_image="" logicalWidth="320" html5_pack="0" html5_host="" osx_org="GiderosMobile" version="1.0" logicalHeight="480" touchToMouse="1" ios_bundle="com.yourdomain.yourapp-ios" mainluaOnly="0" scaleMode="0" orientation="0" winrt_org="GiderosMobile" encryptCode="0" html5_symbols="0" osx_category="5" mouseToTouch="1" disableSplash="0" windowWidth="0" architecture="0" html5_fbload="100" app_name="" html5_mem="256" osx_signingId="" autorotation="0" macos_bundle="com.yourdomain.yourapp-macos" exportMode="0" iosDevice="0" osx_installerId="" win_domain="giderosmobile.com" html5_pwa="0" win_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" encryptAssets="0" tv_icon="" mouseTouchOrder="0">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="Jumper">
+  <folder name="core">
+   <file excludeFromExecution="1" name="assets/Jumper/core/bheap.lua"/>
+   <file excludeFromExecution="1" name="assets/Jumper/core/grid.lua"/>
+   <file excludeFromExecution="1" name="assets/Jumper/core/heuristics.lua"/>
+   <file excludeFromExecution="1" name="assets/Jumper/core/node.lua"/>
+  </folder>
+  <file excludeFromExecution="1" name="assets/Jumper/jumper.lua"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>
