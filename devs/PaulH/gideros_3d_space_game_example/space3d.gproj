@@ -1,0 +1,45 @@
+<project>
+ <properties app_icon="" ios_bundle="com.yourdomain." html5_fbinstant="0" mouseToTouch="1" winrt_package="com.yourdomain.yourapp" exportMode="0" logicalHeight="1920" touchToMouse="1" splash_v_image="" scaleMode="3" windowHeight="0" osx_category="5" win_org="GiderosMobile" winrt_org="GiderosMobile" osx_signingId="" packageName="com.yourdomain.yourapp" splash_h_image="" encryptCode="0" iosDevice="0" mouseTouchOrder="0" osx_bundle="com.yourdomain." logicalWidth="1080" html5_mem="256" html5_fbload="100" architecture="7" orientation="1" osx_org="GiderosMobile" app_name="" version_code="1" windowWidth="0" backgroundColor="#ffffff" osx_installerId="" retinaDisplay="0" android_template="0" osx_domain="giderosmobile.com" html5_wasm="0" html5_crash="" version="1.0" html5_pack="0" html5_symbols="0" splashScaleMode="0" win_domain="giderosmobile.com" encryptAssets="0" disableSplash="0" fps="60" tv_icon="" html5_host="" build_number="1" vsync="0" autorotation="0">
+  <imageScales/>
+  <plugins/>
+  <exports>
+   <export name="APK">
+    <property value="" name="androidPath"/>
+    <property value="" name="androidSdk"/>
+    <property value="26" name="androidTarget"/>
+    <property value="" name="androidTools"/>
+    <property value="1" name="buildAab"/>
+    <property value="0" name="buildApk"/>
+    <property value="0" name="deployApk"/>
+    <property value="" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="com.yourdomain.yourapp" name="packageName"/>
+    <property value="0" name="timestampApk"/>
+   </export>
+  </exports>
+ </properties>
+ <file name="assets/OpenSanCondBold.ttf"/>
+ <file name="assets/asteroid.mtl"/>
+ <file name="assets/asteroid.obj"/>
+ <file name="assets/asteroid.png"/>
+ <file name="assets/crackle_out.wav"/>
+ <file name="assets/engines.wav"/>
+ <file name="assets/flames.mtl"/>
+ <file name="assets/flames.obj"/>
+ <file name="assets/flames.png"/>
+ <file name="assets/large_explosion.wav"/>
+ <file name="assets/main.lua"/>
+ <file name="assets/missile.mtl"/>
+ <file name="assets/missile.obj"/>
+ <file name="assets/missile.png"/>
+ <file name="assets/missile_loading.wav"/>
+ <file name="assets/missile_prep.wav"/>
+ <file name="assets/missile_shot.wav"/>
+ <file name="assets/objloader.lua"/>
+ <file name="assets/ring.png"/>
+ <file name="assets/ship.mtl"/>
+ <file name="assets/ship.obj"/>
+ <file name="assets/ship.png"/>
+ <file name="assets/small_explosion.wav"/>
+</project>

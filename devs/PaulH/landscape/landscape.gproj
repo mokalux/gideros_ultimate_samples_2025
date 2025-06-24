@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties windowHeight="0" osx_domain="giderosmobile.com" osx_category="5" html5_crash="" osx_signingId="" touchToMouse="1" html5_wasm="0" macos_category="5" version="1.0" win_org="GiderosMobile" scaleMode="5" macos_bundle="com.yourdomain.yourapp-macos" version_code="1" osx_org="GiderosMobile" html5_symbols="0" app_icon="" exportMode="0" app_name="landscape" vsync="1" logicalWidth="1080" iosDevice="0" html5_pack="0" html5_fbinstant="0" fps="60" atv_bundle="com.yourdomain.yourapp-atv" mouseToTouch="1" autorotation="0" win_domain="giderosmobile.com" html5_host="" osx_installerId="" build_number="1" splash_v_image="" winrt_package="com.yourdomain.yourapp" ios_bundle="com.yourdomain." retinaDisplay="0" winrt_org="GiderosMobile" html5_fbload="100" logicalHeight="1920" splashScaleMode="0" osx_bundle="com.yourdomain." mainluaOnly="0" mouseTouchOrder="0" backgroundColor="#ffffff" html5_mem="256" encryptCode="0" disableSplash="0" tv_icon="" windowWidth="0" splash_h_image="" architecture="0" orientation="1" encryptAssets="0">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="1" name="LuaFileSystem"/>
+  </plugins>
+  <exports/>
+ </properties>
+ <folder name="3d">
+  <file name="assets/3d/cube.mtl"/>
+  <file name="assets/3d/cube.obj"/>
+ </folder>
+ <folder name="classes">
+  <file name="assets/classes/objloader.lua"/>
+ </folder>
+ <folder name="gfx">
+  <file name="assets/gfx/lmw2_heightfield.png"/>
+  <file name="assets/gfx/lmw2_texture.png"/>
+ </folder>
+ <file name="assets/landscape.lua"/>
+ <file name="assets/main.lua"/>
+</project>
