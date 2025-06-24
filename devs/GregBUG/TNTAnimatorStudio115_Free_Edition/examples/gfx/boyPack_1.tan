@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TNTANIMATOR v="100">
+  <USEDFRAMES>
+    <FRAMENAME>walking s0000.bmp</FRAMENAME>
+    <FRAMENAME>walking s0001.bmp</FRAMENAME>
+    <FRAMENAME>walking s0002.bmp</FRAMENAME>
+    <FRAMENAME>walking s0003.bmp</FRAMENAME>
+    <FRAMENAME>walking s0004.bmp</FRAMENAME>
+    <FRAMENAME>walking s0005.bmp</FRAMENAME>
+    <FRAMENAME>walking s0006.bmp</FRAMENAME>
+    <FRAMENAME>walking s0007.bmp</FRAMENAME>
+    <FRAMENAME>walking e0000.bmp</FRAMENAME>
+    <FRAMENAME>walking e0001.bmp</FRAMENAME>
+    <FRAMENAME>walking e0002.bmp</FRAMENAME>
+    <FRAMENAME>walking e0003.bmp</FRAMENAME>
+    <FRAMENAME>walking e0004.bmp</FRAMENAME>
+    <FRAMENAME>walking e0005.bmp</FRAMENAME>
+    <FRAMENAME>walking e0006.bmp</FRAMENAME>
+    <FRAMENAME>walking e0007.bmp</FRAMENAME>
+    <FRAMENAME>walking n0000.bmp</FRAMENAME>
+    <FRAMENAME>walking n0001.bmp</FRAMENAME>
+    <FRAMENAME>walking n0002.bmp</FRAMENAME>
+    <FRAMENAME>walking n0003.bmp</FRAMENAME>
+    <FRAMENAME>walking n0004.bmp</FRAMENAME>
+    <FRAMENAME>walking n0005.bmp</FRAMENAME>
+    <FRAMENAME>walking n0006.bmp</FRAMENAME>
+    <FRAMENAME>walking n0007.bmp</FRAMENAME>
+  </USEDFRAMES>
+  <ANIM loop="-1" name="BOY_DOWN" speed="100" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">1</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">2</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">3</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">4</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">5</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">6</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">7</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">8</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="BOY_LEFT" speed="100" exclude="-1" stoponframe="9">
+    <FRAME XFLIP="-1" YFLIP="0">9</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">10</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">11</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">12</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">13</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">14</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">15</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">16</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">4</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="BOY_RIGHT" speed="100" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">9</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">10</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">11</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">12</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">13</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">14</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">15</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">16</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="BOY_UP" speed="100" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">17</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">18</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">19</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">20</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">21</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">22</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">23</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">24</FRAME>
+  </ANIM>
+</TNTANIMATOR>

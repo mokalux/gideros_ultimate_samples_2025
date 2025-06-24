@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties iosDevice="0" splash_h_image="" win_org="GiderosMobile" tv_icon="" exportMode="0" winrt_package="com.yourdomain.yourapp" osx_installerId="" osx_bundle="com.yourdomain." macos_category="5" build_number="1" logicalWidth="320" mainluaOnly="0" touchToMouse="1" version="1.0" windowHeight="0" html5_symbols="0" win_domain="giderosmobile.com" windowWidth="0" backgroundColor="#ffffff" osx_category="5" disableSplash="0" mouseTouchOrder="0" winrt_org="GiderosMobile" osx_org="GiderosMobile" splashScaleMode="0" app_name="" atv_bundle="com.yourdomain.yourapp-atv" html5_fbinstant="0" splash_v_image="" osx_signingId="" osx_domain="giderosmobile.com" fps="60" encryptCode="0" scaleMode="7" logicalHeight="480" html5_host="" html5_pack="0" mouseToTouch="1" architecture="0" retinaDisplay="0" encryptAssets="0" html5_wasm="0" html5_crash="" orientation="0" vsync="0" ios_bundle="com.yourdomain." html5_fbload="100" autorotation="0" macos_bundle="com.yourdomain.yourapp-macos" html5_mem="256" version_code="1" app_icon="">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <file source="../../../gfx/8bit_small.png"/>
+ <file source="../../../gfx/8bit_small.txt"/>
+ <file source="../../../gfx/ember.png"/>
+ <file source="main.lua"/>
+ <file source="../../../gfx/myhouse.png"/>
+ <file source="../../../gfx/smoke.png"/>
+ <file source="../../../tntparticlesengine.lua"/>
+</project>

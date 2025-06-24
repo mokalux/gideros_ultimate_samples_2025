@@ -1,0 +1,7 @@
+basecarrarmato.png, 106, 0, 104, 64, 0, 0, 0, 0
+cannone.png, 0, 0, 106, 42, 0, 0, 0, 0
+fire.png, 94, 42, 10, 12, 3, 2, 3, 2
+tntvpad_analogpad.png, 94, 64, 64, 64, 0, 0, 0, 0
+tntvpad_base.png, 0, 42, 94, 94, 0, 0, 0, 0
+tntvpad_buttondown.png, 64, 136, 64, 64, 0, 0, 0, 0
+tntvpad_buttonup.png, 0, 136, 64, 64, 0, 0, 0, 0

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties windowWidth="0" win_domain="giderosmobile.com" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_crash="" html5_mem="256" html5_wasm="0" architecture="1" osx_org="GiderosMobile" splash_v_image="" osx_bundle="com.yourdomain." mouseTouchOrder="0" macos_category="5" version="1.0" mouseToTouch="1" iosDevice="0" fps="60" encryptCode="0" atv_bundle="com.yourdomain.yourapp-atv" splash_h_image="" mainluaOnly="0" app_icon="" disableSplash="0" logicalHeight="480" win_org="GiderosMobile" osx_signingId="" html5_symbols="0" html5_pwa="0" build_number="1" retinaDisplay="0" macos_bundle="com.yourdomain.yourapp-macos" osx_domain="giderosmobile.com" backgroundColor="#ffffff" version_code="1" html5_fbload="100" app_name="" splashScaleMode="0" orientation="0" exportMode="0" html5_pack="0" vsync="0" html5_host="" ios_bundle="com.yourdomain." scaleMode="4" html5_fbinstant="0" windowHeight="0" osx_category="5" tv_icon="" autorotation="0" encryptAssets="0" osx_installerId="" touchToMouse="1" logicalWidth="320">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <file source="../../../gfx/8bit_small.png"/>
+ <file source="../../../gfx/8bit_small.txt"/>
+ <file source="main.lua"/>
+ <file source="../../../gfx/sparkle01.png"/>
+ <file source="../../../tntparticlesengine.lua"/>
+</project>

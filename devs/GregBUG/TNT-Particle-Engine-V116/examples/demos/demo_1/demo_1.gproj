@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties splashScaleMode="0" orientation="1" vsync="0" win_domain="giderosmobile.com" fps="60" macos_category="5" html5_pack="0" splash_h_image="" html5_host="" html5_wasm="0" iosDevice="0" html5_fbinstant="0" logicalHeight="480" html5_symbols="0" splash_v_image="" backgroundColor="#ffffff" macos_bundle="com.yourdomain.yourapp-macos" osx_installerId="" osx_domain="giderosmobile.com" mainluaOnly="0" touchToMouse="1" atv_bundle="com.yourdomain.yourapp-atv" app_name="" html5_crash="" osx_category="5" tv_icon="" build_number="1" retinaDisplay="0" html5_fbload="100" winrt_package="com.yourdomain.yourapp" version="1.0" scaleMode="6" version_code="1" osx_bundle="com.yourdomain." encryptCode="0" disableSplash="0" winrt_org="GiderosMobile" encryptAssets="0" windowHeight="0" ios_bundle="com.yourdomain." app_icon="" osx_signingId="" autorotation="0" win_org="GiderosMobile" mouseToTouch="1" architecture="1" html5_mem="256" logicalWidth="320" windowWidth="0" exportMode="0" mouseTouchOrder="0" osx_org="GiderosMobile">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <file source="../../../gfx/8bit_small.png"/>
+ <file source="../../../gfx/8bit_small.txt"/>
+ <file source="../../../README.txt"/>
+ <file source="main.lua"/>
+ <file source="../../../gfx/smoke.png"/>
+ <file source="../../../tntparticlesengine.lua"/>
+</project>

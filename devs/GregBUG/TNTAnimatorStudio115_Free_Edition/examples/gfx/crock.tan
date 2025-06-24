@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TNTANIMATOR v="100">
+  <USEDFRAMES>
+    <FRAMENAME>walking s0000.bmp</FRAMENAME>
+    <FRAMENAME>walking s0001.bmp</FRAMENAME>
+    <FRAMENAME>walking s0002.bmp</FRAMENAME>
+    <FRAMENAME>walking s0003.bmp</FRAMENAME>
+    <FRAMENAME>walking s0004.bmp</FRAMENAME>
+    <FRAMENAME>walking s0005.bmp</FRAMENAME>
+    <FRAMENAME>walking s0006.bmp</FRAMENAME>
+    <FRAMENAME>walking s0007.bmp</FRAMENAME>
+    <FRAMENAME>looking s0000.bmp</FRAMENAME>
+    <FRAMENAME>looking s0001.bmp</FRAMENAME>
+    <FRAMENAME>looking s0002.bmp</FRAMENAME>
+    <FRAMENAME>looking s0003.bmp</FRAMENAME>
+    <FRAMENAME>looking s0004.bmp</FRAMENAME>
+    <FRAMENAME>looking s0005.bmp</FRAMENAME>
+    <FRAMENAME>looking s0006.bmp</FRAMENAME>
+    <FRAMENAME>looking s0007.bmp</FRAMENAME>
+    <FRAMENAME>looking s0008.bmp</FRAMENAME>
+    <FRAMENAME>looking s0009.bmp</FRAMENAME>
+    <FRAMENAME>looking s0010.bmp</FRAMENAME>
+    <FRAMENAME>looking s0011.bmp</FRAMENAME>
+    <FRAMENAME>looking w0000.bmp</FRAMENAME>
+    <FRAMENAME>looking w0001.bmp</FRAMENAME>
+    <FRAMENAME>looking w0002.bmp</FRAMENAME>
+    <FRAMENAME>looking w0003.bmp</FRAMENAME>
+    <FRAMENAME>looking w0004.bmp</FRAMENAME>
+    <FRAMENAME>looking w0005.bmp</FRAMENAME>
+    <FRAMENAME>looking w0006.bmp</FRAMENAME>
+    <FRAMENAME>looking w0007.bmp</FRAMENAME>
+    <FRAMENAME>looking w0008.bmp</FRAMENAME>
+    <FRAMENAME>looking w0009.bmp</FRAMENAME>
+    <FRAMENAME>looking w0010.bmp</FRAMENAME>
+    <FRAMENAME>looking w0011.bmp</FRAMENAME>
+    <FRAMENAME>looking e0000.bmp</FRAMENAME>
+    <FRAMENAME>looking e0001.bmp</FRAMENAME>
+    <FRAMENAME>looking e0002.bmp</FRAMENAME>
+    <FRAMENAME>looking e0003.bmp</FRAMENAME>
+    <FRAMENAME>looking e0004.bmp</FRAMENAME>
+    <FRAMENAME>looking e0005.bmp</FRAMENAME>
+    <FRAMENAME>looking e0006.bmp</FRAMENAME>
+    <FRAMENAME>looking e0007.bmp</FRAMENAME>
+    <FRAMENAME>looking e0008.bmp</FRAMENAME>
+    <FRAMENAME>looking e0009.bmp</FRAMENAME>
+    <FRAMENAME>looking e0010.bmp</FRAMENAME>
+    <FRAMENAME>looking e0011.bmp</FRAMENAME>
+    <FRAMENAME>looking n0000.bmp</FRAMENAME>
+    <FRAMENAME>looking n0001.bmp</FRAMENAME>
+    <FRAMENAME>looking n0002.bmp</FRAMENAME>
+    <FRAMENAME>looking n0003.bmp</FRAMENAME>
+    <FRAMENAME>looking n0004.bmp</FRAMENAME>
+    <FRAMENAME>looking n0005.bmp</FRAMENAME>
+    <FRAMENAME>looking n0006.bmp</FRAMENAME>
+    <FRAMENAME>looking n0007.bmp</FRAMENAME>
+    <FRAMENAME>looking n0008.bmp</FRAMENAME>
+    <FRAMENAME>looking n0009.bmp</FRAMENAME>
+    <FRAMENAME>looking n0010.bmp</FRAMENAME>
+    <FRAMENAME>looking n0011.bmp</FRAMENAME>
+    <FRAMENAME>walking w0000.bmp</FRAMENAME>
+    <FRAMENAME>walking w0001.bmp</FRAMENAME>
+    <FRAMENAME>walking w0002.bmp</FRAMENAME>
+    <FRAMENAME>walking w0003.bmp</FRAMENAME>
+    <FRAMENAME>walking w0004.bmp</FRAMENAME>
+    <FRAMENAME>walking w0005.bmp</FRAMENAME>
+    <FRAMENAME>walking w0006.bmp</FRAMENAME>
+    <FRAMENAME>walking w0007.bmp</FRAMENAME>
+    <FRAMENAME>walking e0000.bmp</FRAMENAME>
+    <FRAMENAME>walking e0001.bmp</FRAMENAME>
+    <FRAMENAME>walking e0002.bmp</FRAMENAME>
+    <FRAMENAME>walking e0003.bmp</FRAMENAME>
+    <FRAMENAME>walking e0004.bmp</FRAMENAME>
+    <FRAMENAME>walking e0005.bmp</FRAMENAME>
+    <FRAMENAME>walking e0006.bmp</FRAMENAME>
+    <FRAMENAME>walking e0007.bmp</FRAMENAME>
+    <FRAMENAME>walking n0000.bmp</FRAMENAME>
+    <FRAMENAME>walking n0001.bmp</FRAMENAME>
+    <FRAMENAME>walking n0002.bmp</FRAMENAME>
+    <FRAMENAME>walking n0003.bmp</FRAMENAME>
+    <FRAMENAME>walking n0004.bmp</FRAMENAME>
+    <FRAMENAME>walking n0005.bmp</FRAMENAME>
+    <FRAMENAME>walking n0006.bmp</FRAMENAME>
+    <FRAMENAME>walking n0007.bmp</FRAMENAME>
+  </USEDFRAMES>
+  <ANIM loop="-1" name="CROCK_DOWN" speed="110" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">1</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">2</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">3</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">4</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">5</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">6</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">7</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">8</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="CROCK_IDLE_DOWN" speed="160" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">9</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">10</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">11</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">12</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">13</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">14</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">15</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">16</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">17</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">18</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">19</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">20</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="CROCK_IDLE_LEFT" speed="160" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">21</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">22</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">23</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">24</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">25</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">26</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">27</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">28</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">29</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">30</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">31</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">32</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="CROCK_IDLE_RIGHT" speed="160" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">33</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">34</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">35</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">36</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">37</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">38</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">39</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">40</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">41</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">42</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">43</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">44</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="CROCK_IDLE_UP" speed="160" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">45</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">46</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">47</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">48</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">49</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">50</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">51</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">52</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">53</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">54</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">55</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">56</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="CROCK_LEFT" speed="90" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">57</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">58</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">59</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">60</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">61</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">62</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">63</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">64</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="CROCK_RIGHT" speed="110" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">65</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">66</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">67</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">68</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">69</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">70</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">71</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">72</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="CROCK_UP" speed="110" exclude="0" stoponframe="1">
+    <FRAME XFLIP="0" YFLIP="0">73</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">74</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">75</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">76</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">77</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">78</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">79</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">80</FRAME>
+  </ANIM>
+</TNTANIMATOR>

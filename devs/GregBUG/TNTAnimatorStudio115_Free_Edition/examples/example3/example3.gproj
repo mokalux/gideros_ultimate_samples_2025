@@ -1,0 +1,14 @@
+<project>
+ <properties packageName="com.yourdomain.yourapp" html5_fbinstant="0" logicalHeight="480" app_icon="" mouseToTouch="1" scaleMode="4" html5_host="" html5_pack="0" winrt_package="com.yourdomain.yourapp" app_name="" osx_category="5" iosDevice="0" touchToMouse="1" version="1.0" android_template="0" autorotation="0" windowHeight="0" html5_mem="256" logicalWidth="320" mouseTouchOrder="0" osx_domain="giderosmobile.com" fps="60" build_number="1" winrt_org="GiderosMobile" windowWidth="0" osx_org="GiderosMobile" encryptAssets="0" osx_signingId="" exportMode="0" disableSplash="0" version_code="1" osx_bundle="com.yourdomain." win_org="GiderosMobile" orientation="0" splash_h_image="" encryptCode="0" vsync="0" html5_symbols="0" splashScaleMode="0" ios_bundle="com.yourdomain." architecture="0" retinaDisplay="0" osx_installerId="" html5_crash="" html5_wasm="0" win_domain="giderosmobile.com" html5_fbload="100" tv_icon="" splash_v_image="" backgroundColor="#ffffff">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <file source="../gfx/crock.png"/>
+ <file source="../gfx/crock.tan"/>
+ <file source="../gfx/crock.txt"/>
+ <file source="../gfx/logo.png"/>
+ <file source="main.lua"/>
+ <file source="../../libs/tntanimator32.lua" excludeFromExecution="1"/>
+ <file source="../../libs/tntanimator64.lua" excludeFromExecution="1"/>
+</project>

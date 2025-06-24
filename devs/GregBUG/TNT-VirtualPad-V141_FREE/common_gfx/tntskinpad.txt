@@ -1,0 +1,10 @@
+buttona.png, 0, 158, 64, 64, 0, 0, 0, 0
+buttonb.png, 0, 94, 64, 64, 0, 0, 0, 0
+fire.png, 0, 222, 10, 12, 3, 2, 3, 2
+plane1.png, 158, 0, 57, 43, 0, 0, 0, 0
+plane2.png, 128, 86, 56, 43, 0, 0, 0, 0
+plane3.png, 158, 43, 57, 43, 0, 0, 0, 0
+tntvpad_analogpad.png, 64, 158, 64, 64, 0, 0, 0, 0
+tntvpad_base.png, 0, 0, 94, 94, 0, 0, 0, 0
+tntvpad_buttondown.png, 94, 0, 64, 64, 0, 0, 0, 0
+tntvpad_buttonup.png, 64, 94, 64, 64, 0, 0, 0, 0

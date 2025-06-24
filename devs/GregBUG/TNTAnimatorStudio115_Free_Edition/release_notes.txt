@@ -1,0 +1,98 @@
+v1.15 04/12/2012
+
+
+++ IMPROVED CTNTAnimator:setVisible(isVisible) isVisible default = true (so if you call setVisible() now is true by default.
+++ Added function CTNTAnimator:getCurrentFrame() - return current frame animation. (Asked by tom2012)
+++ Added function CTNTAnimator:pauseAnimation() -- pause current animation (Asked by tom2012) and release event "ANIM_PAUSED" (see example 4)
+++ Added function CTNTAnimator:unPauseAnimation() -- unpause current animation (Asked by tom2012)    and release event "ANIM_UNPAUSED" (see example 4)
+
+-- see example 4 (click on crock to pause/unpause animation)
+
+
+V1.1 Official Public Release 16/09/2012
+
+v1.1 Beta 4 11/09/2012
+
+I'm very proud to release this version…
+a lot of work    was done in the editor
+to try to speedup workflow and and simplify coder life…
+
+First i my special thanks and credits go to "Mells" that does a really nice and hard work on "deep" test and for his suggestions and guidelines.
+then to all peoples that supported me (with donations)….
+
+this release was possible thanks their support, Thanks again guys!
+    
+
+Ok. Now What new in this release (1.1) ?
+
+1. On the framework side mainly BugFix and some Optimizations and some new additions:
+
+++ FIXED getSpeed() release anim speed not in MS (re-check you code PLEASE!)
+++ FIXED if No Stop Frame defined in Editor for an animation = Error on self.anim.free() 
+++ FIXED self:anim:setLoop() 
+		now if loop is set to false and ot "stopOnFrame" is not defined,  animator play all animation frames and stop on last frame.
+		if StopOnFrames is defined animator play all animation frames and then stop one fame defined in "stopOnFrame".
+		*** PLEASE RE-EXPORT YOUR ANIMATOR PROJECT. ***
+++ Added function CTNTAnimator::stopOnFrame(FrameNumber) - is like in Editor StopOnFrame but "via Code" - so set Stop frame for animation.
+++ Added function CTNTAnimator:animationExists(animationName) - release true if exists else release false.
+++ IMPROVED ANIM_CHANGE Event now release also previous animation name so you'll get 
+		animationName = name of animation you changed to
+        		previousAnimationName = previous animation name.
+		(see example 2 for more info...)
+
+++ Some other Fixes and Optimization that i don't remember!! :)
+
+2. On the Editor Side:
+
+Main news is you can reload Texture without losing your current project, redesigned menu file, you can reorganize animations and frames with drag and drop,
+multiple select/deselect (ctrl + shift), clone animations, Animations name Templates, list of last project opened and more functions!!!
+just try the new editor!!!
+
+anyway now some worklog:
+
+++ FIXED Void Clone Crash!
+++ FIXED Error while reading stream : File "" does not exist 
+++ FIXED In exported TAN file if no StopOnFrame is defined xml file export StopOnFrame 
+++ FIXED Some times when create new animation last selected animation lost his properties (flipx, flipy, stop…)
+++ FIXED Error when reordering animations when "Sort Animation names" is checked.
+    • ++ FIXED some random crash and bug fix (EDITOR)
+++ ADDED Add Animation Button with two selector! (blank animation / from Templates)
+++ ADDED Clone Animation Now is "Duplicate Animation" and changed how suffix Works. "COPY_" is added and already highlighted"
+++ ADDED rename animations by double clicking on it. 
+++ ADDED Shift + click or cmd + click for multiple selection, and also Delete Button to delete easily. 
+++ ADDED all windows (sprite explorer, main form) are now sizables by user  so preview frame can be any size!
+++ ADDED "Open Recent..." entry in the file menu under "Open Animation Project". 
+++ ADDED Ctrl+S to save current Project and added shourt-cut keys to file menu items...
+++ ADDED Editor ask to save when exit if new project or project was modified …
+++ ADDED editor remember last position of all windows.
+++ ADDED "Publish Tnt animation" populated by the name of the current .tan file. 
+++ ADDED "Save As " populated by the name of the current .tap file. 
+++ ADDED Animations could be reordered by Drag and drop or sorted!	
+    • ++ ADDED Editor now save windows size, poisition and preferences.
+--   REMOVED MENU ICONS... MORE LIKE OSX APP LOOK! :)
+++ IMPROVED On duplicate Animation now _COPY suffix is add at the end end automatically            selected..
+    • ++ Other minor fix and enachements.
+++ Other things that i can't remember :)
+
+
+ v1.04 22/08/2012
++ Added check for Animation in setAnimation and release a nice error log if animation not found. ;) thanks to mells!
++ Corrected a Bug in PlayAnimation that if a StopFrame is definided in a non loop animation animation wont start. (reported by draconar)
++ function CTNTAnimator:addToParent(parentGroup) added and CTNTAnimator:addChildAnimation(parentGroup) NOW DEPRECATED!!!!
+ 
+v1.03    released on 30/07/2012
+ 
+ + SEE EXAMPLE3 for this release FEATURES!
+ + Free() "C stack overflow" error Fixed - report by ar2rsawseen 
+ + internal reference to animation sprites changed from .mClip to .sprite
+ + Added new Event "ANIM_NEWLOOP" animation loop restart. release every new anim loop is restarted.
+ + Added new function "getSpriteHandle" that return anim sprite handle
+        (is like direct accesing to CTNTAnimator.sprite) and so you can apply
+          all Gideros sprite transformations and effects (ex: setRotation, setColorTransformm, etc)
+
+
+v1.01 released on 26/07/2012
+
+	BUG FIX setVisible() and isVisible() now works!!! - report by ar2rsawseen
+	BUG FIX Animation:Free() - report by ar2rsawseen 
+	+ ADDED new Event "ANIM_FREE" released when an animation is free

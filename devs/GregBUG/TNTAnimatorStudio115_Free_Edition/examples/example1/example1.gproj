@@ -1,0 +1,15 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="4" iosDevice="0" packageName="com.yourdomain.yourapp" logicalHeight="480" logicalWidth="320" retinaDisplay="0" assetsOnly="0" orientation="0" architecture="0">
+  <imageScales/>
+ </properties>
+ <file source="../../libs/tntanimator64.lua" excludeFromExecution="1"/>
+ <file source="../../libs/tntanimator32.lua" excludeFromExecution="1"/>
+ <file source="../gfx/crock.txt"/>
+ <file source="../gfx/crock.tan"/>
+ <file source="../gfx/crock.png"/>
+ <file source="../gfx/logo.png"/>
+ <file source="../gfx/boyPack_1.txt"/>
+ <file source="../gfx/boyPack_1.tan"/>
+ <file source="../gfx/boyPack_1.png"/>
+ <file source="main.lua"/>
+</project>

@@ -1,0 +1,7 @@
+<library>
+ <properties padding="0" removeAlphaBorder="1" extrude="0" showUnusedAreas="1" alphaThreshold="0" forceSquare="0"/>
+ <file file="sources/tntvpad_buttonup.png"/>
+ <file file="sources/tntvpad_buttondown.png"/>
+ <file file="sources/tntvpad_base.png"/>
+ <file file="sources/tntvpad_analogpad.png"/>
+</library>
