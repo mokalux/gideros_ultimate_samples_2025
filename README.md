@@ -7,7 +7,6 @@ I didn't write any of those!
 My contribution here, is bringing most of them back to life and running on latest **Gideros 2025.3+**.
 
 
-Most projects in here have a license, please act accordingly.
 
 
 I have been programming using Gideros and Gideros Studio for almost 7 years now and counting...
