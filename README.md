@@ -2,9 +2,10 @@
 
 This is a collection of Gideros projects and samples, gathered throughout the years on the internet!
 
-I didn't write any of them!
+I didn't write any of those!
 
-My contribution here, is bringing them all back to live and running on latest **Gideros 2025.3+**.
+My contribution here, is bringing them most of them back to life and running on latest **Gideros 2025.3+**.
+
 
 Most projects in here have a license, please act accordingly.
 
