@@ -1,0 +1,3866 @@
+
+{
+  "collisionbitplanes" : 
+  {
+    "names" : 
+    [
+      "bitplane1",
+      "bitplane2",
+      "bitplane3",
+      "bitplane4",
+      "bitplane5",
+      "bitplane6",
+      "bitplane7",
+      "bitplane8",
+      "bitplane9",
+      "bitplane10",
+      "bitplane11",
+      "bitplane12",
+      "bitplane13",
+      "bitplane14",
+      "bitplane15",
+      "bitplane16",
+      "bitplane17",
+      "bitplane18",
+      "bitplane19",
+      "bitplane20",
+      "bitplane21",
+      "bitplane22",
+      "bitplane23",
+      "bitplane24",
+      "bitplane25",
+      "bitplane26",
+      "bitplane27",
+      "bitplane28",
+      "bitplane29",
+      "bitplane30",
+      "bitplane31",
+      "bitplane32"
+    ]
+  },
+  "customPropertyDefs" : 
+  [
+    
+    {
+      "class" : "image",
+      "displayName" : "spawnEveryXSecs",
+      "name" : "spawnEveryXSecs",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "speed",
+      "name" : "speed",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "Atlas",
+      "name" : "Atlas",
+      "type" : "int"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "rotationSpeed",
+      "name" : "rotationSpeed",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "body",
+      "displayName" : "pathOrder",
+      "name" : "pathOrder",
+      "type" : "int"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "timeBetweenPoints",
+      "name" : "timeBetweenPoints",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "xMove",
+      "name" : "xMove",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "id",
+      "name" : "id",
+      "type" : "int"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "direction",
+      "name" : "direction",
+      "type" : "string"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "signText",
+      "name" : "signText",
+      "type" : "string"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "upSpeed",
+      "name" : "upSpeed",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "startDelay",
+      "name" : "startDelay",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "radius",
+      "name" : "radius",
+      "type" : "int"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "yDist",
+      "name" : "yDist",
+      "type" : "int"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "delayBetween",
+      "name" : "delayBetween",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "body",
+      "displayName" : "fillWithTexture",
+      "name" : "fillWithTexture",
+      "type" : "string"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "masherSpeed",
+      "name" : "masherSpeed",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "xSpeed",
+      "name" : "xSpeed",
+      "type" : "int"
+    },
+    
+    {
+      "class" : "body",
+      "displayName" : "id",
+      "name" : "id",
+      "type" : "int"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "masherYMove",
+      "name" : "masherYMove",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "downSpeed",
+      "name" : "downSpeed",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "image",
+      "displayName" : "xDist",
+      "name" : "xDist",
+      "type" : "int"
+    }
+  ],
+  "metaworld" : 
+  {
+    "allowSleep" : false,
+    "autoClearForces" : false,
+    "continuousPhysics" : true,
+    "exportOptions" : 
+    {
+      "saveFullPathForImages" : false,
+      "useHumanReadableFloats" : true
+    },
+    "gravity" : 
+    {
+      "x" : 0,
+      "y" : -10.0
+    },
+    "metabody" : 
+    [
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 1,
+            "name" : "id"
+          },
+          
+          {
+            "int" : 1,
+            "name" : "pathOrder"
+          }
+        ],
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 6,
+            "name" : "fixture4",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.1919503509998322,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 6,
+        "linearVelocity" : 0,
+        "massData-I" : 0.002132433699443936,
+        "massData-mass" : 0.1157517880201340,
+        "name" : "body2",
+        "position" : 
+        {
+          "x" : 2.429900646209717,
+          "y" : 6.405516147613525
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 1,
+            "name" : "id"
+          },
+          
+          {
+            "int" : 2,
+            "name" : "pathOrder"
+          }
+        ],
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 7,
+            "name" : "fixture4",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.1919503509998322,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 7,
+        "linearVelocity" : 0,
+        "massData-I" : 0.002132433699443936,
+        "massData-mass" : 0.1157517880201340,
+        "name" : "body2",
+        "position" : 
+        {
+          "x" : 4.653964519500732,
+          "y" : 6.375050067901611
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 11,
+            "name" : "fixture2",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.7672271728515625,
+                0.5425090789794922,
+                0.0,
+                -0.5425128936767578,
+                -0.7672281265258789,
+                -0.5425128936767578,
+                0.0,
+                0.5425109863281250
+              ],
+              "y" : 
+              [
+                0.0,
+                0.5425109863281250,
+                0.7672271728515625,
+                0.5425109863281250,
+                0.0,
+                -0.5425109863281250,
+                -0.7672271728515625,
+                -0.5425109863281250
+              ]
+            }
+          }
+        ],
+        "id" : 11,
+        "linearVelocity" : 0,
+        "name" : "danger",
+        "position" : 
+        {
+          "x" : 9.119934082031250,
+          "y" : 3.860145092010498
+        },
+        "type" : "static"
+      },
+      
+      {
+        "angle" : -1.609391689300537,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 12,
+            "name" : "fixture1",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.5941981673240662,
+                0.5770791172981262,
+                0.5604498982429504,
+                -0.6108273863792419
+              ],
+              "y" : 
+              [
+                -0.1534221172332764,
+                -0.1109245344996452,
+                0.1367952227592468,
+                0.09429764002561569
+              ]
+            }
+          }
+        ],
+        "id" : 12,
+        "linearVelocity" : 0,
+        "name" : "clawBlock",
+        "position" : 
+        {
+          "x" : -1.695129394531250,
+          "y" : -14.08159446716309
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 4.712388992309570,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 14,
+            "name" : "fixture0",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.4404294788837433,
+                0.5595704913139343,
+                0.5765137076377869,
+                -0.4234862625598907
+              ],
+              "y" : 
+              [
+                -1.761909961700439,
+                -1.761909961700439,
+                0.8993363380432129,
+                0.8993363380432129
+              ]
+            }
+          }
+        ],
+        "id" : 14,
+        "linearVelocity" : 0,
+        "name" : "acid",
+        "position" : 
+        {
+          "x" : 23.75814437866211,
+          "y" : 1.369531631469727
+        },
+        "type" : "static"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 6,
+            "name" : "id"
+          },
+          
+          {
+            "int" : 1,
+            "name" : "pathOrder"
+          }
+        ],
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 45,
+            "name" : "fixture4",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.09956422448158264,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 38,
+        "linearVelocity" : 0,
+        "massData-I" : 0.0001543594116810709,
+        "massData-mass" : 0.03114271722733974,
+        "name" : "body2",
+        "position" : 
+        {
+          "x" : -0.1646356582641602,
+          "y" : 6.229742050170898
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 56,
+            "name" : "fixture2",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.2563409805297852,
+                -0.2691602706909180,
+                -0.3417692184448242,
+                0.3588514328002930
+              ],
+              "y" : 
+              [
+                0.2734289169311523,
+                0.2435305118560791,
+                -0.2264466285705566,
+                -0.2349886894226074
+              ]
+            }
+          }
+        ],
+        "id" : 56,
+        "linearVelocity" : 0,
+        "name" : "acid",
+        "position" : 
+        {
+          "x" : 11.74569797515869,
+          "y" : 3.149425983428955
+        },
+        "type" : "static"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 57,
+            "name" : "fixture2",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.2563409805297852,
+                -0.2691602706909180,
+                -0.3417692184448242,
+                0.3588514328002930
+              ],
+              "y" : 
+              [
+                0.2734289169311523,
+                0.2435305118560791,
+                -0.2264466285705566,
+                -0.2349886894226074
+              ]
+            }
+          }
+        ],
+        "id" : 57,
+        "linearVelocity" : 0,
+        "name" : "acid",
+        "position" : 
+        {
+          "x" : 12.64263820648193,
+          "y" : 3.115256786346436
+        },
+        "type" : "static"
+      }
+    ],
+    "metaimage" : 
+    [
+      
+      {
+        "center" : 
+        {
+          "x" : 2.390568017959595,
+          "y" : 2.134064674377441
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          },
+          
+          {
+            "int" : 1,
+            "name" : "id"
+          }
+        ],
+        "file" : "../../gfx/Claw Objects/key.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 1,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.3700000047683716
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 2.534238815307617,
+          "y" : 3.108442306518555
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          },
+          
+          {
+            "int" : 1,
+            "name" : "id"
+          }
+        ],
+        "file" : "../../gfx/keydoor.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 2,
+        "name" : "image46",
+        "opacity" : 1,
+        "scale" : 1
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 6.460156440734863,
+          "y" : 0.5713319778442383
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/Arrow Signs/arrow sign down 2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 3,
+        "name" : "image75",
+        "opacity" : 1,
+        "renderOrder" : -50.0,
+        "scale" : 0.8700000047683716
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 2.832471847534180,
+          "y" : 4.475858688354492
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "float" : 2.50,
+            "name" : "speed"
+          }
+        ],
+        "file" : "../../gfx/Follow Bugs/follow bug flying 0001.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 4,
+        "name" : "image37",
+        "opacity" : 1,
+        "scale" : 0.5600000023841858
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.940806865692139,
+          "y" : -3.742864370346069
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/grass5.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 5,
+        "name" : "image24",
+        "opacity" : 1,
+        "scale" : 0.7298074960708618
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 4.799427986145020,
+          "y" : 0.6679282188415527
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          },
+          
+          {
+            "name" : "signText",
+            "string" : "text"
+          }
+        ],
+        "file" : "../../gfx/sign.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 7,
+        "name" : "image0",
+        "opacity" : 1,
+        "scale" : 0.8450000286102295
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 15.04386520385742,
+          "y" : 1.030798912048340
+        },
+        "file" : "../../gfx/Cat Flap/catflap door.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 8,
+        "name" : "image75",
+        "opacity" : 1,
+        "scale" : 1
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 0.5000333786010742,
+          "y" : 1.194406986236572
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Claw Objects/pumpkin.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 9,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.50
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -3.071332931518555,
+          "y" : 2.763164997100830
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/Bridge.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 10,
+        "name" : "image71",
+        "opacity" : 1,
+        "renderOrder" : 120.0,
+        "scale" : 1.325000047683716
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 15.31778717041016,
+          "y" : 2.732653141021729
+        },
+        "file" : "../../gfx/up spike.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 11,
+        "name" : "image75",
+        "opacity" : 1,
+        "scale" : 1.360000014305115
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 14.90608501434326,
+          "y" : 2.679964542388916
+        },
+        "file" : "../../gfx/down spike.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 12,
+        "name" : "image76",
+        "opacity" : 1,
+        "scale" : 1.360000014305115
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -8.215602874755859,
+          "y" : -5.320313453674316
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/round mud 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 13,
+        "name" : "image42",
+        "opacity" : 1,
+        "scale" : 2.349999904632568
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 22.81157875061035,
+          "y" : 5.195757389068604
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Spikes/003.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 14,
+        "name" : "image80",
+        "opacity" : 1,
+        "scale" : 1.269999980926514
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 4.027470111846924,
+          "y" : 0.5702866315841675
+        },
+        "file" : "../../gfx/Collectables/red1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 15,
+        "name" : "image12",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.4850000143051147
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 3.530070781707764,
+          "y" : 5.440175056457520
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          },
+          
+          {
+            "int" : 2,
+            "name" : "id"
+          },
+          
+          {
+            "int" : 200,
+            "name" : "xDist"
+          },
+          
+          {
+            "int" : 3,
+            "name" : "xSpeed"
+          },
+          
+          {
+            "name" : "direction",
+            "string" : "left"
+          }
+        ],
+        "file" : "../../gfx/Worm Wraith/worm wraith walking 0001.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 16,
+        "name" : "image13",
+        "opacity" : 1,
+        "scale" : 0.6999999880790710
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 2.349354505538940,
+          "y" : 0.5268317461013794
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Collectables/gold 3.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 17,
+        "name" : "image4",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.2964499890804291
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 3.326390266418457,
+          "y" : 0.5528640747070312
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Collectables/spider1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 18,
+        "name" : "spider",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.4250000119209290
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 19.97341918945312,
+          "y" : 3.401896953582764
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Spikes/004.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 19,
+        "name" : "image81",
+        "opacity" : 1,
+        "scale" : 1.409999966621399
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -0.9442687034606934,
+          "y" : -0.6074903011322021
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/brick3.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 20,
+        "name" : "image17",
+        "opacity" : 1,
+        "renderOrder" : 5.0,
+        "scale" : 0.2249999940395355
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 18.56039428710938,
+          "y" : 3.596189498901367
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Spikes/005.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 21,
+        "name" : "image82",
+        "opacity" : 1,
+        "scale" : 0.8500000238418579
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 21.44802474975586,
+          "y" : 3.307681560516357
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Spikes/006.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 22,
+        "name" : "image83",
+        "opacity" : 1,
+        "scale" : 1.210000038146973
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 1.511079788208008,
+          "y" : 1.194407939910889
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Claw Objects/skull.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 23,
+        "name" : "image10",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.3700000047683716
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -0.8125233650207520,
+          "y" : -1.269993782043457
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/brick2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 24,
+        "name" : "image16",
+        "opacity" : 1,
+        "renderOrder" : 5.0,
+        "scale" : 0.2150000035762787
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 24.49191284179688,
+          "y" : 4.132452011108398
+        },
+        "file" : "../../gfx/Terrain/tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 25,
+        "name" : "image77",
+        "opacity" : 1,
+        "scale" : 2.785000085830688
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 18.37443161010742,
+          "y" : 5.077311038970947
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Spikes/001.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 26,
+        "name" : "image78",
+        "opacity" : 1,
+        "scale" : 1.559999942779541
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 20.41553497314453,
+          "y" : 5.066741943359375
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Spikes/002.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 27,
+        "name" : "image79",
+        "opacity" : 1,
+        "scale" : 1.419999957084656
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 2.811313152313232,
+          "y" : 0.5754594802856445
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Collectables/gold 4.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 28,
+        "name" : "image5",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.4050000011920929
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -6.968681335449219,
+          "y" : 1.127781391143799
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/platform1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 30,
+        "name" : "image43",
+        "opacity" : 1,
+        "scale" : 0.8650000095367432
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -5.675356388092041,
+          "y" : -3.084630012512207
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/curved mud.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 33,
+        "name" : "image36",
+        "opacity" : 1,
+        "scale" : 1.565976738929749
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 9.435855865478516,
+          "y" : 1.667299270629883
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "float" : 2.0,
+            "name" : "masherSpeed"
+          },
+          
+          {
+            "float" : 330.0,
+            "name" : "xMove"
+          }
+        ],
+        "file" : "../../gfx/Mashers/masher left right.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 37,
+        "name" : "image73",
+        "opacity" : 1,
+        "renderOrder" : -200.0,
+        "scale" : 2.065000057220459
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -6.936136245727539,
+          "y" : -0.02213525772094727
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/platform2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 41,
+        "name" : "image44",
+        "opacity" : 1,
+        "scale" : 0.9950000047683716
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.994199037551880,
+          "y" : -1.468372344970703
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/grass2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 43,
+        "name" : "image21",
+        "opacity" : 1,
+        "scale" : 0.7298074960708618
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 15.81928253173828,
+          "y" : 0.7393856048583984
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 300,
+            "name" : "yDist"
+          },
+          
+          {
+            "float" : 1.0,
+            "name" : "delayBetween"
+          },
+          
+          {
+            "float" : 1.0,
+            "name" : "startDelay"
+          }
+        ],
+        "file" : "../../gfx/Acid Fish/acid fish flying 0001.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 45,
+        "name" : "image76",
+        "opacity" : 1,
+        "scale" : 0.50
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -24.10481643676758,
+          "y" : 2.084290266036987
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Collectables/coin 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 49,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.2599999904632568
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 1.863080024719238,
+          "y" : 0.5389890074729919
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Collectables/gold 2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 50,
+        "name" : "image3",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.2899999916553497
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.994199037551880,
+          "y" : -2.995378732681274
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/grass4.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 52,
+        "name" : "image23",
+        "opacity" : 1,
+        "scale" : 0.7298074960708618
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -4.155885219573975,
+          "y" : -7.356431961059570
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/grass strip long 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 54,
+        "name" : "image45",
+        "opacity" : 1,
+        "scale" : 0.5699999928474426
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -2.747056007385254,
+          "y" : -11.02664947509766
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/straight stone single.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 57,
+        "name" : "image116",
+        "opacity" : 1,
+        "scale" : 0.3000000119209290
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -2.494968414306641,
+          "y" : -9.325298309326172
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/grass strip 2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 58,
+        "name" : "image39",
+        "opacity" : 1,
+        "scale" : 0.6050000190734863
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 2.544106483459473,
+          "y" : 1.150449752807617
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Claw Objects/rock.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 60,
+        "name" : "image9",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.3700000047683716
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 0.8905346393585205,
+          "y" : 0.5633034706115723
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Collectables/skull1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 62,
+        "name" : "green skull",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.3849999904632568
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.908771991729736,
+          "y" : -0.6674947738647461
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/grass1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 65,
+        "name" : "image20",
+        "opacity" : 1,
+        "scale" : 0.7298074960708618
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 1.364652395248413,
+          "y" : 0.5389895439147949
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Collectables/gold 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 68,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.2249999940395355
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.876737117767334,
+          "y" : -2.279927968978882
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/grass3.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 71,
+        "name" : "image22",
+        "opacity" : 1,
+        "scale" : 0.7298074960708618
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -0.8334325551986694,
+          "y" : -0.9457463026046753
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/brick1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 73,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 5.0,
+        "scale" : 0.2249999940395355
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -0.7913647890090942,
+          "y" : -1.606676816940308
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/brick4.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 74,
+        "name" : "image18",
+        "opacity" : 1,
+        "renderOrder" : 5.0,
+        "scale" : 0.2249999940395355
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -2.462352752685547,
+          "y" : -8.492389678955078
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/grass strip 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 76,
+        "name" : "image38",
+        "opacity" : 1,
+        "renderOrder" : 2.0,
+        "scale" : 0.5699999928474426
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 1.016546249389648,
+          "y" : 1.183416843414307
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Claw Objects/apple.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 77,
+        "name" : "image6",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.3700000047683716
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 0.5330162048339844,
+          "y" : 3.137021064758301
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Door/door frame.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 78,
+        "name" : "image19",
+        "opacity" : 1,
+        "scale" : 1.149999976158142
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 6.926612854003906,
+          "y" : 2.877034187316895
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          },
+          
+          {
+            "int" : 1,
+            "name" : "id"
+          },
+          
+          {
+            "float" : 0.3000000119209290,
+            "name" : "delayBetween"
+          },
+          
+          {
+            "float" : 0.50,
+            "name" : "timeBetweenPoints"
+          }
+        ],
+        "file" : "../../gfx/Treasure Mite/treasure mite 0001.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 80,
+        "name" : "image98",
+        "opacity" : 1,
+        "renderOrder" : 100.0,
+        "scale" : 0.4900000095367432
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 4.645138740539551,
+          "y" : 3.149576187133789
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          },
+          
+          {
+            "float" : 0.50,
+            "name" : "delayBetween"
+          },
+          
+          {
+            "float" : 0.50,
+            "name" : "timeBetweenPoints"
+          }
+        ],
+        "file" : "../../gfx/Flying Wraith/flying wraith 01.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 81,
+        "name" : "image102",
+        "opacity" : 1,
+        "scale" : 1.389999985694885
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -4.171096801757812,
+          "y" : 0.7989187240600586
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/root1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 83,
+        "name" : "image52",
+        "opacity" : 1,
+        "renderOrder" : -100.0,
+        "scale" : 0.750
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -2.430288076400757,
+          "y" : -10.74382209777832
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/straight stone two.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 85,
+        "name" : "image118",
+        "opacity" : 1,
+        "scale" : 0.3249999880790710
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 0.4528875350952148,
+          "y" : 0.5511455535888672
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Collectables/coin 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 87,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.2599999904632568
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.772156238555908,
+          "y" : -5.900267601013184
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/Brick Edge/brick edge 2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 90,
+        "name" : "image60",
+        "opacity" : 1,
+        "scale" : 0.2199999988079071
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 3.226187229156494,
+          "y" : 1.263309001922607
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Collectables/pot 001.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 92,
+        "name" : "image14",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.5799999833106995
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -10.97783851623535,
+          "y" : -2.622698307037354
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/curved wall 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 93,
+        "name" : "image11",
+        "opacity" : 1,
+        "scale" : 4.210000038146973
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 16.98197174072266,
+          "y" : 1.120809555053711
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "float" : 3.0,
+            "name" : "spawnEveryXSecs"
+          }
+        ],
+        "file" : "../../gfx/ball spawner.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 100,
+        "name" : "image77",
+        "opacity" : 1,
+        "scale" : 1
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 2.811313152313232,
+          "y" : 0.5754594802856445
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Collectables/gold 4.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 102,
+        "name" : "image5",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.4050000011920929
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -5.532019615173340,
+          "y" : -9.237641334533691
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/meteor 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 104,
+        "name" : "image40",
+        "opacity" : 1,
+        "scale" : 2.075000047683716
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -4.545239925384521,
+          "y" : -6.086911678314209
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud crater 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 107,
+        "name" : "image41",
+        "opacity" : 1,
+        "scale" : 0.7850000262260437
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -8.921590805053711,
+          "y" : -1.438797950744629
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud corner 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 108,
+        "name" : "image47",
+        "opacity" : 1,
+        "scale" : 1.575000047683716
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -8.809431076049805,
+          "y" : -3.021486282348633
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud corner 2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 109,
+        "name" : "image48",
+        "opacity" : 1,
+        "scale" : 1.264999985694885
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -2.323173999786377,
+          "y" : -6.416411399841309
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/Brick Edge/brick edge 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 111,
+        "name" : "image110",
+        "opacity" : 1,
+        "scale" : 0.2199999988079071
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 17.06432342529297,
+          "y" : 0.3395586013793945
+        },
+        "file" : "../../gfx/ball killer.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 117,
+        "name" : "image78",
+        "opacity" : 1,
+        "scale" : 0.4472180306911469
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 21.77401733398438,
+          "y" : 1.511043548583984
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 280,
+            "name" : "yDist"
+          },
+          
+          {
+            "float" : 1.0,
+            "name" : "delayBetween"
+          },
+          
+          {
+            "float" : 1.0,
+            "name" : "startDelay"
+          }
+        ],
+        "file" : "../../gfx/Acid Fish/acid fish flying 0001.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 119,
+        "name" : "image76",
+        "opacity" : 1,
+        "renderOrder" : -80.0,
+        "scale" : 0.50
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -3.629317283630371,
+          "y" : 0.8182678222656250
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/root2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 120,
+        "name" : "image53",
+        "opacity" : 1,
+        "renderOrder" : -100.0,
+        "scale" : 1.039999961853027
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -3.106886863708496,
+          "y" : 0.7795696258544922
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/root3.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 121,
+        "name" : "image54",
+        "opacity" : 1,
+        "renderOrder" : -100.0,
+        "scale" : 0.8000000119209290
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 19.00487899780273,
+          "y" : 1.764349937438965
+        },
+        "file" : "../../gfx/drag block.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 122,
+        "name" : "image79",
+        "opacity" : 1,
+        "scale" : 1.424999952316284
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -4.545239925384521,
+          "y" : -6.086909770965576
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud crater 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 125,
+        "name" : "image41",
+        "opacity" : 1,
+        "scale" : 0.7850000262260437
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 11.78055381774902,
+          "y" : 3.240133285522461
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/wood spikes 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 127,
+        "name" : "image103",
+        "opacity" : 1,
+        "scale" : 0.6349999904632568
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 12.66320228576660,
+          "y" : 3.201753616333008
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 2,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/wood spikes 2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 128,
+        "name" : "image106",
+        "opacity" : 1,
+        "scale" : 0.6850000023841858
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -2.507061004638672,
+          "y" : 0.7989177703857422
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/root4.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 132,
+        "name" : "image55",
+        "opacity" : 1,
+        "renderOrder" : -100.0,
+        "scale" : 0.5350000262260437
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 0.3326473236083984,
+          "y" : 4.767199516296387
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 6,
+            "name" : "id"
+          },
+          
+          {
+            "float" : 0.0,
+            "name" : "delayBetween"
+          },
+          
+          {
+            "float" : 5.0,
+            "name" : "timeBetweenPoints"
+          }
+        ],
+        "file" : "../../gfx/Carry Bug/carry gold 4.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 136,
+        "name" : "image101",
+        "opacity" : 1,
+        "scale" : 0.6999999880790710
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -4.312320709228516,
+          "y" : -1.572553634643555
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 137,
+        "name" : "image25",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 1
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 6.573187828063965,
+          "y" : 4.931550979614258
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "float" : 300.0,
+            "name" : "delayBetween"
+          },
+          
+          {
+            "float" : 2.0,
+            "name" : "downSpeed"
+          },
+          
+          {
+            "float" : 0.0,
+            "name" : "startDelay"
+          },
+          
+          {
+            "float" : 1.0,
+            "name" : "upSpeed"
+          }
+        ],
+        "file" : "../../gfx/thwomper.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 138,
+        "name" : "image82",
+        "opacity" : 1,
+        "scale" : 1.399999976158142
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 0.3470125198364258,
+          "y" : 6.147087097167969
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 6,
+            "name" : "id"
+          },
+          
+          {
+            "float" : 0.0,
+            "name" : "delayBetween"
+          },
+          
+          {
+            "float" : 5.0,
+            "name" : "timeBetweenPoints"
+          }
+        ],
+        "file" : "../../gfx/Carry Bug/carry gold 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 139,
+        "name" : "image99",
+        "opacity" : 1,
+        "scale" : 0.6999999880790710
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 0.3326473236083984,
+          "y" : 5.406674385070801
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 6,
+            "name" : "id"
+          },
+          
+          {
+            "float" : 0.0,
+            "name" : "delayBetween"
+          },
+          
+          {
+            "float" : 5.0,
+            "name" : "timeBetweenPoints"
+          }
+        ],
+        "file" : "../../gfx/Carry Bug/carry gold 3.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 141,
+        "name" : "image100",
+        "opacity" : 1,
+        "scale" : 0.6999999880790710
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 18.99840164184570,
+          "y" : 0.2300615310668945
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 1,
+            "name" : "id"
+          }
+        ],
+        "file" : "../../gfx/drag block door.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 142,
+        "name" : "image81",
+        "opacity" : 1,
+        "scale" : 0.3100000023841858
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 3.99337625503540,
+          "y" : 1.425037384033203
+        },
+        "file" : "../../gfx/Collectables/purple1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 144,
+        "name" : "image49",
+        "opacity" : 1,
+        "scale" : 0.5699999928474426
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 9.424423217773438,
+          "y" : 5.968292236328125
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "float" : 2.0,
+            "name" : "masherSpeed"
+          },
+          
+          {
+            "float" : 220.0,
+            "name" : "masherYMove"
+          }
+        ],
+        "file" : "../../gfx/Mashers/masher up down.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 150,
+        "name" : "image74",
+        "opacity" : 1,
+        "scale" : 2.065000057220459
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 5.654925346374512,
+          "y" : 0.5713329315185547
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/Arrow Signs/arrow sign down.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 151,
+        "name" : "image74",
+        "opacity" : 1,
+        "renderOrder" : -50.0,
+        "scale" : 0.9250000119209290
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -10.07836532592773,
+          "y" : -8.252928733825684
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/tunnel.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 152,
+        "name" : "image51",
+        "opacity" : 1,
+        "scale" : 2.775000095367432
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 5.602123260498047,
+          "y" : 1.548169136047363
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/Arrow Signs/arrow sign lr 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 153,
+        "name" : "image72",
+        "opacity" : 1,
+        "renderOrder" : -50.0,
+        "scale" : 0.8750
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 6.420554161071777,
+          "y" : 1.561368942260742
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/Arrow Signs/arrow sign lr 2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 154,
+        "name" : "image73",
+        "opacity" : 1,
+        "renderOrder" : -50.0,
+        "scale" : 0.8399999737739563
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.868535041809082,
+          "y" : 0.7989187240600586
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/root5.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 157,
+        "name" : "image56",
+        "opacity" : 1,
+        "renderOrder" : -100.0,
+        "scale" : 1.184999942779541
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.326757431030273,
+          "y" : 0.7795686721801758
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/root6.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 158,
+        "name" : "image57",
+        "opacity" : 1,
+        "renderOrder" : -100.0,
+        "scale" : 0.8399999737739563
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -0.707580566406250,
+          "y" : 0.7989187240600586
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/root7.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 159,
+        "name" : "image58",
+        "opacity" : 1,
+        "renderOrder" : -100.0,
+        "scale" : 0.7749999761581421
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -3.037694931030273,
+          "y" : -1.553130149841309
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 162,
+        "name" : "image27",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.8299999833106995
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -7.601598739624023,
+          "y" : -15.21851348876953
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2j.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 163,
+        "name" : "image94",
+        "opacity" : 1,
+        "scale" : 1.340000033378601
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 23.42457199096680,
+          "y" : 2.008450508117676
+        },
+        "file" : "../../gfx/Acid/acid 442 0001.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 164,
+        "name" : "image84",
+        "opacity" : 1,
+        "renderOrder" : -50.0,
+        "scale" : 0.250
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -4.314959526062012,
+          "y" : -2.578323364257812
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud3.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 165,
+        "name" : "image28",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.8450000286102295
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -3.188432693481445,
+          "y" : -2.576741218566895
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud4.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 166,
+        "name" : "image29",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.6899999976158142
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -8.255060195922852,
+          "y" : -12.24823188781738
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2d.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 168,
+        "name" : "image87",
+        "opacity" : 1,
+        "scale" : 1.424999952316284
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -4.381194114685059,
+          "y" : -3.562690734863281
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud5.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 169,
+        "name" : "image30",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.7699999809265137
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 23.38600921630859,
+          "y" : 1.019652366638184
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Acid/acid strip1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 170,
+        "name" : "image85",
+        "opacity" : 1,
+        "renderOrder" : -60.0,
+        "scale" : 1.689633965492249
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 2.338624000549316,
+          "y" : -0.9478273391723633
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Door/door frame.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 171,
+        "name" : "image19",
+        "opacity" : 1,
+        "scale" : 1.149999976158142
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 3.568258285522461,
+          "y" : 6.492835998535156
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 1,
+            "name" : "id"
+          }
+        ],
+        "file" : "../../gfx/Saw/saw move 001.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 172,
+        "name" : "image108",
+        "opacity" : 1,
+        "scale" : 0.5500000119209290
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -3.204871177673340,
+          "y" : -3.553945541381836
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud6.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 177,
+        "name" : "image31",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.8299999833106995
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -4.476951599121094,
+          "y" : -4.491951942443848
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud7.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 178,
+        "name" : "image32",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.7850000262260437
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -3.171347618103027,
+          "y" : -4.463826179504395
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud8.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 179,
+        "name" : "image33",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.7549999952316284
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -3.263790607452393,
+          "y" : -0.6595516204833984
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud9.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 180,
+        "name" : "image34",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.7699999809265137
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -4.230360984802246,
+          "y" : -0.6595506668090820
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/mud10.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 181,
+        "name" : "image59",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.7900000214576721
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 24.86626243591309,
+          "y" : 1.608673572540283
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Acid/acid worms 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 184,
+        "name" : "image86",
+        "opacity" : 1,
+        "renderOrder" : 1,
+        "scale" : 1.054999947547913
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 25.48021507263184,
+          "y" : 1.639891624450684
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Acid/acid worms 2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 185,
+        "name" : "image87",
+        "opacity" : 1,
+        "renderOrder" : 1,
+        "scale" : 0.8550000190734863
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 25.96929550170898,
+          "y" : 1.660703182220459
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Acid/acid worms 3.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 186,
+        "name" : "image88",
+        "opacity" : 1,
+        "renderOrder" : 1,
+        "scale" : 1.304999947547913
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 12.27032756805420,
+          "y" : 0.9658107757568359
+        },
+        "file" : "../../gfx/Walking Chest/Sitting/walking chest sitting0001.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 203,
+        "name" : "image107",
+        "opacity" : 1,
+        "scale" : 1.004999995231628
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -4.459051132202148,
+          "y" : -11.24497222900391
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2e.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 209,
+        "name" : "image88",
+        "opacity" : 1,
+        "scale" : 1.475000023841858
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -7.360770225524902,
+          "y" : -13.54810047149658
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2g.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 210,
+        "name" : "image89",
+        "opacity" : 1,
+        "scale" : 0.6499999761581421
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -8.482603073120117,
+          "y" : -17.09174919128418
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m3a.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 211,
+        "name" : "image95",
+        "opacity" : 1,
+        "scale" : 1.8750
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -6.449775218963623,
+          "y" : -11.10080814361572
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2c.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 212,
+        "name" : "image86",
+        "opacity" : 1,
+        "scale" : 1.840000033378601
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -10.19022846221924,
+          "y" : -13.56514835357666
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2f.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 214,
+        "name" : "image91",
+        "opacity" : 1,
+        "scale" : 0.7549999952316284
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -3.716100692749023,
+          "y" : -15.37898349761963
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/catepillar.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 215,
+        "name" : "image104",
+        "opacity" : 1,
+        "scale" : 0.6499999761581421
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -8.804933547973633,
+          "y" : -10.62105464935303
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2b.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 216,
+        "name" : "image85",
+        "opacity" : 1,
+        "scale" : 1.034999966621399
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -10.66932773590088,
+          "y" : -10.58721160888672
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2a.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 217,
+        "name" : "image84",
+        "opacity" : 1,
+        "scale" : 0.8899999856948853
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 20.53395080566406,
+          "y" : 1.346549034118652
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 1,
+            "name" : "id"
+          }
+        ],
+        "file" : "../../gfx/drag block button.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 219,
+        "name" : "image80",
+        "opacity" : 1,
+        "scale" : 0.9049999713897705
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -3.809491157531738,
+          "y" : -13.41647911071777
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/circular meteor.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 220,
+        "name" : "image92",
+        "opacity" : 1,
+        "scale" : 2.109999895095825
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.839608192443848,
+          "y" : -4.475386142730713
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/grass edge 2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 221,
+        "name" : "image69",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.5749999880790710
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.855614662170410,
+          "y" : -5.067642211914062
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/grass edge 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 222,
+        "name" : "image70",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.4149999916553497
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -5.690370082855225,
+          "y" : -13.54810047149658
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2h.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 223,
+        "name" : "image90",
+        "opacity" : 1,
+        "scale" : 0.6399999856948853
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -11.17459297180176,
+          "y" : -15.11989307403564
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2i.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 224,
+        "name" : "image93",
+        "opacity" : 1,
+        "scale" : 1.284999966621399
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 20.53625488281250,
+          "y" : 1.015146255493164
+        },
+        "file" : "../../gfx/drag block button skirt.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 225,
+        "name" : "image83",
+        "opacity" : 1,
+        "renderOrder" : 50.0,
+        "scale" : 0.4000000059604645
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : 1.042179107666016,
+          "y" : -0.8456134796142578
+        },
+        "file" : "../../gfx/Hero/hero body.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 228,
+        "name" : "image64",
+        "opacity" : 1,
+        "renderOrder" : 200.0,
+        "scale" : 0.5699999928474426
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -10.22474861145020,
+          "y" : -18.22337722778320
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m3b base.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 242,
+        "name" : "image105",
+        "opacity" : 1,
+        "renderOrder" : 200.0,
+        "scale" : 0.2349999994039536
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.783717155456543,
+          "y" : -10.34079360961914
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/straight stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 254,
+        "name" : "image66",
+        "opacity" : 1,
+        "scale" : 0.3849999904632568
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.490332126617432,
+          "y" : -5.634332180023193
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/Brick Edge/brick edge single.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 263,
+        "name" : "image126",
+        "opacity" : 1,
+        "renderOrder" : 10.0,
+        "scale" : 0.2199999988079071
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -2.046079158782959,
+          "y" : -6.168100357055664
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/Brick Edge/brick edge three.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 274,
+        "name" : "image127",
+        "opacity" : 1,
+        "scale" : 0.2199999988079071
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.403082370758057,
+          "y" : -5.373171806335449
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/Brick Edge/brick edge short.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 276,
+        "name" : "image128",
+        "opacity" : 1,
+        "scale" : 0.2199999988079071
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -10.29101848602295,
+          "y" : -17.12371063232422
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m3b.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 286,
+        "name" : "image96",
+        "opacity" : 1,
+        "scale" : 1.679999947547913
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -6.503417015075684,
+          "y" : -16.98036956787109
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m3c.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 287,
+        "name" : "image97",
+        "opacity" : 1,
+        "scale" : 1.274999976158142
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -2.089105606079102,
+          "y" : -11.86813068389893
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Claw Blockers/claw block 1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 319,
+        "name" : "image132",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 0.7099999785423279
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -0.8889923095703125,
+          "y" : -11.93905639648438
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Claw Blockers/claw block 2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 320,
+        "name" : "image133",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 0.6150000095367432
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.014267921447754,
+          "y" : -12.44980812072754
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Claw Blockers/claw block 3.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 324,
+        "name" : "image134",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 0.5550000071525574
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -1.188383102416992,
+          "y" : -12.96330070495605
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Claw Blockers/claw block 4.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 325,
+        "name" : "image135",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 0.6750000119209290
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -2.203588485717773,
+          "y" : -12.52631664276123
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 5,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Claw Blockers/claw block 5.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 326,
+        "name" : "image136",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 0.3249999880790710
+      },
+      
+      {
+        "center" : 
+        {
+          "x" : -7.360770225524902,
+          "y" : -13.54810047149658
+        },
+        "customProperties" : 
+        [
+          
+          {
+            "int" : 3,
+            "name" : "Atlas"
+          }
+        ],
+        "file" : "../../gfx/Terrain/m2g.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 368,
+        "name" : "image89",
+        "opacity" : 1,
+        "scale" : 0.6499999761581421
+      }
+    ],
+    "positionIterations" : 3,
+    "stepsPerSecond" : 60.0,
+    "subStepping" : false,
+    "velocityIterations" : 8,
+    "warmStarting" : true
+  }
+}

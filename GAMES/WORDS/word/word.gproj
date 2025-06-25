@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties retinaDisplay="0" version="1.0" winrt_org="GiderosMobile" disableSplash="0" autorotation="0" logicalHeight="480" scaleMode="0" build_number="1" mouseTouchOrder="0" exportMode="0" backgroundColor="#ffffff" app_icon="" tv_icon="" orientation="0" encryptAssets="0" osx_installerId="" encryptCode="0" html5_pack="0" architecture="0" touchToMouse="1" osx_domain="giderosmobile.com" logicalWidth="320" mouseToTouch="1" osx_signingId="" splash_v_image="" macos_bundle="com.yourdomain.yourapp-macos" mainluaOnly="0" splashScaleMode="0" windowWidth="0" html5_fbload="100" vsync="0" html5_host="" app_name="WORD" html5_crash="" html5_fbinstant="0" ios_bundle="com.yourdomain.yourapp-ios" macos_category="5" winrt_package="com.yourdomain.yourapp" fps="60" splash_h_image="" iosDevice="0" win_org="GiderosMobile" osx_org="GiderosMobile" html5_symbols="0" osx_bundle="com.yourdomain." html5_pwa="0" atv_bundle="com.yourdomain.yourapp-atv" html5_mem="256" win_domain="giderosmobile.com" windowHeight="0" version_code="1" html5_wasm="0" osx_category="5">
+  <imageScales/>
+  <plugins/>
+  <exports>
+   <export name="APK">
+    <property name="androidPath" value=""/>
+    <property name="androidSdk" value=""/>
+    <property name="androidTarget" value="30"/>
+    <property name="androidTools" value=""/>
+    <property name="buildAab" value="0"/>
+    <property name="buildApk" value="1"/>
+    <property name="deployApk" value="0"/>
+    <property name="forOculus" value="0"/>
+    <property name="javaPath" value=""/>
+    <property name="keyAlias" value=""/>
+    <property name="keyStore" value=""/>
+    <property name="oculusHT" value="0"/>
+    <property name="oculusHTR" value="0"/>
+    <property name="packageName" value="com.test.word"/>
+    <property name="timestampApk" value="0"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="fonts">
+  <file name="assets/fonts/JetBrainsMono.ttf"/>
+ </folder>
+ <folder name="gfx">
+  <file name="assets/gfx/alphabet.png"/>
+  <file name="assets/gfx/attdamage.png"/>
+  <file name="assets/gfx/attheal.png"/>
+  <file name="assets/gfx/attmana.png"/>
+  <file name="assets/gfx/backbtn.png"/>
+  <file name="assets/gfx/bsbtn.png"/>
+  <file name="assets/gfx/hintbtn.png"/>
+  <file name="assets/gfx/shufflebtn.png"/>
+  <file name="assets/gfx/submitbtn.png"/>
+  <file name="assets/gfx/switchbmp.png"/>
+ </folder>
+ <folder name="scenes">
+  <file name="assets/scenes/goscene.lua"/>
+  <file name="assets/scenes/mnscene.lua"/>
+  <file name="assets/scenes/plscene.lua"/>
+ </folder>
+ <file name="assets/func.lua"/>
+ <file name="assets/init.lua"/>
+ <file name="assets/main.lua"/>
+ <file name="assets/wrdbs.lua"/>
+ <dependency from="assets/init.lua" to="assets/func.lua"/>
+ <dependency from="assets/init.lua" to="assets/wrdbs.lua"/>
+</project>

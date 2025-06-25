@@ -1,0 +1,8 @@
+<library>
+ <properties forceSquare="1" removeAlphaBorder="1" alphaThreshold="0" extrude="0" showUnusedAreas="1" padding="1"/>
+ <file file="../../_originalArt/elements/worldUnlocked.png"/>
+ <file file="../../_originalArt/elements/worldLocked.png"/>
+ <file file="../../_originalArt/elements/right.png"/>
+ <file file="../../_originalArt/elements/left.png"/>
+ <file file="../../_originalArt/originalsBackgrounds/packselectBackground.png"/>
+</library>

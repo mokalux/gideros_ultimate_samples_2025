@@ -1,0 +1,1 @@
+homeBackground.png, 1, 1, 960, 640, 0, 0, 0, 0

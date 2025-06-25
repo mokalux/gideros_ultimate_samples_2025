@@ -1,0 +1,11 @@
+<library>
+ <properties padding="1" extrude="0" showUnusedAreas="0" removeAlphaBorder="1" alphaThreshold="0" forceSquare="1"/>
+ <file file="ship4_damaged.png"/>
+ <file file="ship3_damaged.png"/>
+ <file file="ship2_damaged.png"/>
+ <file file="ship1_damaged.png"/>
+ <file file="ship4.png"/>
+ <file file="ship3.png"/>
+ <file file="ship2.png"/>
+ <file file="ship1.png"/>
+</library>

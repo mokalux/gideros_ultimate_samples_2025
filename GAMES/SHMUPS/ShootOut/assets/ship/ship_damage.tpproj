@@ -1,0 +1,13 @@
+<library>
+ <properties padding="1" extrude="0" alphaThreshold="0" forceSquare="0" removeAlphaBorder="0" showUnusedAreas="0"/>
+ <file file="../damage_09.png"/>
+ <file file="../damage_08.png"/>
+ <file file="../damage_07.png"/>
+ <file file="../damage_06.png"/>
+ <file file="../damage_05.png"/>
+ <file file="../damage_04.png"/>
+ <file file="../damage_03.png"/>
+ <file file="../damage_02.png"/>
+ <file file="../damage_01.png"/>
+ <file file="../damage_00.png"/>
+</library>

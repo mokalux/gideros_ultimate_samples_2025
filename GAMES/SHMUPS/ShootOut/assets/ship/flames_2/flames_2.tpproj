@@ -1,0 +1,7 @@
+<library>
+ <properties padding="1" extrude="0" alphaThreshold="0" showUnusedAreas="0" forceSquare="0" removeAlphaBorder="0"/>
+ <file file="../flame_2_4.png"/>
+ <file file="../flame_2_3.png"/>
+ <file file="../flame_2_2.png"/>
+ <file file="../flame_2_1.png"/>
+</library>

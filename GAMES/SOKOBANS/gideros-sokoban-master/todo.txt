@@ -1,0 +1,11 @@
+Todo: 
+[OK]	Load next level when finish
+[OK]	Move through holed-box
+[OK]	Game finish screen (with Next level and Reset level button)
+- 		Game menu
+- 		Level select
+- 		Save game data
+[OK]	Map navigation (2 touch to move, double tap to reset)
+-		Character animation
+-		Background
+- 		Improve graphics

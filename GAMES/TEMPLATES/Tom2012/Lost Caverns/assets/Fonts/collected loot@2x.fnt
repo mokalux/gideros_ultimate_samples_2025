@@ -1,0 +1,15 @@
+info face="Lithos Pro" size=35 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=0,0
+common lineHeight=42 base=33 scaleW=128 scaleH=128 pages=1 packed=0
+page id=0 file="collected loot-hd.png"
+chars count=11
+char id=32 x=56 y=78 width=0 height=0 xoffset=0 yoffset=16 xadvance=18 page=0 chnl=0
+char id=48 x=86 y=40 width=32 height=34 xoffset=2 yoffset=-9 xadvance=32 page=0 chnl=0
+char id=49 x=30 y=78 width=20 height=36 xoffset=6 yoffset=-10 xadvance=32 page=0 chnl=0
+char id=50 x=56 y=40 width=28 height=36 xoffset=3 yoffset=-10 xadvance=32 page=0 chnl=0
+char id=51 x=30 y=40 width=24 height=36 xoffset=5 yoffset=-10 xadvance=32 page=0 chnl=0
+char id=52 x=84 y=2 width=30 height=36 xoffset=3 yoffset=-10 xadvance=32 page=0 chnl=0
+char id=53 x=58 y=2 width=24 height=36 xoffset=6 yoffset=-10 xadvance=32 page=0 chnl=0
+char id=54 x=30 y=2 width=26 height=36 xoffset=5 yoffset=-10 xadvance=32 page=0 chnl=0
+char id=55 x=2 y=78 width=26 height=36 xoffset=5 yoffset=-10 xadvance=32 page=0 chnl=0
+char id=56 x=2 y=40 width=26 height=36 xoffset=5 yoffset=-10 xadvance=32 page=0 chnl=0
+char id=57 x=2 y=2 width=26 height=36 xoffset=5 yoffset=-10 xadvance=32 page=0 chnl=0

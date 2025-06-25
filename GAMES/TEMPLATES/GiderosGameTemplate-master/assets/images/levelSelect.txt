@@ -1,0 +1,4 @@
+levelSelectBackground.png, 1, 1, 960, 640, 0, 0, 0, 0
+levelLock.png, 1, 643, 104, 93, 0, 0, 0, 0
+levelUnlock.png, 1, 738, 104, 93, 0, 0, 0, 0
+left.png, 1, 833, 64, 128, 0, 0, 0, 0

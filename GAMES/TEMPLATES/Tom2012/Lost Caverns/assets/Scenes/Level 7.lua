@@ -1,0 +1,552 @@
+level7 = Core.class(Sprite)
+
+function level7:init()
+
+	if(not(levelTitles[levelNum])) then
+		print("WARNING: NO LEVEL TITLE - ADD IN main.lua")
+	
+	end
+	
+	if(enableTitleScreen) then
+	
+		local loadingScreen = Sprite.new() -- make layer to move medals behind stone
+		stage:addChild(loadingScreen)
+		self.loadingScreen = loadingScreen
+		
+		local img = Bitmap.new(Texture.new("gfx/level title bg.png", true))
+		loadingScreen:addChild(img)
+		
+		fadeFromBlack()
+		
+		local fonts = Fonts.new(self)
+		self:addChild(fonts)
+		
+		local signText = BMTextField.new(self.levelTitleFont, levelTitles[levelNum], 0, "center")
+		signText:setScale(self.scalex, self.scaley)
+		loadingScreen:addChild(signText)
+		self.signText = signText
+		
+		self.signText:setPosition(application:getContentWidth()/2,application:getContentHeight()/2-15)
+		
+		local loading = BMTextField.new(self.loadingFont, "Loading...", 0, "center")
+		loading:setScale(self.scalex, self.scaley)
+		loading:setPosition(application:getContentWidth()/2,signText:getY()+50)
+		loadingScreen:addChild(loading)
+
+		loadingScreen:setScale(aspectRatioX, aspectRatioY)
+		loadingScreen:setPosition(xOffset,yOffset)
+		Timer.delayedCall(500, self.setup, self)
+		
+	else
+	
+		--self:setup()
+		
+	end
+	
+	self:addEventListener("onPause", self.onPause, self)
+	self:addEventListener("onResume", self.onResume, self)
+	self:addEventListener("onExit", self.onExit, self)
+
+end
+
+
+function level7:fadeTheme()
+
+	channel:setVolume(channel:getVolume()-.01)
+	if(channel:getVolume()<0) then
+		channel:setPaused(true)
+		self:removeEventListener(Event.ENTER_FRAME, self.fadeTheme, self)
+		self:playLevelMusic()
+	end
+	
+end
+
+function level7:setup()
+	
+	-- Test mode (Show physics bodies) 
+	-- Note - hero wont be on correct layer...
+
+	--self.showBodies = true
+	self.showImages = true
+	--self.showImageCount = true -- keep around 150
+	--self.showLootCollected = true	-- Show loot as we collect it
+
+	-- Hide controls
+	--self.hideControls = true
+	
+	-- Load volume setting
+	
+	local file = io.open("|D|saveGame.json", "r" )
+	if(file) then
+
+		self.saveGame = dataSaver.load("|D|saveGame") -- load it
+		io.close( file )
+		
+		if(self.saveGame.soundVol) then
+		
+		self.soundVol = self.saveGame.soundVol
+		self.musicVol = self.saveGame.musicVol
+		
+		else
+		
+			self.soundVol = defaultSoundVol
+			self.musicVol = defaultMusicVol
+		
+		end
+		
+	else
+
+		self.soundVol = defaultSoundVol
+		self.musicVol = defaultMusicVol
+		
+	end
+
+	-- Require things for this level
+
+	require("Classes/CatFlap")
+	--require("Classes/Masher Left Right")
+	--require("Classes/Masher Up Down")
+	--require("Classes/Rounder Monster")
+	--require("Classes/Spinner")
+	--require("Classes/Acid Fish")
+	require("Classes/Ball")
+	require("Classes/BallParticles")
+	--require("Classes/BallPressurePlate")
+	require("Classes/BallSpawner")
+	require("Classes/Bullet")
+	require("Classes/CarryBug")
+	--require("Classes/DownSpike")
+	--require("Classes/DragBlock")
+	--require("Classes/DragBlockDoor") 
+	--require("Classes/DragBlockButton")
+	require("Classes/Drop Door") -- for chamber
+	--require("Classes/EyeMiniGame")
+	require("Classes/FlyingWraith")
+	--require("Classes/FollowBug")
+	require("Classes/Green Bug")
+	--require("Classes/PluckEye")
+	require("Classes/Pot")
+	require("Classes/Pot Smash")
+	--require("Classes/Saw")
+	require("Classes/ShyWorm")
+	require("Classes/ShyWormBush")
+	require("Classes/Spike")
+	require("Classes/Spinner")
+	require("Classes/ThinSpike")
+	--require("Classes/Thwomper")
+	--require("Classes/TongueDoor")
+	--require("Classes/TreasureMite")
+	require("Classes/Turret")
+	require("Classes/TurretParticles")
+	require("Classes/Trap1")
+	require("Classes/VolumeByDistance")
+	--require("Classes/WalkingChest")
+	--require("Classes/WalkingChestParticles")
+	require("Classes/WormWraith")
+
+	-- Bring in atlases
+	
+	unloadAtlas(12)
+	
+	loadAtlas(13,"Atlas 13")
+	loadAtlas("Mud Tileset", "Mud Tileset")
+
+	self.atlas = {}
+	self.atlas[2] = atlasHolder[2]
+	self.atlas[13] = atlasHolder[13]
+	self.atlas['Mud Tileset'] = atlasHolder['Mud Tileset']
+	
+	self:addEventListener(Event.ENTER_FRAME, self.fadeTheme, self)
+
+
+	-- Set the scenery shape texture
+
+	self.shapeTexture = Texture.new("Shape Textures/mud1.png", true, {wrap = Texture.REPEAT})
+
+	-- Create anim loaders
+
+	local animLoader = CTNTAnimatorLoader.new()
+	animLoader:loadAnimations("Animations/Atlas 2 Animations.tan", self.atlas[2], true)
+	self.atlas2AnimLoader = animLoader
+
+	--self:removeChild(loading)
+	--loading = nil;
+	--self:removeEventListener(Event.ENTER_FRAME, preloader)
+
+
+	--------------------------------------------------------------
+	-- Setup - different for each level
+	--------------------------------------------------------------
+
+	self.showHitBoxes = true -- show non box 2d hit boxes
+
+	self.levelNumber = 7
+	self.worldNumber = 1
+
+	-- Set up targets for this level
+
+	self.lootBronzeTarget = 1000
+
+	self.lootSilverTarget = 1400
+
+	self.lootGoldTarget = 1900
+
+	self.coinValue = 10
+
+	self.minutesLeft = 4
+	self.secondsLeft = 0
+
+
+	-- World width and height (get from Rube - 1 square = 100 pixels
+	self.worldWidth = 3500
+	self.worldHeight = 3500
+
+	self.levelData = "Level Data/Level 7 Data.lua"
+
+	--------------------------------------------------------------
+	-- Setup - don't need to edit
+	--------------------------------------------------------------
+
+	self.coins = {} -- this table stores the coins
+
+	self.pauseResumeExitSprites = {}
+	local spritesOnScreen = {}
+	self.spritesWithVolume = {}
+	self.spritesOnScreen = spritesOnScreen
+
+	self.loot = 0 -- loot collected this level
+	self.clawObjects = {} -- this table will store all objects that the claw can pick up
+	self.clawLoot = {}
+	self.crystals = {}
+	self.pots = {}
+	self.enemies = {} -- used to pause enemy anim
+	self.medal = 0 
+	self.particleEmitters = {} -- stores particle emitters, used for pausing
+	self.doors = {} -- Holds doors opened by keys
+	self.dropDoors = {} -- stores doors that fall down
+	self.thinSpikes = {}
+	self.shyWorms = {}
+	self.shyWormBushes = {}
+	self.dragBlocks = {} -- table that holds dragable blocks
+	
+	self.sprites = {} -- sets sprites not visible if off screen
+	local class = SpritesOffScreen.new(self)
+	self:addChild(class)
+	
+	-- Set up volume class (fades FX based on distance)
+	
+	local class = VolumeByDistance.new(self)
+	self.volumeByDistance = class
+	self:addChild(class)
+
+	--------------------------------------------------------------
+	-- Layers
+	--------------------------------------------------------------
+
+	-- bg layers
+
+	local layer = Sprite.new()
+	self:addChild(layer)
+	self.bgLayer = layer
+
+	local layer = Sprite.new()
+	self:addChild(layer)
+	self.fgLayer = layer
+
+	-- Very back layer
+
+	local layer0 = Sprite.new()
+	self:addChild(layer0)
+	self.layer0 = layer0
+
+	-- Behind rube layer
+
+	local behindRube = Sprite.new()
+	self:addChild(behindRube)
+	self.behindRube = behindRube
+
+	-- Enemies
+
+	local enemyLayer = Sprite.new()
+	self:addChild(enemyLayer)
+	self.enemyLayer = enemyLayer
+
+	-- Rube images behind hero
+	local rube1 = Sprite.new()
+	self:addChild(rube1)
+	self.rube1 = rube1
+
+	-- Collectibles
+
+	local collectibles = Sprite.new()
+	self:addChild(collectibles)
+	self.collectibles = collectibles
+
+	-- Physics layer
+	if(not(self.showBodies))then
+		self.physicsLayer = Sprite.new()
+		self:addChild(self.physicsLayer)
+	end
+
+	-- Rube images in front of hero
+	local rube2 = Sprite.new()
+	self:addChild(rube2)
+	self.rube2 = rube2
+
+	local clawLayer = Sprite.new()
+	self:addChild(clawLayer)
+	self.clawLayer = clawLayer
+
+	local sprite = Sprite.new()
+	self:addChild(sprite)
+	self.outOfTimeBlackLayer = sprite
+	
+	local frontLayer = Sprite.new()
+	self:addChild(frontLayer)
+	self.frontLayer = frontLayer
+
+	-- Interface layer
+
+	local interfaceLayer = Sprite.new()
+	self:addChild(interfaceLayer)
+	self.interfaceLayer = interfaceLayer
+
+	-- Text Layer
+
+	local textLayer = Sprite.new()
+	self:addChild(textLayer)
+	self.textLayer = textLayer
+
+	-- Layer for the black overlay
+
+	local blackLayer = Sprite.new()
+	self:addChild(blackLayer)
+	self.blackLayer = blackLayer
+
+	-- This layer stays on top and does not scrolling
+	-- Used for interface stuff like signs and target achieved text
+
+	local topLayer = Sprite.new()
+	self:addChild(topLayer)
+	self.topLayer = topLayer
+
+	-- Physics layer
+	if(self.showBodies)then
+		self.physicsLayer = Sprite.new()
+		self:addChild(self.physicsLayer)
+	end
+
+	--------------------------------------------------------------
+	-- Set up background
+	--------------------------------------------------------------
+
+	local bg = Background.new(self,"Backgrounds/bg7 background.png",self.worldWidth,self.worldHeight,"Backgrounds/bg7 foreground.png",self.worldWidth,self.worldHeight)
+
+	--------------------------------------------------------------
+	-- Physics
+	--------------------------------------------------------------
+
+
+	local b2World = Box2d.new(self)
+	self.b2World = b2World
+	self.physicsLayer:addChild(b2World) -- Add physics to screen
+		
+	-- Debug mode
+
+	--set up debug drawing
+	if(self.showBodies) then
+		local debugDraw = b2.DebugDraw.new()
+		self.world:setDebugDraw(debugDraw)
+		self.physicsLayer:addChild(debugDraw)
+	end
+
+	--------------------------------------------------------------
+	-- Fonts
+	--------------------------------------------------------------
+
+	local fonts = Fonts.new(self)
+	self:addChild(fonts)
+
+	--------------------------------------------------------------
+	-- Rube Level Data
+	--------------------------------------------------------------
+
+	local rube = Rube.new(self,self.levelData)
+
+	--------------------------------------------------------------
+	-- Claw Particles
+	--------------------------------------------------------------
+
+
+	self.clawParticles = ClawParticles.new(self)
+
+
+
+
+
+
+
+
+	--------------------------------------------------------------
+	-- Interface
+	--------------------------------------------------------------
+
+	local interface = Interface.new(self)
+	self.interface = interface
+	self.interfaceLayer:addChild(interface)
+
+
+	--------------------------------------------------------------
+	-- Class that controls player movement and scrolling
+	--------------------------------------------------------------
+
+
+
+	local playerMovement = PlayerMovement.new(self)
+	self:addChild(playerMovement)
+	self.playerMovement = playerMovement
+
+	-- Hero animation manager
+
+	local heroAnimation = HeroAnimation.new(self)
+	self.heroAnimation = heroAnimation
+	heroAnimation:updateAnimation()
+
+
+
+	--------------------------------------------------------------
+	-- Set up camera
+	--------------------------------------------------------------
+
+	local camera = Camera.new(self)
+	self:addChild(camera)
+	self.camera = camera
+
+	fadeFromBlack()
+
+	
+	collectgarbage()
+	
+	if(enableTitleScreen) then
+		local tween = GTween.new(self.loadingScreen, .5, {alpha=0})
+		Timer.delayedCall(500, function() stage:removeChild(self.loadingScreen) end)
+	end
+	
+end
+
+
+
+function level7:playLevelMusic()
+
+	--------------------------------------------------------------
+	-- Setup music
+	--------------------------------------------------------------
+
+	if(playMusic) then
+		levelMusicPlaying = true -- set global variable
+		local myMusic = Sound.new("Music/land-magical-fairy-tales.mp3")
+		channel = myMusic:play(0, math.huge)
+		channel:setVolume(.3*self.musicVol)
+		currentTrack = nil
+	end
+
+end
+
+
+
+
+function level7:onPause()
+
+	print("************ LEVEL 7 Pause ************")
+
+	for i,v in pairs(self.pauseResumeExitSprites) do
+	
+		v:pause()
+	
+	end
+
+end
+
+
+
+
+function level7:onResume()
+
+	print("************ LEVEL 7  ************")
+
+	for i,v in pairs(self.pauseResumeExitSprites) do
+	
+		v:resume()
+	
+	end
+
+end
+
+
+
+
+function level7:onExit()
+
+	print("************ LEVEL 7 EXIT ************")
+	
+	unrequire("Classes/CatFlap")
+	unrequire("Classes/Ball")
+	unrequire("Classes/BallParticles")
+	unrequire("Classes/BallSpawner")
+	unrequire("Classes/Bullet")
+	unrequire("Classes/CarryBug")
+	unrequire("Classes/Drop Door") -- for chamber
+	unrequire("Classes/FlyingWraith")
+	unrequire("Classes/Green Bug")
+	unrequire("Classes/Pot")
+	unrequire("Classes/Pot Smash")
+	unrequire("Classes/ShyWorm")
+	unrequire("Classes/ShyWormBush")
+	unrequire("Classes/Spike")
+	unrequire("Classes/Spinner")
+	unrequire("Classes/ThinSpike")
+	unrequire("Classes/Turret")
+	unrequire("Classes/TurretParticles")
+	unrequire("Classes/Trap1")
+	unrequire("Classes/VolumeByDistance")
+	unrequire("Classes/WormWraith")
+	
+	CatFlap = nil
+	Ball = nil
+	BallParticles = nil
+	BallSpawner = nil
+	Bullet = nil
+	CarryBug = nil
+	DropDoor = nil
+	FlyingWraith = nil
+	GreenBug = nil
+	Pot = nil
+	PotSmash = nil
+	ShyWorm = nil
+	ShyWormBush = nil
+	Spike = nil
+	Spinner = nil
+	ThinSpike = nil
+	Turret = nil
+	TurretParticles = nil
+	Trap1 = nil
+	VolumeByDistance = nil
+	WormWraith = nil
+	
+	for i,v in pairs(self.pauseResumeExitSprites) do
+	
+		v:exit()
+	
+	end
+
+	-- unload anything that was required here
+
+	self:removeEventListener("onPause", self.onPause, self)
+	self:removeEventListener("onResume", self.onResume, self)
+	self:removeEventListener("onExit", self.onExit, self)
+
+	collectgarbage()
+	collectgarbage()
+	collectgarbage()
+
+end

@@ -1,0 +1,5 @@
+application:setLogicalDimensions(1080, 2160)
+application:setScaleMode(Application.LETTERBOX)
+application:setFps(60)
+application:setOrientation(Application.PORTRAIT)
+application:setBackgroundColor(0xffffff)

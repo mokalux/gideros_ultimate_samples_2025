@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="320" logicalHeight="480" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="1" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/background.lua"/>
+    <file name="assets/button.lua"/>
+    <file name="assets/button_simple.lua"/>
+    <file name="assets/devil.lua"/>
+    <file name="assets/easing.lua"/>
+    <file name="assets/game_over_scene.lua"/>
+    <file name="assets/init.lua"/>
+    <file name="assets/items.lua"/>
+    <file name="assets/level_scene.lua"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/menu_scene.lua"/>
+    <file name="assets/moon.lua"/>
+    <file name="assets/pentagram.lua"/>
+    <file name="assets/rain.lua"/>
+    <file name="assets/scene_manager.lua"/>
+    <file name="assets/score.lua"/>
+    <file name="assets/settings_scene.lua"/>
+    <file name="assets/win_scene.lua"/>
+    <folder name="assets">
+        <folder name="sounds">
+            <file name="assets/assets/sounds/gametune.mp3"/>
+        </folder>
+        <folder name="images">
+            <file name="assets/assets/images/background.png"/>
+            <file name="assets/assets/images/bg_game_over_scene.png"/>
+            <file name="assets/assets/images/bg_menu_scene.png"/>
+            <file name="assets/assets/images/bg_settings_scene.png"/>
+            <file name="assets/assets/images/bg_win_scene.png"/>
+            <file name="assets/assets/images/devil.png"/>
+            <file name="assets/assets/images/github-icon.png"/>
+            <file name="assets/assets/images/item1.png"/>
+            <file name="assets/assets/images/item2.png"/>
+            <file name="assets/assets/images/menu_button_start.png"/>
+            <file name="assets/assets/images/moon.png"/>
+            <file name="assets/assets/images/pentagram.png"/>
+            <file name="assets/assets/images/pentagram2.png"/>
+            <file name="assets/assets/images/rain.png"/>
+            <file name="assets/assets/images/retry_button.png"/>
+            <file name="assets/assets/images/settings_button.png"/>
+            <file name="assets/assets/images/sound_off.png"/>
+            <file name="assets/assets/images/sound_on.png"/>
+        </folder>
+        <folder name="fonts">
+            <file name="assets/assets/fonts/pixelart.ttf"/>
+        </folder>
+    </folder>
+</project>

@@ -1,0 +1,7 @@
+<library>
+ <properties extrude="0" alphaThreshold="0" padding="1" forceSquare="0" removeAlphaBorder="0" showUnusedAreas="0"/>
+ <file file="../../_originalArt/elements/left.png"/>
+ <file file="../../_originalArt/elements/levelUnlock.png"/>
+ <file file="../../_originalArt/elements/levelLock.png"/>
+ <file file="../../_originalArt/originalsBackgrounds/levelSelectBackground.png"/>
+</library>

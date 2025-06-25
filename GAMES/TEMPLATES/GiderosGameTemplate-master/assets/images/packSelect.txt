@@ -1,0 +1,5 @@
+packselectBackground.png, 1, 1, 960, 640, 0, 0, 0, 0
+left.png, 963, 1, 64, 128, 0, 0, 0, 0
+right.png, 1029, 1, 64, 128, 0, 0, 0, 0
+worldLocked.png, 1095, 1, 411, 411, 0, 0, 0, 0
+worldUnlocked.png, 1508, 1, 411, 411, 0, 0, 0, 0

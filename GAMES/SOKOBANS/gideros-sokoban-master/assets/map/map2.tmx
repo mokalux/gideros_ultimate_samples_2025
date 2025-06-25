@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="60" tileheight="60">
+ <properties>
+  <property name="next_level" value="map2"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="60" tileheight="60">
+  <image source="tilemap.png" trans="ff0000" width="240" height="61"/>
+ </tileset>
+ <layer name="wall" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEKwCAMBEAL/v/NRYogEh+wdQa8eMoSE1v7PMVJcqo7MUc/3Cep+pH4rqY9R6q1B6mzPqXP+vCHnTVUNafmSP8LAQAAAAAAAOB2L70vACk=
+  </data>
+ </layer>
+ <layer name="hole" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt08EJAAAIAzHB/Xd2At9KSSa4R1uVq68DiGJPsPMPAAAAAAAAAOCDAWezAAo=
+  </data>
+ </layer>
+ <layer name="box" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz8EJAAAIxLDD/Yd2BR+CIMkEbfJTXQcs8QEAAAAAAAAAADDTB78ABw==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,25 @@
+<library>
+ <properties padding="1" removeAlphaBorder="1" showUnusedAreas="1" forceSquare="0" extrude="0" alphaThreshold="0"/>
+ <file file="../../_originalArt/elements/pauseDraw.png"/>
+ <file file="../../_originalArt/textsPng/es/back.png"/>
+ <file file="../../_originalArt/textsPng/es/points.png"/>
+ <file file="../../_originalArt/textsPng/es/scores.png"/>
+ <file file="../../_originalArt/textsPng/es/restart.png"/>
+ <file file="../../_originalArt/textsPng/es/options.png"/>
+ <file file="../../_originalArt/textsPng/es/paused.png"/>
+ <file file="../../_originalArt/textsPng/es/credits.png"/>
+ <file file="../../_originalArt/textsPng/es/stageSelect.png"/>
+ <file file="../../_originalArt/textsPng/es/levelSelect.png"/>
+ <file file="../../_originalArt/textsPng/es/player.png"/>
+ <file file="../../_originalArt/textsPng/es/no.png"/>
+ <file file="../../_originalArt/textsPng/es/play.png"/>
+ <file file="../../_originalArt/textsPng/es/continue.png"/>
+ <file file="../../_originalArt/textsPng/es/exit.png"/>
+ <file file="../../_originalArt/textsPng/es/youLose.png"/>
+ <file file="../../_originalArt/textsPng/es/music.png"/>
+ <file file="../../_originalArt/textsPng/es/language.png"/>
+ <file file="../../_originalArt/textsPng/es/yes.png"/>
+ <file file="../../_originalArt/textsPng/es/youWin.png"/>
+ <file file="../../_originalArt/textsPng/es/gameName.png"/>
+ <file file="../../_originalArt/textsPng/es/sounds.png"/>
+</library>

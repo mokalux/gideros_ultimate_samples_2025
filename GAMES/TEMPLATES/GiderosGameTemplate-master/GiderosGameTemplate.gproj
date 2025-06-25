@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="2" logicalWidth="640" logicalHeight="960" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/main.lua"/>
+    <file name="assets/packs.json"/>
+    <folder name="sounds">
+        <folder name="sfx">
+            <file source="sounds/sfx/complete.mp3"/>
+            <file name="assets/sounds/sfx/complete.mp3"/>
+            <file source="sounds/sfx/hit.wav"/>
+            <file name="assets/sounds/sfx/hit.wav"/>
+        </folder>
+        <folder name="music">
+            <file source="sounds/music/main.mp3"/>
+            <file name="assets/sounds/music/main.mp3"/>
+        </folder>
+    </folder>
+    <folder name="scenes">
+        <file name="assets/scenes/sceneCredits.lua"/>
+        <file name="assets/scenes/sceneHome.lua"/>
+        <file name="assets/scenes/sceneLevelLoader.lua"/>
+        <file name="assets/scenes/sceneLevelSelect.lua"/>
+        <file name="assets/scenes/sceneOptions.lua"/>
+        <file name="assets/scenes/scenePackSelect.lua"/>
+        <file name="assets/scenes/sceneScore.lua"/>
+        <file name="assets/scenes/sceneSocial.lua"/>
+        <file name="assets/scenes/sceneStore.lua"/>
+    </folder>
+    <folder name="images">
+        <file name="assets/images/en_buttons.png"/>
+        <file name="assets/images/en_buttons.txt"/>
+        <file name="assets/images/es_buttons.png"/>
+        <file name="assets/images/es_buttons.txt"/>
+        <file name="assets/images/home.png"/>
+        <file name="assets/images/home.txt"/>
+        <file name="assets/images/levelSelect.png"/>
+        <file name="assets/images/levelSelect.txt"/>
+        <file name="assets/images/levelcommons.png"/>
+        <file name="assets/images/levelcommons.txt"/>
+        <file name="assets/images/packSelect.png"/>
+        <file name="assets/images/packSelect.txt"/>
+    </folder>
+    <folder name="classes">
+        <file name="assets/classes/Ace.Slide.lua"/>
+        <file name="assets/classes/Share.lua"/>
+        <file name="assets/classes/TextWrap.lua"/>
+        <file name="assets/classes/button.lua"/>
+        <file name="assets/classes/cameraDrag.lua"/>
+        <file name="assets/classes/commonFunctions.lua"/>
+        <file name="assets/classes/dataSaver.lua"/>
+        <file name="assets/classes/easing.lua"/>
+        <file name="assets/classes/graphicConf.lua"/>
+        <file name="assets/classes/gtween.lua"/>
+        <file name="assets/classes/json.lua"/>
+        <file name="assets/classes/lib.lua"/>
+        <file name="assets/classes/monitorMemoryUtility.lua"/>
+        <file name="assets/classes/progressbar.lua"/>
+        <file name="assets/classes/scenemanager.lua"/>
+        <file name="assets/classes/try-catch.lua"/>
+    </folder>
+</project>

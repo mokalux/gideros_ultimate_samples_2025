@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="5" logicalWidth="320" logicalHeight="480" windowWidth="0" windowHeight="0" autorotation="3" orientation="0" fps="30" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="2" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="1" encryptAssets="1" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="ShootOut" splashScaleMode="0">
+        <imageScales/>
+        <plugins>
+            <plugin name="Bitop" enabled="1"/>
+            <plugin name="Require" enabled="0"/>
+        </plugins>
+        <exports>
+            <export name="APK">
+                <property name="androidPath" value="C:/Program Files (x86)/Android/android-sdk"/>
+                <property name="androidSdk" value=""/>
+                <property name="androidTarget" value="23"/>
+                <property name="androidTools" value=""/>
+                <property name="buildApk" value="1"/>
+                <property name="deployApk" value="0"/>
+                <property name="javaPath" value="C:/Program Files/Java/jdk1.8.0_162"/>
+                <property name="keyAlias" value="shootout"/>
+                <property name="keyStore" value="C:/Users/pczao/Desktop/shootout.keystore"/>
+                <property name="packageName" value="app.paulo.game"/>
+            </export>
+        </exports>
+    </properties>
+    <file name="assets/SoundFader.lua"/>
+    <file name="assets/damage.lua"/>
+    <file name="assets/enemy_1.lua"/>
+    <file name="assets/fire.lua"/>
+    <file name="assets/game_management.lua"/>
+    <file name="assets/items.lua"/>
+    <file name="assets/logo.png"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/ship.lua"/>
+    <file name="assets/ship_shoot.lua"/>
+    <file name="assets/sound_efx.lua"/>
+    <folder name="sound">
+        <folder name="soundtrack">
+            <file source="sound/soundtrack/song1.mp3"/>
+            <file source="sound/soundtrack/song2.mp3"/>
+        </folder>
+        <folder name="sound_efx">
+            <file name="assets/sound/sound_efx/explosion.wav"/>
+            <file name="assets/sound/sound_efx/explosion1.wav"/>
+            <file name="assets/sound/sound_efx/explosion2.wav"/>
+            <file name="assets/sound/sound_efx/fly_off.wav"/>
+            <file name="assets/sound/sound_efx/heart_gain.wav"/>
+            <file name="assets/sound/sound_efx/hurt.wav"/>
+            <file name="assets/sound/sound_efx/impact.wav"/>
+            <file name="assets/sound/sound_efx/impact2.wav"/>
+            <file name="assets/sound/sound_efx/powerup.wav"/>
+        </folder>
+    </folder>
+    <folder name="ship">
+        <file name="assets/ship/damage_00.png"/>
+        <file name="assets/ship/damage_01.png"/>
+        <file name="assets/ship/damage_02.png"/>
+        <file name="assets/ship/damage_03.png"/>
+        <file name="assets/ship/damage_04.png"/>
+        <file name="assets/ship/damage_05.png"/>
+        <file name="assets/ship/damage_06.png"/>
+        <file name="assets/ship/damage_07.png"/>
+        <file name="assets/ship/damage_08.png"/>
+        <file name="assets/ship/damage_09.png"/>
+        <file name="assets/ship/energy_1.png"/>
+        <file name="assets/ship/energy_2.png"/>
+        <file name="assets/ship/energy_3.png"/>
+        <file name="assets/ship/energy_4.png"/>
+        <file name="assets/ship/fire_power_1.png"/>
+        <file name="assets/ship/fire_power_2.png"/>
+        <file name="assets/ship/fire_power_3.png"/>
+        <file name="assets/ship/fire_power_4.png"/>
+        <file name="assets/ship/flame1.png"/>
+        <file name="assets/ship/flame2.png"/>
+        <file name="assets/ship/flame3.png"/>
+        <file name="assets/ship/flame4.png"/>
+        <file name="assets/ship/flame_2_1.png"/>
+        <file name="assets/ship/flame_2_2.png"/>
+        <file name="assets/ship/flame_2_3.png"/>
+        <file name="assets/ship/flame_2_4.png"/>
+        <file name="assets/ship/flames_2.png"/>
+        <file name="assets/ship/health_1.png"/>
+        <file name="assets/ship/health_2.png"/>
+        <file name="assets/ship/health_3.png"/>
+        <file name="assets/ship/health_4.png"/>
+        <file name="assets/ship/ship.png"/>
+        <file name="assets/ship/ship.tpproj"/>
+        <file name="assets/ship/ship1.png"/>
+        <file name="assets/ship/ship1_damaged.png"/>
+        <file name="assets/ship/ship2.png"/>
+        <file name="assets/ship/ship2_damaged.png"/>
+        <file name="assets/ship/ship3.png"/>
+        <file name="assets/ship/ship3_damaged.png"/>
+        <file name="assets/ship/ship4.png"/>
+        <file name="assets/ship/ship4_damaged.png"/>
+        <file name="assets/ship/ship_damage.tpproj"/>
+        <file name="assets/ship/ship_flames.png"/>
+        <file name="assets/ship/ship_flames.tpproj"/>
+        <file name="assets/ship/ship_flames.txt"/>
+        <folder name="ship_items">
+            <file name="assets/ship/ship_items/ship_items.tpproj"/>
+        </folder>
+        <folder name="flames_2">
+            <file name="assets/ship/flames_2/flames_2.tpproj"/>
+        </folder>
+    </folder>
+    <folder name="objects">
+        <folder name="ship">
+            <file name="assets/objects/ship/fire_1.png"/>
+            <file name="assets/objects/ship/fire_2.png"/>
+            <file name="assets/objects/ship/ship_damage.png"/>
+            <file name="assets/objects/ship/ship_damage.txt"/>
+            <file name="assets/objects/ship/ship_texture.png"/>
+            <file name="assets/objects/ship/ship_texture.txt"/>
+        </folder>
+        <folder name="items">
+            <file name="assets/objects/items/shield.png"/>
+            <file name="assets/objects/items/ship_items.png"/>
+            <file name="assets/objects/items/ship_items.txt"/>
+        </folder>
+    </folder>
+    <folder name="game_management">
+        <file name="assets/game_management/game_over.lua"/>
+        <file name="assets/game_management/intro.lua"/>
+        <folder name="intro_objects">
+            <file name="assets/game_management/intro_objects/game_logo.png"/>
+        </folder>
+        <folder name="buttons">
+            <file name="assets/game_management/buttons/button.lua"/>
+            <file name="assets/game_management/buttons/buttons.png"/>
+            <file name="assets/game_management/buttons/buttons.txt"/>
+        </folder>
+    </folder>
+    <folder name="font">
+        <file name="assets/font/UQ_0.ttf"/>
+    </folder>
+    <folder name="enemies">
+        <file name="assets/enemies/Gear.tpproj"/>
+        <file name="assets/enemies/boss_1.lua"/>
+        <file name="assets/enemies/boss_2.lua"/>
+        <file name="assets/enemies/enemy_fire.png"/>
+        <file name="assets/enemies/gear_2.png"/>
+        <file name="assets/enemies/gear_3.png"/>
+        <file name="assets/enemies/gear_4.png"/>
+        <folder name="gear">
+            <file name="assets/enemies/gear/Gear.png"/>
+            <file name="assets/enemies/gear/Gear.txt"/>
+            <file name="assets/enemies/gear/gear.lua"/>
+            <file name="assets/enemies/gear/gear_1.png"/>
+        </folder>
+        <folder name="boss_2">
+            <file name="assets/enemies/boss_2/Boss.png"/>
+            <file name="assets/enemies/boss_2/enemy_fire_2.png"/>
+            <file name="assets/enemies/boss_2/flames_2.png"/>
+            <file name="assets/enemies/boss_2/flames_2.txt"/>
+        </folder>
+    </folder>
+    <folder name="buttons">
+        <file name="assets/buttons/buttons.tpproj"/>
+        <file name="assets/buttons/continue_1.PNG"/>
+        <file name="assets/buttons/continue_2.PNG"/>
+        <file name="assets/buttons/play_1.PNG"/>
+        <file name="assets/buttons/play_2.PNG"/>
+        <file name="assets/buttons/try_again_1.PNG"/>
+        <file name="assets/buttons/try_again_2.PNG"/>
+    </folder>
+    <folder name="Levels">
+        <file name="assets/Levels/level_1.lua" excludeFromExecution="1"/>
+        <file name="assets/Levels/level_1_code.lua"/>
+        <file name="assets/Levels/level_2_code.lua"/>
+        <folder name="Objects">
+            <file name="assets/Levels/Objects/clouds21 npc.png"/>
+            <file name="assets/Levels/Objects/grass-tiles-2-small.png"/>
+        </folder>
+    </folder>
+    <folder name="Helper">
+        <file name="assets/Helper/TiledMap.lua"/>
+        <file name="assets/Helper/scenemanager.lua"/>
+    </folder>
+</project>
