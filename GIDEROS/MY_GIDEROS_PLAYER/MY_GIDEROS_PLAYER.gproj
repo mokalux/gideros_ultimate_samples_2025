@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="320" logicalHeight="480" windowWidth="0" windowHeight="0" autorotation="0" orientation="0" fps="60" vsync="1" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="2" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="Gideros Player" splashScaleMode="0">
+        <imageScales/>
+        <plugins>
+            <plugin name="Ads" enabled="1">
+                <property name="adsFwAdmob" value="1"/>
+                <property name="adsFwAdmobBanner" value="ca-app-pub-3940256099942544/6300978111"/>
+                <property name="adsFwAdmobClient" value="ca-app-pub-3940256099942544~3347511713"/>
+                <property name="adsFwAdmobInterstitial" value="ca-app-pub-3940256099942544/1033173712"/>
+                <property name="adsFwApplovin" value="0"/>
+                <property name="adsFwApplovinConsent" value="0"/>
+                <property name="adsFwApplovinKey" value=""/>
+                <property name="adsFwApplovinPrivacy" value=""/>
+                <property name="adsFwApplovinTOS" value=""/>
+                <property name="adsFwChartboost" value="0"/>
+                <property name="adsFwKiip" value="0"/>
+                <property name="adsFwKiipKey" value=""/>
+                <property name="adsFwKiipKeyIos" value=""/>
+                <property name="adsFwUnity" value="0"/>
+                <property name="adsFwVungle" value="0"/>
+                <property name="adsNeedId" value="0"/>
+                <property name="gmsAppId" value="ca-app-pub-3940256099942544~3347511713"/>
+                <property name="gmsVersion" value="22.3.0"/>
+            </plugin>
+            <plugin name="Bump" enabled="1"/>
+            <plugin name="Camera" enabled="1"/>
+            <plugin name="Clipper" enabled="0"/>
+            <plugin name="Controller" enabled="1"/>
+            <plugin name="Countly" enabled="0"/>
+            <plugin name="CuteC2" enabled="1"/>
+            <plugin name="Easing" enabled="1"/>
+            <plugin name="Exampleplugin" enabled="0"/>
+            <plugin name="Facebook" enabled="0"/>
+            <plugin name="FastNoise" enabled="1"/>
+            <plugin name="Firebase" enabled="0"/>
+            <plugin name="Flurry" enabled="1"/>
+            <plugin name="GSFXR" enabled="1"/>
+            <plugin name="Gaming" enabled="1">
+                <property name="gmsAppId" value="ca-app-pub-3940256099942544~3347511713"/>
+                <property name="gmsFwGamekit" value="0"/>
+                <property name="gmsFwGoogle" value="1"/>
+                <property name="gmsVersion" value="20.0.0"/>
+            </plugin>
+            <plugin name="Google Licensing plugin" enabled="0"/>
+            <plugin name="Google Play Services (deprecated)" enabled="0"/>
+            <plugin name="HarfBuzz" enabled="1"/>
+            <plugin name="Iab" enabled="0"/>
+            <plugin name="ImGui" enabled="1"/>
+            <plugin name="JSON" enabled="1"/>
+            <plugin name="LiquidFun" enabled="1"/>
+            <plugin name="Lpeg" enabled="1"/>
+            <plugin name="Lua Socket" enabled="1"/>
+            <plugin name="LuaFileSystem" enabled="1"/>
+            <plugin name="LuaSqlite3" enabled="1"/>
+            <plugin name="Map" enabled="0"/>
+            <plugin name="Media plugin" enabled="1"/>
+            <plugin name="Megacool" enabled="0"/>
+            <plugin name="Microphone" enabled="1"/>
+            <plugin name="Native" enabled="0"/>
+            <plugin name="Ogg" enabled="1"/>
+            <plugin name="ReactPhysics3D" enabled="1"/>
+            <plugin name="Require" enabled="1"/>
+            <plugin name="SceneManager" enabled="1"/>
+            <plugin name="Share" enabled="0"/>
+            <plugin name="Spine" enabled="0"/>
+            <plugin name="Store Detector" enabled="0"/>
+            <plugin name="StoreReview" enabled="0"/>
+            <plugin name="Struct" enabled="0"/>
+            <plugin name="TextToSpeech" enabled="1"/>
+            <plugin name="VirtualPad" enabled="1"/>
+        </plugins>
+        <exports>
+            <export name="APK">
+                <property name="androidPath" value=""/>
+                <property name="androidSdk" value=""/>
+                <property name="androidTarget" value="35"/>
+                <property name="buildAab" value="0"/>
+                <property name="buildApk" value="1"/>
+                <property name="deployApk" value="0"/>
+                <property name="forOculus" value="0"/>
+                <property name="javaPath" value=""/>
+                <property name="keyAlias" value=""/>
+                <property name="keyStore" value=""/>
+                <property name="oculusHT" value="0"/>
+                <property name="oculusHTR" value="0"/>
+                <property name="oculusPT" value="0"/>
+                <property name="oculusPTR" value="0"/>
+                <property name="packageName" value="com.gideros.giderosplayer"/>
+                <property name="timestampApk" value="0"/>
+            </export>
+        </exports>
+    </properties>
+    <file name="assets/main.lua"/>
+</project>
