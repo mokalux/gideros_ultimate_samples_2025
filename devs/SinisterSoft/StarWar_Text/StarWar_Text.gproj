@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties exportMode="0" html5_mem="256" winrt_org="GiderosMobile" logicalWidth="320" winrt_package="com.yourdomain.yourapp" html5_symbols="0" backgroundColor="#ffffff" vsync="0" app_name="" html5_pack="0" html5_fbinstant="0" ios_bundle="com.yourdomain.yourapp-ios" version="1.0" osx_signingId="" macos_category="5" tv_icon="" windowWidth="0" qtexp_domain="giderosmobile.com" osx_category="5" html5_wasm="0" orientation="0" version_code="1" iosDevice="0" splash_v_image="" splashScaleMode="0" windowHeight="0" scaleMode="0" logicalHeight="480" macos_bundle="com.yourdomain.yourapp-macos" retinaDisplay="0" html5_host="" mouseToTouch="1" architecture="0" atv_bundle="com.yourdomain.yourapp-atv" osx_bundle="com.yourdomain." mainluaOnly="0" app_icon="" disableSplash="0" splash_h_image="" touchToMouse="1" qtexp_org="GiderosMobile" build_number="1" html5_crash="" html5_pwa="0" html5_fbload="100" autorotation="0" osx_installerId="" mouseTouchOrder="0" encryptAssets="0" fps="60" encryptCode="0" qtexp_platform="0">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="classes">
+  <file name="assets/classes/TextWrap.lua"/>
+  <file name="assets/classes/starwar_text.lua"/>
+ </folder>
+ <folder name="fonts">
+  <file name="assets/fonts/Kenney Blocks.ttf"/>
+  <file name="assets/fonts/Kenney Bold.ttf"/>
+  <file name="assets/fonts/Kenney Future Narrow.ttf"/>
+  <file name="assets/fonts/Kenney Future Square.ttf"/>
+  <file name="assets/fonts/Kenney Future.ttf"/>
+  <file name="assets/fonts/Kenney High Square.ttf"/>
+  <file name="assets/fonts/Kenney High.ttf"/>
+  <file name="assets/fonts/Kenney Mini Square.ttf"/>
+  <file name="assets/fonts/Kenney Mini.ttf"/>
+  <file name="assets/fonts/Kenney Pixel Square.ttf"/>
+  <file name="assets/fonts/Kenney Pixel.ttf"/>
+  <file name="assets/fonts/Kenney Rocket Square.ttf"/>
+  <file name="assets/fonts/Kenney Rocket.ttf"/>
+  <file name="assets/fonts/Kenney Space.ttf"/>
+  <file name="assets/fonts/Kenney Thick.ttf"/>
+  <file name="assets/fonts/Tahoma.ttf"/>
+  <file name="assets/fonts/arial.ttf"/>
+  <file name="assets/fonts/simhei.ttf"/>
+  <file name="assets/fonts/tiny.regular.ttf"/>
+  <file name="assets/fonts/tiny.ttf"/>
+  <file name="assets/fonts/trado.ttf"/>
+ </folder>
+ <folder name="gfx">
+  <file name="assets/gfx/cat.jpg"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>
