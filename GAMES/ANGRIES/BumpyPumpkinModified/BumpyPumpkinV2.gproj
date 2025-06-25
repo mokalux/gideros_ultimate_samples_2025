@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="320" logicalHeight="480" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/game.lua"/>
+    <file name="assets/gameEnd.lua"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/spring.lua"/>
+    <file name="assets/welcome.lua"/>
+    <folder name="sounds">
+        <file name="assets/sounds/BackGroundSound.mp3"/>
+        <file name="assets/sounds/CorrectSound.mp3"/>
+        <file name="assets/sounds/StartEnd.mp3"/>
+        <file name="assets/sounds/bonusInstruction.mp3"/>
+        <file name="assets/sounds/bonusSound.mp3"/>
+        <file name="assets/sounds/correctLength.mp3"/>
+        <file name="assets/sounds/fallSound.mp3"/>
+        <file name="assets/sounds/greatSound.mp3"/>
+        <file name="assets/sounds/lengthInstruction.mp3"/>
+        <file name="assets/sounds/nextSound.mp3"/>
+        <file name="assets/sounds/okSound.mp3"/>
+        <file name="assets/sounds/playSound.mp3"/>
+        <file name="assets/sounds/pumkinthrowSound.mp3"/>
+        <file name="assets/sounds/replaySound.mp3"/>
+        <file name="assets/sounds/sadSound.mp3"/>
+        <file name="assets/sounds/stickInstruction.mp3"/>
+    </folder>
+    <folder name="images">
+        <file name="assets/images/Background.png"/>
+        <file name="assets/images/Base.png"/>
+        <file name="assets/images/Bushes.png"/>
+        <file name="assets/images/House1.png"/>
+        <file name="assets/images/House2.png"/>
+        <file name="assets/images/Play.png"/>
+        <file name="assets/images/Pumpkin.png"/>
+        <file name="assets/images/PumpkinHolder.png"/>
+        <file name="assets/images/Refference.png"/>
+        <file name="assets/images/ScoreBoard.png"/>
+        <file name="assets/images/SpringTOp.png"/>
+        <file name="assets/images/Springer.png"/>
+        <file name="assets/images/Springs.png"/>
+        <file name="assets/images/Stand.png"/>
+        <file name="assets/images/StickWithPumpkin.png"/>
+        <file name="assets/images/Surface1.png"/>
+        <file name="assets/images/Surface2.png"/>
+        <file name="assets/images/baseBar.png"/>
+        <file name="assets/images/border.png"/>
+        <file name="assets/images/fence.png"/>
+        <file name="assets/images/grass.png"/>
+        <file name="assets/images/land1.png"/>
+        <file name="assets/images/land2.png"/>
+        <file name="assets/images/playBtn.png"/>
+        <file name="assets/images/pumpkinStick.png"/>
+        <file name="assets/images/sky.png"/>
+        <file name="assets/images/spring.png"/>
+        <file name="assets/images/stick.png"/>
+        <file name="assets/images/tittleScreen.png"/>
+        <file name="assets/images/wall.png"/>
+    </folder>
+    <folder name="fonts">
+        <file name="assets/fonts/tahoma.ttf"/>
+    </folder>
+    <folder name="font">
+        <file name="assets/font/tahoma.ttf"/>
+    </folder>
+</project>

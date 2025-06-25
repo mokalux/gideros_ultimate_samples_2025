@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TNTANIMATOR v="100">
+  <USEDFRAMES>
+    <FRAMENAME>ammo_arrow1.png</FRAMENAME>
+    <FRAMENAME>ammo_arrow2.png</FRAMENAME>
+    <FRAMENAME>ammo_arrow3.png</FRAMENAME>
+    <FRAMENAME>dead1.png</FRAMENAME>
+    <FRAMENAME>dead2.png</FRAMENAME>
+    <FRAMENAME>explosion1</FRAMENAME>
+    <FRAMENAME>explosion2</FRAMENAME>
+    <FRAMENAME>explosion3</FRAMENAME>
+    <FRAMENAME>explosion4</FRAMENAME>
+    <FRAMENAME>explosion5</FRAMENAME>
+    <FRAMENAME>jump1.png</FRAMENAME>
+    <FRAMENAME>jump2.png</FRAMENAME>
+    <FRAMENAME>jump4.png</FRAMENAME>
+    <FRAMENAME>jump5.png</FRAMENAME>
+    <FRAMENAME>jump6.png</FRAMENAME>
+    <FRAMENAME>shoot1</FRAMENAME>
+    <FRAMENAME>shoot2</FRAMENAME>
+    <FRAMENAME>shoot3</FRAMENAME>
+    <FRAMENAME>shoot4</FRAMENAME>
+    <FRAMENAME>shoot5</FRAMENAME>
+    <FRAMENAME>stand1.png</FRAMENAME>
+    <FRAMENAME>stand2.png</FRAMENAME>
+    <FRAMENAME>stand3.png</FRAMENAME>
+    <FRAMENAME>stand4.png</FRAMENAME>
+    <FRAMENAME>walk1.png</FRAMENAME>
+    <FRAMENAME>walk2.png</FRAMENAME>
+    <FRAMENAME>walk3.png</FRAMENAME>
+    <FRAMENAME>walk4.png</FRAMENAME>
+  </USEDFRAMES>
+  <ANIM loop="-1" name="AMMO" speed="100" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="0" YFLIP="0">1</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">2</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">3</FRAME>
+  </ANIM>
+  <ANIM loop="0" name="DEAD" speed="100" exclude="0" stoponframe="2">
+    <FRAME XFLIP="0" YFLIP="0">4</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">5</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="EXPLOSE" speed="100" exclude="0" stoponframe="5">
+    <FRAME XFLIP="0" YFLIP="0">6</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">7</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">8</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">9</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">10</FRAME>
+  </ANIM>
+  <ANIM loop="0" name="JUMP_LEFT" speed="200" exclude="0" stoponframe="7">
+    <FRAME XFLIP="-1" YFLIP="0">11</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">12</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">13</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">13</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">13</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">14</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">15</FRAME>
+  </ANIM>
+  <ANIM loop="0" name="JUMP_RIGHT" speed="200" exclude="0" stoponframe="7">
+    <FRAME XFLIP="0" YFLIP="0">11</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">12</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">13</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">13</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">13</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">14</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">15</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="SHOOT_LEFT" speed="100" exclude="0" stoponframe="5">
+    <FRAME XFLIP="-1" YFLIP="0">16</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">17</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">18</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">19</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">20</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="SHOOT_RIGHT" speed="100" exclude="0" stoponframe="5">
+    <FRAME XFLIP="0" YFLIP="0">16</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">17</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">18</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">19</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">20</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="STAND_LEFT" speed="110" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="-1" YFLIP="0">21</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">22</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">23</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">24</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="STAND_RIGHT" speed="110" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="0" YFLIP="0">21</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">22</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">23</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">24</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="WALK_LEFT" speed="110" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="-1" YFLIP="0">25</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">26</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">27</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">28</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="WALK_RIGHT" speed="110" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="0" YFLIP="0">25</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">26</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">27</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">28</FRAME>
+  </ANIM>
+</TNTANIMATOR>

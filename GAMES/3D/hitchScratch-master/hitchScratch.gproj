@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="7" logicalWidth="600" logicalHeight="800" windowWidth="0" windowHeight="0" autorotation="3" orientation="1" fps="30" vsync="1" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/background.lua"/>
+    <file name="assets/config.lua"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/sharedMesh.lua"/>
+    <folder name="states">
+        <file name="assets/states/debugState.lua"/>
+        <file name="assets/states/overflyState.lua"/>
+        <file name="assets/states/worldState.lua"/>
+    </folder>
+    <folder name="services">
+        <file name="assets/services/blur.lua"/>
+        <file name="assets/services/chunckMeshes.lua"/>
+        <file name="assets/services/diamondNoise.lua"/>
+        <file name="assets/services/gameState.lua"/>
+        <file name="assets/services/utils.lua"/>
+        <folder name="components">
+            <file name="assets/services/components/overflyButton.lua"/>
+            <file name="assets/services/components/zoomarea.lua"/>
+        </folder>
+    </folder>
+    <folder name="rsc">
+        <file name="assets/rsc/dirtf.png"/>
+    </folder>
+    <folder name="mixins">
+        <file name="assets/mixins/mixinAnimationState.lua"/>
+        <file name="assets/mixins/tkhnomanZoom.lua"/>
+    </folder>
+    <folder name="fog">
+        <file name="assets/fog/fShader.glsl"/>
+        <file name="assets/fog/fShader.hlsl"/>
+        <file name="assets/fog/fog.lua"/>
+        <file name="assets/fog/vShader.glsl"/>
+        <file name="assets/fog/vShader.hlsl"/>
+    </folder>
+    <folder name="draft">
+        <file name="assets/draft/demoManager.lua"/>
+        <file name="assets/draft/procgen.lua"/>
+    </folder>
+    <folder name="classes">
+        <file name="assets/classes/Animal.lua"/>
+        <file name="assets/classes/Box.lua"/>
+        <file name="assets/classes/Chunck.lua"/>
+        <file name="assets/classes/FlippingCard.lua"/>
+        <file name="assets/classes/NdShape.lua"/>
+        <file name="assets/classes/SvgSprite.lua"/>
+        <file name="assets/classes/World.lua"/>
+    </folder>
+</project>
