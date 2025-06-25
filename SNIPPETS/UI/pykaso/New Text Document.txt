@@ -1,0 +1,14 @@
+pykaso
+
+https://forum.gideros.rocks/profile/discussions/pykaso
+
+ListView widget for Gigeros
+
+
+Lukas Gergel,
+https://pykaso.net/
+
+
+
+https://github.com/pykaso?tab=repositories
+

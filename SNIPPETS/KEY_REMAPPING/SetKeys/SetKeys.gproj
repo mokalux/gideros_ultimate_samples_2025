@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties html5_mem="256" exportMode="0" vsync="0" html5_symbols="0" version_code="1" autorotation="0" windowWidth="0" mouseTouchOrder="0" build_number="1" retinaDisplay="0" tv_icon="" html5_crash="" html5_host="" html5_fbload="100" windowHeight="0" html5_fbinstant="0" splash_h_image="" splashScaleMode="0" architecture="0" osx_bundle="com.yourdomain." orientation="1" app_icon="" html5_pack="0" atv_bundle="com.yourdomain.yourapp-atv" logicalHeight="480" html5_pwa="0" osx_category="5" mainluaOnly="0" version="1.0" encryptAssets="0" splash_v_image="" iosDevice="0" app_name="" disableSplash="0" osx_installerId="" winrt_package="com.yourdomain.yourapp" win_domain="giderosmobile.com" osx_domain="giderosmobile.com" osx_signingId="" macos_category="5" mouseToTouch="1" macos_bundle="com.yourdomain.yourapp-macos" html5_wasm="0" encryptCode="0" scaleMode="0" logicalWidth="320" win_org="GiderosMobile" fps="60" touchToMouse="1" backgroundColor="#ffffff" winrt_org="GiderosMobile" osx_org="GiderosMobile" ios_bundle="com.yourdomain.yourapp-ios">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="fonts">
+  <file name="assets/fonts/Galada.ttf"/>
+ </folder>
+ <folder name="img">
+  <file name="assets/img/button_down_small.png"/>
+  <file name="assets/img/button_up_small.png"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>

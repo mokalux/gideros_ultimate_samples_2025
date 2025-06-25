@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties build_number="1" version="1.0" version_code="1" mouseTouchOrder="0" winrt_package="com.yourdomain.yourapp" html5_fbload="100" osx_signingId="" fps="60" html5_crash="" html5_pack="0" encryptCode="0" autorotation="0" iosDevice="0" backgroundColor="#ffffff" osx_installerId="" logicalWidth="480" app_name="" macos_category="5" mainluaOnly="0" vsync="0" html5_mem="256" windowHeight="0" html5_host="" orientation="0" disableSplash="0" retinaDisplay="3" splashScaleMode="0" exportMode="0" win_org="GiderosMobile" mouseToTouch="1" osx_category="5" html5_fbinstant="0" winrt_org="GiderosMobile" html5_pwa="0" splash_h_image="" touchToMouse="1" windowWidth="0" atv_bundle="com.yourdomain.yourapp-atv" encryptAssets="0" tv_icon="" osx_domain="giderosmobile.com" architecture="0" win_domain="giderosmobile.com" macos_bundle="com.yourdomain.yourapp-macos" osx_bundle="com.yourdomain." logicalHeight="800" app_icon="" splash_v_image="" scaleMode="6" ios_bundle="com.yourdomain." html5_wasm="0" osx_org="GiderosMobile" html5_symbols="0">
+  <imageScales>
+   <scale scale="3.2000000000000002" suffix="@3.2x"/>
+   <scale scale="1.6699999999999999" suffix="@1.67x"/>
+   <scale scale="1.6000000000000001" suffix="@1.6x"/>
+   <scale scale="1.3300000000000001" suffix="@1.33x"/>
+   <scale scale="1.25" suffix="@1.25x"/>
+   <scale scale="1.125" suffix="@1.125x"/>
+   <scale scale="0.75" suffix="@0.75x"/>
+   <scale scale="0.67000000000000004" suffix="@0.67x"/>
+   <scale scale="0.5" suffix="@0.5x"/>
+  </imageScales>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="img">
+  <file name="assets/img/LOWERCASE.png"/>
+  <file name="assets/img/LOWERCASE@0.5x.png"/>
+  <file name="assets/img/LOWERCASE@0.67x.png"/>
+  <file name="assets/img/LOWERCASE@0.75x.png"/>
+  <file name="assets/img/LOWERCASE@1.125x.png"/>
+  <file name="assets/img/LOWERCASE@1.25x.png"/>
+  <file name="assets/img/LOWERCASE@1.33x.png"/>
+  <file name="assets/img/LOWERCASE@1.67x.png"/>
+  <file name="assets/img/LOWERCASE@1.6x.png"/>
+  <file name="assets/img/LOWERCASE@3.2x.png"/>
+  <file name="assets/img/key.png"/>
+  <file name="assets/img/key2.png"/>
+  <file name="assets/img/key2@0.5x.png"/>
+  <file name="assets/img/key2@0.67x.png"/>
+  <file name="assets/img/key2@0.75x.png"/>
+  <file name="assets/img/key2@1.125x.png"/>
+  <file name="assets/img/key2@1.25x.png"/>
+  <file name="assets/img/key2@1.33x.png"/>
+  <file name="assets/img/key2@1.67x.png"/>
+  <file name="assets/img/key2@1.6x.png"/>
+  <file name="assets/img/key2@3.2x.png"/>
+  <file name="assets/img/key3.png"/>
+  <file name="assets/img/key3@0.5x.png"/>
+  <file name="assets/img/key3@0.67x.png"/>
+  <file name="assets/img/key3@0.75x.png"/>
+  <file name="assets/img/key3@1.125x.png"/>
+  <file name="assets/img/key3@1.25x.png"/>
+  <file name="assets/img/key3@1.33x.png"/>
+  <file name="assets/img/key3@1.67x.png"/>
+  <file name="assets/img/key3@1.6x.png"/>
+  <file name="assets/img/key3@3.2x.png"/>
+  <file name="assets/img/key@0.5x.png"/>
+  <file name="assets/img/key@0.67x.png"/>
+  <file name="assets/img/key@0.75x.png"/>
+  <file name="assets/img/key@1.125x.png"/>
+  <file name="assets/img/key@1.25x.png"/>
+  <file name="assets/img/key@1.33x.png"/>
+  <file name="assets/img/key@1.67x.png"/>
+  <file name="assets/img/key@1.6x.png"/>
+  <file name="assets/img/key@3.2x.png"/>
+  <file name="assets/img/keyHigh.png"/>
+  <file name="assets/img/keyHigh2.png"/>
+  <file name="assets/img/keyHigh2@0.5x.png"/>
+  <file name="assets/img/keyHigh2@0.67x.png"/>
+  <file name="assets/img/keyHigh2@0.75x.png"/>
+  <file name="assets/img/keyHigh2@1.125x.png"/>
+  <file name="assets/img/keyHigh2@1.25x.png"/>
+  <file name="assets/img/keyHigh2@1.33x.png"/>
+  <file name="assets/img/keyHigh2@1.67x.png"/>
+  <file name="assets/img/keyHigh2@1.6x.png"/>
+  <file name="assets/img/keyHigh2@3.2x.png"/>
+  <file name="assets/img/keyHigh3.png"/>
+  <file name="assets/img/keyHigh3@0.5x.png"/>
+  <file name="assets/img/keyHigh3@0.67x.png"/>
+  <file name="assets/img/keyHigh3@0.75x.png"/>
+  <file name="assets/img/keyHigh3@1.125x.png"/>
+  <file name="assets/img/keyHigh3@1.25x.png"/>
+  <file name="assets/img/keyHigh3@1.33x.png"/>
+  <file name="assets/img/keyHigh3@1.67x.png"/>
+  <file name="assets/img/keyHigh3@1.6x.png"/>
+  <file name="assets/img/keyHigh3@3.2x.png"/>
+  <file name="assets/img/keyHigh@0.5x.png"/>
+  <file name="assets/img/keyHigh@0.67x.png"/>
+  <file name="assets/img/keyHigh@0.75x.png"/>
+  <file name="assets/img/keyHigh@1.125x.png"/>
+  <file name="assets/img/keyHigh@1.25x.png"/>
+  <file name="assets/img/keyHigh@1.33x.png"/>
+  <file name="assets/img/keyHigh@1.67x.png"/>
+  <file name="assets/img/keyHigh@1.6x.png"/>
+  <file name="assets/img/keyHigh@3.2x.png"/>
+ </folder>
+ <folder name="locale">
+  <file excludeFromExecution="1" name="assets/locale/de_DE.lua"/>
+  <file excludeFromExecution="1" name="assets/locale/en_GB.lua"/>
+  <file excludeFromExecution="1" name="assets/locale/ru_RU.lua"/>
+  <file excludeFromExecution="1" name="assets/locale/sv_SE.lua"/>
+ </folder>
+ <file name="assets/InputKeyboard.lua"/>
+ <file name="assets/arial.ttf"/>
+ <file name="assets/main.lua"/>
+</project>

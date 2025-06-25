@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties disableSplash="0" exportMode="0" html5_wasm="0" html5_host="" windowHeight="0" windowWidth="0" html5_fbload="100" app_icon="" macos_category="5" version="1.0" build_number="1" osx_bundle="com.yourdomain." osx_signingId="" vsync="1" macos_bundle="com.yourdomain.yourapp-macos" html5_mem="256" mouseTouchOrder="0" orientation="1" encryptCode="0" qtexp_domain="giderosmobile.com" splash_h_image="" logicalHeight="480" osx_category="5" html5_crash="" osx_installerId="" architecture="0" html5_fbinstant="0" backgroundColor="#ffffff" mouseToTouch="1" iosDevice="0" ios_bundle="com.yourdomain." retinaDisplay="0" html5_pack="0" version_code="1" splash_v_image="" atv_bundle="com.yourdomain.yourapp-atv" splashScaleMode="0" html5_pwa="0" scaleMode="3" autorotation="0" qtexp_platform="0" winrt_package="com.yourdomain.yourapp" encryptAssets="0" app_name="" mainluaOnly="0" winrt_org="GiderosMobile" logicalWidth="320" qtexp_org="GiderosMobile" fps="60" html5_symbols="0" tv_icon="" touchToMouse="1">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <file name="assets/arrow_0001.png"/>
+ <file name="assets/fShader.glsl"/>
+ <file name="assets/main.lua"/>
+ <file name="assets/test.png"/>
+ <file name="assets/vShader.glsl"/>
+</project>

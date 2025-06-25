@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="320" logicalHeight="480" windowWidth="0" windowHeight="0" autorotation="3" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="1" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="1" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales>
+            <scale suffix="@2x" scale="2"/>
+        </imageScales>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/keyboard.lua"/>
+    <file name="assets/main.lua"/>
+    <folder name="sounds">
+        <file name="assets/sounds/Tock.wav"/>
+    </folder>
+    <folder name="images">
+        <folder name="keys">
+            <file name="assets/images/keys/0.png"/>
+            <file name="assets/images/keys/1.png"/>
+            <file name="assets/images/keys/123.png"/>
+            <file name="assets/images/keys/2.png"/>
+            <file name="assets/images/keys/3.png"/>
+            <file name="assets/images/keys/4.png"/>
+            <file name="assets/images/keys/5.png"/>
+            <file name="assets/images/keys/6.png"/>
+            <file name="assets/images/keys/7.png"/>
+            <file name="assets/images/keys/8.png"/>
+            <file name="assets/images/keys/9.png"/>
+            <file name="assets/images/keys/A.png"/>
+            <file name="assets/images/keys/ABC.png"/>
+            <file name="assets/images/keys/B.png"/>
+            <file name="assets/images/keys/C.png"/>
+            <file name="assets/images/keys/D.png"/>
+            <file name="assets/images/keys/E.png"/>
+            <file name="assets/images/keys/F.png"/>
+            <file name="assets/images/keys/G.png"/>
+            <file name="assets/images/keys/H.png"/>
+            <file name="assets/images/keys/I.png"/>
+            <file name="assets/images/keys/J.png"/>
+            <file name="assets/images/keys/K.png"/>
+            <file name="assets/images/keys/L.png"/>
+            <file name="assets/images/keys/M.png"/>
+            <file name="assets/images/keys/N.png"/>
+            <file name="assets/images/keys/O.png"/>
+            <file name="assets/images/keys/P.png"/>
+            <file name="assets/images/keys/Q.png"/>
+            <file name="assets/images/keys/R.png"/>
+            <file name="assets/images/keys/S.png"/>
+            <file name="assets/images/keys/T.png"/>
+            <file name="assets/images/keys/U.png"/>
+            <file name="assets/images/keys/V.png"/>
+            <file name="assets/images/keys/W.png"/>
+            <file name="assets/images/keys/X.png"/>
+            <file name="assets/images/keys/Y.png"/>
+            <file name="assets/images/keys/Z.png"/>
+            <file name="assets/images/keys/ampersand.png"/>
+            <file name="assets/images/keys/apostrophe.png"/>
+            <file name="assets/images/keys/asterisk.png"/>
+            <file name="assets/images/keys/at.png"/>
+            <file name="assets/images/keys/backslash.png"/>
+            <file name="assets/images/keys/bullet.png"/>
+            <file name="assets/images/keys/closeBrace.png"/>
+            <file name="assets/images/keys/closeBracket.png"/>
+            <file name="assets/images/keys/closeSquareBracket.png"/>
+            <file name="assets/images/keys/colon.png"/>
+            <file name="assets/images/keys/comma.png"/>
+            <file name="assets/images/keys/delete.png"/>
+            <file name="assets/images/keys/dollar.png"/>
+            <file name="assets/images/keys/equals.png"/>
+            <file name="assets/images/keys/euro.png"/>
+            <file name="assets/images/keys/exclamationMark.png"/>
+            <file name="assets/images/keys/fs.png"/>
+            <file name="assets/images/keys/fullStop.png"/>
+            <file name="assets/images/keys/greaterThan.png"/>
+            <file name="assets/images/keys/hash.png"/>
+            <file name="assets/images/keys/hat.png"/>
+            <file name="assets/images/keys/lessThan.png"/>
+            <file name="assets/images/keys/minus.png"/>
+            <file name="assets/images/keys/numbers.png"/>
+            <file name="assets/images/keys/openBrace.png"/>
+            <file name="assets/images/keys/openBracket.png"/>
+            <file name="assets/images/keys/openSquareBracket.png"/>
+            <file name="assets/images/keys/percent.png"/>
+            <file name="assets/images/keys/pipe.png"/>
+            <file name="assets/images/keys/plus.png"/>
+            <file name="assets/images/keys/pound.png"/>
+            <file name="assets/images/keys/questionMark.png"/>
+            <file name="assets/images/keys/return.png"/>
+            <file name="assets/images/keys/scolon.png"/>
+            <file name="assets/images/keys/shift.png"/>
+            <file name="assets/images/keys/shiftSelected.png"/>
+            <file name="assets/images/keys/spacebar.png"/>
+            <file name="assets/images/keys/speechMark.png"/>
+            <file name="assets/images/keys/symbols.png"/>
+            <file name="assets/images/keys/tilde.png"/>
+            <file name="assets/images/keys/underscore.png"/>
+            <file name="assets/images/keys/yen.png"/>
+        </folder>
+        <folder name="backgrounds">
+            <file name="assets/images/backgrounds/KBBG.png"/>
+        </folder>
+    </folder>
+    <folder name="fonts">
+        <file name="assets/fonts/arial-rounded.TTF"/>
+    </folder>
+</project>

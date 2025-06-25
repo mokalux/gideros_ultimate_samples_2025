@@ -1,0 +1,25 @@
+<project>
+ <properties html5_host="" winrt_package="com.yourdomain.yourapp" packageName="net.pykaso.gideros.listview.sample1" html5_symbols="0" html5_crash="" win_domain="giderosmobile.com" backgroundColor="#ffffff" osx_domain="giderosmobile.com" osx_bundle="com.yourdomain." build_number="1" orientation="0" mouseTouchOrder="0" html5_fbload="100" ios_bundle="com.yourdomain." logicalHeight="480" scaleMode="5" html5_wasm="0" touchToMouse="1" encryptAssets="0" retinaDisplay="0" autorotation="0" mouseToTouch="1" splash_v_image="" windowWidth="0" disableSplash="0" osx_category="5" app_icon="" html5_fbinstant="0" tv_icon="" encryptCode="0" logicalWidth="320" architecture="1" html5_pack="0" version="1.0" fps="60" html5_mem="256" version_code="1" windowHeight="0" win_org="GiderosMobile" winrt_org="GiderosMobile" iosDevice="0" osx_signingId="" android_template="0" osx_org="GiderosMobile" exportMode="0" vsync="1" app_name="" splashScaleMode="0" splash_h_image="" osx_installerId="">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="classes">
+  <file name="assets/classes/button.lua"/>
+  <file name="assets/classes/easing.lua"/>
+  <file name="assets/classes/gtween.lua"/>
+  <file name="assets/classes/listview.lua"/>
+ </folder>
+ <folder name="fonts">
+  <file name="assets/fonts/Roboto-Medium-webfont.ttf"/>
+ </folder>
+ <folder name="gfx">
+  <file name="assets/gfx/arrow_right.png"/>
+  <file name="assets/gfx/arrow_right_down.png"/>
+  <file name="assets/gfx/bg.png"/>
+  <file name="assets/gfx/empty_icon.png"/>
+  <file name="assets/gfx/maurice.png"/>
+ </folder>
+ <file name="assets/main.lua"/>
+ <file name="assets/row.lua"/>
+</project>

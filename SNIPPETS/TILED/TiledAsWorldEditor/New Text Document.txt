@@ -1,0 +1,12 @@
+1dot44mb
+
+https://forum.gideros.rocks/profile/discussions/1dot44mb
+
+
+Tiled as a level and Box2D world physics editor for Gideros:
+https://forum.gideros.rocks/discussion/2286/v2-a-new-tool-tiled-as-a-level-and-box2d-world-physics-editor-for-gideros
+
+https://github.com/mtozlu/gideros/tree/master
+
+
+Thank you 1dot44mb

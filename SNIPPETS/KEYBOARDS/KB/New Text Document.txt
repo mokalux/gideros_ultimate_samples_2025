@@ -1,0 +1,11 @@
+evs
+
+https://forum.gideros.rocks/profile/discussions/evs
+
+Keyboard
+https://forum.gideros.rocks/discussion/1017/lua-keyboard
+
+Volume control
+https://forum.gideros.rocks/discussion/639/volume-control-converted-to-gideros#latest
+
+https://forum.gideros.rocks/discussion/1005/the-eagle-has-landed#latest

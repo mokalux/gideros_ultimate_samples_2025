@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="24" tileheight="24">
+ <tileset firstgid="1" name="sewer_tileset" tilewidth="24" tileheight="24">
+  <image source="sewer_tileset.png" trans="ffffff" width="192" height="217"/>
+ </tileset>
+ <layer name="test1" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYmBg4BrFgwYDABbNA+k=
+  </data>
+ </layer>
+ <layer name="test2" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKANUMeBsakbLmLE+JcQAABjqgNb
+  </data>
+ </layer>
+ <layer name="test3" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhaQAOK6a2OXgAArDAA8Q==
+  </data>
+ </layer>
+ <objectgroup name="testobj">
+  <object name="Mr. John" type="Enemy" x="18" y="18" width="36" height="30">
+   <properties>
+    <property name="testObjectProperty" value="sleeping"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object name="Gold Pieces" type="Bonus" x="120" y="18" width="36" height="30">
+   <properties>
+    <property name="testObjectProperty" value="10000K"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
