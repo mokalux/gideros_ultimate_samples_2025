@@ -1,15 +1,12 @@
-# gideros_ultimate_samples_2025
+# Gideros Ultimate Samples 2025!
 
-This is a collection of Gideros projects and samples, gathered throughout the years on the internet!
+This is a collection of Gideros projects and examples, gathered over the years from the Internet!
 
-I didn't write any of those!
+I didn't write any of these!
 
-My contribution here, is bringing most of them back to life and running on latest **Gideros 2025.3+**.
+My contribution here is to **bring most of them back to life and get them working on latest Gideros versions** (2025.1+).
 
-
-
-
-I have been programming using Gideros and Gideros Studio for almost 7 years now and counting... This is my humble contribution!
+I have been programming with Gideros and Gideros Studio for almost 7 years now and counting... This is my humble contribution!
 
 Some links:
 - website: https://www.gideros.rocks/
