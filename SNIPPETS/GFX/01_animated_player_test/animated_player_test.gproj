@@ -1,0 +1,15 @@
+<project>
+ <properties splash_v_image="" win_domain="giderosmobile.com" winrt_package="com.yourdomain.yourapp" packageName="com.yourdomain.yourapp" mainluaOnly="0" architecture="0" disableSplash="0" retinaDisplay="0" windowHeight="0" html5_host="" touchToMouse="1" app_name="" exportMode="0" splashScaleMode="0" splash_h_image="" orientation="1" osx_org="GiderosMobile" html5_crash="" iosDevice="0" encryptCode="0" win_org="GiderosMobile" windowWidth="0" osx_signingId="" version="1.0" ios_bundle="com.yourdomain." html5_pack="0" app_icon="" html5_mem="256" scaleMode="3" tv_icon="" logicalHeight="480" mouseToTouch="1" html5_symbols="0" html5_fbinstant="0" mouseTouchOrder="0" html5_wasm="0" backgroundColor="#ffffff" osx_bundle="com.yourdomain." encryptAssets="0" version_code="1" android_template="0" autorotation="0" fps="60" osx_installerId="" build_number="1" logicalWidth="320" vsync="1" osx_category="5" winrt_org="GiderosMobile" html5_fbload="100" osx_domain="giderosmobile.com">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="classes"/>
+ <folder name="gfx">
+  <folder name="player">
+   <file name="assets/gfx/player/64_player.png"/>
+   <file name="assets/gfx/player/player.lua"/>
+  </folder>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>

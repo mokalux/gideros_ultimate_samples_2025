@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <layer name="Tile Layer 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMNwAAAXcAAE=
+  </data>
+ </layer>
+ <objectgroup color="#29a452" name="Object Layer 1" width="25" height="15">
+  <object name="edges" type="ground" x="-1" y="64">
+   <properties>
+    <property name="hasBody" value="true"/>
+   </properties>
+   <polyline points="0,0 0,351 800,351 800,1"/>
+  </object>
+  <object name="box1" x="195" y="385" width="15" height="30">
+   <properties>
+    <property name="hasBody" value="true"/>
+   </properties>
+  </object>
+  <object name="box2" x="346" y="314" width="53" height="101">
+   <properties>
+    <property name="hasBody" value="true"/>
+   </properties>
+  </object>
+  <object name="box3" x="512" y="381" width="33" height="34">
+   <properties>
+    <property name="hasBody" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties osx_signingId="" qtexp_platform="0" html5_fbload="100" backgroundColor="#ffffff" qtexp_domain="giderosmobile.com" atv_bundle="com.yourdomain.yourapp-atv" fps="60" iosDevice="0" html5_pwa="0" retinaDisplay="0" autorotation="0" macos_category="5" build_number="1" mainluaOnly="0" version="1.0" mouseToTouch="1" osx_installerId="" encryptAssets="0" vsync="0" orientation="1" windowWidth="0" windowHeight="0" mouseTouchOrder="0" scaleMode="0" ios_bundle="com.yourdomain." osx_category="5" html5_fbinstant="0" qtexp_org="GiderosMobile" splash_h_image="" macos_bundle="com.yourdomain.yourapp-macos" html5_wasm="0" logicalWidth="320" html5_mem="256" tv_icon="" touchToMouse="1" logicalHeight="480" splash_v_image="" winrt_package="com.yourdomain.yourapp" exportMode="0" architecture="0" disableSplash="0" html5_crash="" html5_host="" splashScaleMode="0" version_code="1" encryptCode="0" winrt_org="GiderosMobile" html5_pack="0" osx_bundle="com.yourdomain." app_name="" html5_symbols="0" app_icon="">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <file name="assets/blue.png"/>
+ <file name="assets/green.png"/>
+ <file name="assets/main.lua"/>
+ <file name="assets/middle.png"/>
+ <file name="assets/red.png"/>
+ <file name="assets/top.png"/>
+</project>

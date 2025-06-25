@@ -1,0 +1,24 @@
+<project>
+ <properties iosDevice="0" mouseTouchOrder="0" osx_installerId="" backgroundColor="#ffffff" html5_pack="0" osx_domain="giderosmobile.com" encryptAssets="0" html5_crash="" tv_icon="" version_code="1" retinaDisplay="0" html5_host="" logicalHeight="480" touchToMouse="1" html5_fbload="100" winrt_package="com.yourdomain.yourapp" app_name="" app_icon="" architecture="0" osx_bundle="com.yourdomain." win_org="GiderosMobile" mouseToTouch="1" windowWidth="0" windowHeight="0" winrt_org="GiderosMobile" packageName="com.yourdomain.yourapp" autorotation="0" splash_v_image="" orientation="0" ios_bundle="com.yourdomain." logicalWidth="320" android_template="0" exportMode="0" vsync="0" build_number="1" html5_fbinstant="0" disableSplash="0" splash_h_image="" encryptCode="0" osx_org="GiderosMobile" html5_wasm="0" html5_symbols="0" osx_category="5" win_domain="giderosmobile.com" splashScaleMode="0" version="1.0" osx_signingId="" fps="60" html5_mem="256" scaleMode="5">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="classes">
+  <file name="assets/classes/easybox.lua"/>
+  <file name="assets/classes/easybox2d.lua"/>
+  <file name="assets/classes/easycircle.lua"/>
+  <file name="assets/classes/easyedge.lua"/>
+ </folder>
+ <folder name="gfx">
+  <folder name="chalks">
+   <file name="assets/gfx/chalks/chalk1.png"/>
+   <file name="assets/gfx/chalks/chalk2.png"/>
+   <file name="assets/gfx/chalks/chalk3.png"/>
+   <file name="assets/gfx/chalks/chalk4.png"/>
+   <file name="assets/gfx/chalks/chalk5.png"/>
+  </folder>
+  <file name="assets/gfx/board.jpg"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>

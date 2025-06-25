@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties mouseTouchOrder="0" mouseToTouch="1" splash_v_image="" qtexp_platform="0" macos_bundle="com.yourdomain.yourapp-macos" scaleMode="3" html5_fbload="100" splash_h_image="" version="1.0" winrt_org="GiderosMobile" vsync="1" architecture="0" macos_category="5" disableSplash="0" osx_signingId="" windowHeight="0" encryptCode="0" html5_symbols="0" autorotation="0" atv_bundle="com.yourdomain.yourapp-atv" app_icon="" fps="60" exportMode="0" iosDevice="0" retinaDisplay="0" windowWidth="0" osx_installerId="" html5_fbinstant="0" touchToMouse="1" version_code="1" build_number="1" html5_pwa="0" html5_wasm="0" html5_pack="0" osx_category="5" ios_bundle="com.yourdomain.yourapp-ios" osx_bundle="com.yourdomain." encryptAssets="0" html5_host="" tv_icon="" qtexp_domain="giderosmobile.com" backgroundColor="#ffffff" orientation="1" winrt_package="com.yourdomain.yourapp" html5_mem="256" qtexp_org="GiderosMobile" app_name="" logicalWidth="320" mainluaOnly="0" html5_crash="" splashScaleMode="0" logicalHeight="480">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <file name="assets/main.lua"/>
+</project>

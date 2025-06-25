@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="2020.06.25" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="7">
+ <editorsettings>
+  <export target="plotter_ui.lua" format="lua"/>
+ </editorsettings>
+ <objectgroup id="2" name="bg"/>
+ <objectgroup color="#ff00ff" id="3" name="mg">
+  <object id="1" x="32" y="224" width="96" height="32"/>
+  <object id="2" x="40" y="232" width="83" height="19">
+   <text wrap="1">Hello World</text>
+  </object>
+  <object id="3" x="144" y="224" width="32" height="32"/>
+  <object id="4" x="192" y="224" width="32" height="32"/>
+  <object id="5" x="240" y="224" width="32" height="32"/>
+  <object id="6" x="288" y="224" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="4" name="fg"/>
+</map>
