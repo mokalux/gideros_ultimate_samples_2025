@@ -9,7 +9,7 @@ My contribution here, is bringing most of them back to life and running on lates
 
 
 
-I have been programming using Gideros and Gideros Studio for almost 7 years now and counting...
+I have been programming using Gideros and Gideros Studio for almost 7 years now and counting... This is my humble contribution!
 
 Some links:
 - website: https://www.gideros.rocks/
