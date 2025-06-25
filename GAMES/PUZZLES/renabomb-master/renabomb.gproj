@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="320" logicalHeight="480" windowWidth="320" windowHeight="480" autorotation="0" orientation="0" fps="30" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="8" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="SquishyToy Studio" winrt_package="com.squishytoy.renabomb" html5_host="" html5_crash="" html5_mem="64" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="1" encryptAssets="1" app_icon="schoolbag.png" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports>
+            <export name="APK">
+                <property name="androidPath" value="C:/Users/lenovo/AppData/Local/Android/sdk"/>
+                <property name="androidTarget" value="19"/>
+                <property name="antPath" value="C:\Program Files\Android\Android Studio\lib\ant"/>
+                <property name="javaPath" value="C:/Program Files/Java/jdk1.8.0_91"/>
+                <property name="keyAlias" value="key1"/>
+                <property name="keyAliasPass" value="thybkey1ert8/"/>
+                <property name="keyStore" value="C:/dev/keystore/keystore"/>
+                <property name="keyStorePass" value="thybkeystoreert8/"/>
+                <property name="packageName" value="com.squishytoy.renabomb"/>
+            </export>
+        </exports>
+    </properties>
+    <file name="assets/MilkCocoa-21.png"/>
+    <file name="assets/MilkCocoa-21.txt"/>
+    <file name="assets/action.lua"/>
+    <file name="assets/animation.lua"/>
+    <file name="assets/arpegio.mp3"/>
+    <file name="assets/arrow.png"/>
+    <file name="assets/bar.png"/>
+    <file name="assets/boing.wav"/>
+    <file name="assets/bomb.lua"/>
+    <file name="assets/bomb.png"/>
+    <file name="assets/boss.lua"/>
+    <file name="assets/button.png"/>
+    <file name="assets/button0.png"/>
+    <file name="assets/caption.png"/>
+    <file name="assets/city.png"/>
+    <file name="assets/continue.png"/>
+    <file name="assets/dirtf.png"/>
+    <file name="assets/door.png"/>
+    <file name="assets/dring.wav"/>
+    <file name="assets/drone1.wav"/>
+    <file name="assets/drool.png"/>
+    <file name="assets/exit.png"/>
+    <file name="assets/explo1.wav"/>
+    <file name="assets/explo2.wav"/>
+    <file name="assets/explosion.png"/>
+    <file name="assets/frame.png"/>
+    <file name="assets/from.png"/>
+    <file name="assets/game.lua"/>
+    <file name="assets/gui.lua"/>
+    <file name="assets/hats.png"/>
+    <file name="assets/hexagons.png"/>
+    <file name="assets/init.lua"/>
+    <file name="assets/inventory.png"/>
+    <file name="assets/leafs.png"/>
+    <file name="assets/level.lua"/>
+    <file name="assets/level1.lua"/>
+    <file name="assets/level10.lua"/>
+    <file name="assets/level20.lua"/>
+    <file name="assets/level30.lua"/>
+    <file name="assets/level40.lua"/>
+    <file name="assets/listGui.png"/>
+    <file name="assets/liste.png"/>
+    <file name="assets/logo.png"/>
+    <file name="assets/macaron.png"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/mask.png"/>
+    <file name="assets/monsterDying.wav"/>
+    <file name="assets/music.mp3"/>
+    <file name="assets/options.png"/>
+    <file name="assets/particles.lua"/>
+    <file name="assets/prrt.wav"/>
+    <file name="assets/recycle.png"/>
+    <file name="assets/reddit_head.png"/>
+    <file name="assets/rena.png"/>
+    <file name="assets/rock.png"/>
+    <file name="assets/scales.png"/>
+    <file name="assets/school0.png"/>
+    <file name="assets/school1.png"/>
+    <file name="assets/school2.png"/>
+    <file name="assets/school3.png"/>
+    <file name="assets/school4.png"/>
+    <file name="assets/schoolbag.png"/>
+    <file name="assets/sky.png"/>
+    <file name="assets/slap.wav"/>
+    <file name="assets/smoke.png"/>
+    <file name="assets/squeak.wav"/>
+    <file name="assets/squishy.png"/>
+    <file name="assets/star.png"/>
+    <file name="assets/stones.png"/>
+    <file name="assets/stretching.wav"/>
+    <file name="assets/success-high.wav"/>
+    <file name="assets/success-low.wav"/>
+    <file name="assets/timer0.wav"/>
+    <file name="assets/title.png"/>
+    <file name="assets/trophy.png"/>
+    <file name="assets/tuto1.png"/>
+    <file name="assets/tuto2.png"/>
+    <file name="assets/tuto3.png"/>
+    <file name="assets/tuto4.png"/>
+    <file name="assets/waitFor.lua"/>
+    <file name="assets/zombi.lua"/>
+    <file name="assets/zombi.png"/>
+    <file name="assets/zombi2.png"/>
+</project>

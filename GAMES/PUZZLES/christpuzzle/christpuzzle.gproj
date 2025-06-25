@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="5" logicalWidth="480" logicalHeight="800" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="1" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/ariblk.ttf"/>
+    <file name="assets/button.lua"/>
+    <file name="assets/easing.lua"/>
+    <file name="assets/levels.lua"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/puzzle.lua"/>
+    <file name="assets/scenemanager.lua"/>
+    <file name="assets/splash.lua"/>
+    <folder name="mus">
+        <file name="assets/mus/ding.mp3"/>
+        <file name="assets/mus/win.mp3"/>
+    </folder>
+    <folder name="img">
+        <file name="assets/img/back.jpg"/>
+        <file name="assets/img/icon.png"/>
+        <file name="assets/img/icon2.png"/>
+        <file name="assets/img/logo.png"/>
+        <file name="assets/img/start.png"/>
+    </folder>
+    <folder name="1">
+        <file name="assets/1/10_1.jpg"/>
+        <file name="assets/1/11_1.jpg"/>
+        <file name="assets/1/12_1.jpg"/>
+        <file name="assets/1/13_1.jpg"/>
+        <file name="assets/1/14_1.jpg"/>
+        <file name="assets/1/15_1.jpg"/>
+        <file name="assets/1/16_1.jpg"/>
+        <file name="assets/1/17_1.jpg"/>
+        <file name="assets/1/18_1.jpg"/>
+        <file name="assets/1/19_1.jpg"/>
+        <file name="assets/1/1_1.jpg"/>
+        <file name="assets/1/20_1.jpg"/>
+        <file name="assets/1/21_1.jpg"/>
+        <file name="assets/1/22_1.jpg"/>
+        <file name="assets/1/23_1.jpg"/>
+        <file name="assets/1/24_1.jpg"/>
+        <file name="assets/1/25_1.jpg"/>
+        <file name="assets/1/26_1.jpg"/>
+        <file name="assets/1/27_1.jpg"/>
+        <file name="assets/1/28_1.jpg"/>
+        <file name="assets/1/29_1.jpg"/>
+        <file name="assets/1/2_1.jpg"/>
+        <file name="assets/1/30_1.jpg"/>
+        <file name="assets/1/31_1.jpg"/>
+        <file name="assets/1/32_1.jpg"/>
+        <file name="assets/1/33_1.jpg"/>
+        <file name="assets/1/34_1.jpg"/>
+        <file source="1/34_1.jpg"/>
+        <file name="assets/1/35_1.jpg"/>
+        <file name="assets/1/36_1.jpg"/>
+        <file name="assets/1/37_1.jpg"/>
+        <file name="assets/1/38_1.jpg"/>
+        <file name="assets/1/39_1.jpg"/>
+        <file name="assets/1/3_1.jpg"/>
+        <file name="assets/1/40_1.jpg"/>
+        <file name="assets/1/41_1.jpg"/>
+        <file name="assets/1/42_1.jpg"/>
+        <file name="assets/1/43_1.jpg"/>
+        <file name="assets/1/4_1.jpg"/>
+        <file name="assets/1/5_1.jpg"/>
+        <file name="assets/1/6_1.jpg"/>
+        <file name="assets/1/7_1.jpg"/>
+        <file name="assets/1/8_1.jpg"/>
+        <file name="assets/1/9_1.jpg"/>
+    </folder>
+</project>
