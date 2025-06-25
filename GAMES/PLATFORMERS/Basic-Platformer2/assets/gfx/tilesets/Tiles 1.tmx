@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="50" tileheight="50">
+ <tileset firstgid="1" name="Tiles 1" tilewidth="50" tileheight="50">
+  <image source="Tiles 1.png" width="950" height="1000"/>
+ </tileset>
+ <layer name="Acid" width="60" height="60" opacity="0.5">
+  <data encoding="base64" compression="zlib">
+   eJztzzERACAMBMEgAP8SYyMl9HT87swJuCr4R18l2OuUIO0XAAAAAAAAAAAAAAAAXgzwVQMK
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="60" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1AsKgzAQBcDQ2CP0c4Te/4RdKMKy0BZBTLUz8DCBIG9F0hp8dor0yBQ5D+7yzdxzSuv+JvVMfl4jt8h92/qL5Z55XfdL3vPL6rw1dYb87/ZNm45xaa9vMOfoHu2Y8+7pzl3LXu6gtfzbvAAAAAAAAAAAAAAAjPMEZZoECg==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="60" height="60">
+  <object name="Ground" x="-24" y="165" width="998" height="61"/>
+  <object name="Ground" type="Ground" x="633" y="261" width="162" height="132"/>
+  <object type="Ground" x="907" y="113" width="140" height="134"/>
+  <object name="Ground" type="Ground" x="356" y="416" width="138" height="131"/>
+  <object name="Ground" type="Ground" x="329" y="413" width="165" height="52"/>
+ </objectgroup>
+</map>

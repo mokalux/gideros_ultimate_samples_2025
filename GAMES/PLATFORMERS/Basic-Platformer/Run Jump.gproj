@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="0" logicalWidth="320" logicalHeight="480" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/ball.png"/>
+    <file name="assets/main.lua"/>
+    <folder name="gfx">
+        <file name="assets/gfx/happy-block.png"/>
+        <file name="assets/gfx/lr-button-pressed.png"/>
+        <file name="assets/gfx/lr-button.png"/>
+        <file name="assets/gfx/up pressed.png"/>
+        <file name="assets/gfx/up.png"/>
+    </folder>
+    <folder name="Tilemaps">
+        <file name="assets/Tilemaps/Layer 1.tmx"/>
+        <file name="assets/Tilemaps/Tiles 1.lua" excludeFromExecution="1"/>
+        <file name="assets/Tilemaps/Tiles 1.png"/>
+        <file name="assets/Tilemaps/Tiles 1.tmx"/>
+        <file name="assets/Tilemaps/Tiles 1@2x.png"/>
+        <file name="assets/Tilemaps/Tiles 1@2x.psd"/>
+        <file name="assets/Tilemaps/layer 2.lua" excludeFromExecution="1"/>
+    </folder>
+    <folder name="Scenes">
+        <file name="assets/Scenes/Level 1.lua"/>
+    </folder>
+    <folder name="Classes">
+        <file name="assets/Classes/Add Physics Bodies to Tiles.lua"/>
+        <file name="assets/Classes/AnimateAcid.lua"/>
+        <file name="assets/Classes/Buttons.lua"/>
+        <file name="assets/Classes/Camera.lua"/>
+        <file name="assets/Classes/Hero.lua"/>
+        <file name="assets/Classes/Interface.lua"/>
+        <file name="assets/Classes/Json.lua"/>
+        <file name="assets/Classes/PlayerMovement.lua"/>
+        <file name="assets/Classes/Scrolling.lua"/>
+        <file name="assets/Classes/bmfont.lua"/>
+        <file name="assets/Classes/box2d.lua"/>
+        <file name="assets/Classes/button.lua"/>
+        <file name="assets/Classes/dataSaver.lua"/>
+        <file name="assets/Classes/easing.lua"/>
+        <file name="assets/Classes/gtween.lua"/>
+        <file name="assets/Classes/scenemanager.lua"/>
+        <file name="assets/Classes/tilemap.lua"/>
+    </folder>
+    <folder name="Atlases">
+        <file name="assets/Atlases/Atlas 1.png"/>
+        <file name="assets/Atlases/Atlas 1.txt"/>
+        <file name="assets/Atlases/Atlas 1@2x.png"/>
+        <file name="assets/Atlases/Atlas 1@2x.txt"/>
+        <file name="assets/Atlases/Atlas 2.png"/>
+        <file name="assets/Atlases/Atlas 2.tps"/>
+        <file name="assets/Atlases/Atlas 2.txt"/>
+        <file name="assets/Atlases/Atlas 2@2x.png"/>
+        <file name="assets/Atlases/Atlas 2@2x.txt"/>
+    </folder>
+</project>

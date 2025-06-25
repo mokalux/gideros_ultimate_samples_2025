@@ -1,0 +1,5 @@
+happy-block.png, 158, 2, 55, 52, 0, 0, 0, 0
+lr-button-pressed.png, 80, 2, 76, 76, 0, 0, 0, 0
+lr-button.png, 2, 158, 76, 76, 0, 0, 0, 0
+up pressed.png, 2, 80, 76, 76, 0, 0, 0, 0
+up.png, 2, 2, 76, 76, 0, 0, 0, 0

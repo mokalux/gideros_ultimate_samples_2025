@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="generic_platformer_tiles" tilewidth="32" tileheight="32">
+  <image source="generic_platformer_tiles.png" width="1024" height="768"/>
+ </tileset>
+ <layer name="Fundo" width="100" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1LsNgDAMBFAn4zAAv0H4TQGTwSYwEm6QKImwjYErXplLTrYSA1EEgN/II1HBSlaxOtqel8rUeIdl/qHh3JZ1rGdD4j13z0tlarzDMv+tznsqkaG5615o9j3vqUSGxK57n29qX+99rOf7tK/1AfijjOzvnBz0vmokAHiLOeha8CckWYOuzfk8djxP5rc=
+  </data>
+ </layer>
+ <layer name="Chao" width="100" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0jsOQEAUheGZvaD1XAJazyVgHyIWYitqi3J0Uw2aMTLnT75GMbnJIQRjjDHGGGOMMVvypBA+BPLrS9hVjh0KKB3fI4QIYkUCKWQG7xiwwwiTgT0WqTdrvqvu3nlrhQr31dAoWuigf3D7H20W2uWzf+mw4FYXcA+7uLzHCR+U45s=
+  </data>
+ </layer>
+ <objectgroup name="object" width="100" height="15">
+  <object name="flower" x="903" y="320" width="16" height="31">
+   <properties>
+    <property name="hasBody" value="true"/>
+   </properties>
+  </object>
+  <object name="toad" x="1824" y="320" width="30" height="32">
+   <properties>
+    <property name="hasBody" value="true"/>
+   </properties>
+  </object>
+  <object name="Ground" type="ground" x="0" y="356">
+   <properties>
+    <property name="hasBody" value="true"/>
+   </properties>
+   <polyline points="0,0 1278,-1 1311,16 1437,17 1476,-1 3199,-2 3199,-70"/>
+  </object>
+  <object x="2337" y="255">
+   <properties>
+    <property name="hasBody" value="true"/>
+   </properties>
+   <polygon points="0,0 92,-1 110,30 105,75 79,93 16,92 -12,69 -13,28"/>
+  </object>
+ </objectgroup>
+</map>

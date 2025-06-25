@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties html5_host="" html5_symbols="0" version_code="1" win_domain="giderosmobile.com" mainluaOnly="0" osx_org="GiderosMobile" html5_fbload="100" encryptAssets="0" html5_pack="0" html5_wasm="0" app_name="" splash_h_image="" version="1.0" touchToMouse="1" osx_signingId="" logicalWidth="320" osx_domain="giderosmobile.com" winrt_package="com.yourdomain.yourapp" architecture="0" fps="30" ios_bundle="com.yourdomain." html5_crash="" exportMode="0" html5_mem="256" app_icon="" disableSplash="0" splash_v_image="" encryptCode="0" windowWidth="0" osx_bundle="com.yourdomain." tv_icon="" orientation="1" windowHeight="0" mouseTouchOrder="0" scaleMode="3" logicalHeight="480" build_number="1" vsync="1" osx_category="5" osx_installerId="" autorotation="0" macos_bundle="com.yourdomain.yourapp-macos" winrt_org="GiderosMobile" win_org="GiderosMobile" atv_bundle="com.yourdomain.yourapp-atv" iosDevice="0" macos_category="5" html5_fbinstant="0" mouseToTouch="1" retinaDisplay="0" backgroundColor="#ffffff" splashScaleMode="0">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="classes">
+  <file name="assets/classes/Add Physics Bodies to Tiles.lua"/>
+  <file name="assets/classes/Json.lua"/>
+  <file name="assets/classes/bmfont.lua"/>
+  <file name="assets/classes/box2d.lua"/>
+  <file name="assets/classes/button.lua"/>
+  <file name="assets/classes/dataSaver.lua"/>
+  <file name="assets/classes/easing.lua"/>
+  <file name="assets/classes/gtween.lua"/>
+  <file name="assets/classes/scenemanager.lua"/>
+  <file name="assets/classes/tilemap.lua"/>
+ </folder>
+ <folder name="gfx">
+  <folder name="atlases">
+   <file name="assets/gfx/atlases/Atlas 1.png"/>
+   <file name="assets/gfx/atlases/Atlas 1.txt"/>
+   <file name="assets/gfx/atlases/Atlas 1@2x.png"/>
+   <file name="assets/gfx/atlases/Atlas 1@2x.txt"/>
+   <file name="assets/gfx/atlases/Atlas 2.png"/>
+   <file name="assets/gfx/atlases/Atlas 2.tps"/>
+   <file name="assets/gfx/atlases/Atlas 2.txt"/>
+   <file name="assets/gfx/atlases/Atlas 2@2x.png"/>
+   <file name="assets/gfx/atlases/Atlas 2@2x.txt"/>
+  </folder>
+  <folder name="player">
+   <file name="assets/gfx/player/happy-block.png"/>
+   <file name="assets/gfx/player/player.lua"/>
+   <file name="assets/gfx/player/player_movement.lua"/>
+  </folder>
+  <folder name="tiles_01">
+   <file name="assets/gfx/tiles_01/a_85.png"/>
+   <file name="assets/gfx/tiles_01/a_86.png"/>
+   <file name="assets/gfx/tiles_01/a_87.png"/>
+   <file name="assets/gfx/tiles_01/a_88.png"/>
+   <file name="assets/gfx/tiles_01/a_89.png"/>
+   <file name="assets/gfx/tiles_01/a_90.png"/>
+   <file name="assets/gfx/tiles_01/animatedAcid.lua"/>
+   <file name="assets/gfx/tiles_01/b_04.png"/>
+   <file name="assets/gfx/tiles_01/b_11.png"/>
+   <file name="assets/gfx/tiles_01/b_12.png"/>
+   <file name="assets/gfx/tiles_01/b_13.png"/>
+   <file name="assets/gfx/tiles_01/b_14.png"/>
+   <file name="assets/gfx/tiles_01/b_62.png"/>
+   <file name="assets/gfx/tiles_01/b_64.png"/>
+   <file name="assets/gfx/tiles_01/b_65.png"/>
+   <file name="assets/gfx/tiles_01/b_69.png"/>
+  </folder>
+  <folder name="tilesets">
+   <file name="assets/gfx/tilesets/Layer 1.tmx"/>
+   <file name="assets/gfx/tilesets/Tiles 1.lua" excludeFromExecution="1"/>
+   <file name="assets/gfx/tilesets/Tiles 1.png"/>
+   <file name="assets/gfx/tilesets/Tiles 1.tmx"/>
+   <file name="assets/gfx/tilesets/Tiles 1@2x.png"/>
+   <file name="assets/gfx/tilesets/Tiles 1@2x.psd"/>
+   <file name="assets/gfx/tilesets/layer 2.lua" excludeFromExecution="1"/>
+  </folder>
+  <folder name="ui">
+   <file name="assets/gfx/ui/buttons.lua"/>
+   <file name="assets/gfx/ui/lr-button-pressed.png"/>
+   <file name="assets/gfx/ui/lr-button.png"/>
+   <file name="assets/gfx/ui/up pressed.png"/>
+   <file name="assets/gfx/ui/up.png"/>
+  </folder>
+ </folder>
+ <folder name="levels">
+  <file name="assets/levels/Camera.lua"/>
+  <file name="assets/levels/Interface.lua"/>
+  <file name="assets/levels/Level 1.lua"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>

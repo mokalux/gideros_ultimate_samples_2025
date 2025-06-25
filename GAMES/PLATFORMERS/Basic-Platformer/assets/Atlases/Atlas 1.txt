@@ -1,0 +1,2 @@
+lr-button-pressed.png, 2, 80, 76, 76, 0, 0, 0, 0
+lr-button.png, 2, 2, 76, 76, 0, 0, 0, 0

@@ -1,0 +1,38 @@
+john26
+
+https://forum.gideros.rocks/profile/discussions/john26
+
+John Blackburn
+1975
+
+One of Gideros main dev!
+
+
+
+https://www.youtube.com/@JohnBlackburn1975/videos
+
+
+
+nebula retro
+
+https://www.gideros.rocks/nebula
+
+
+Nebula Retro
+
+Our Guru Gideros developer, John Blackburn, has released his game "Nebula Retro" open source and any Gideros developer can download the code here and look at the full blown Gideros project used for the production version of this popular game.
+
+Nebula Retro is fun and addictive platformer, where main character BLOCKMAN, tries to collect all the Pearls of Blockoo, while the Scoundrels of Freem are always in the way, trying to catch the BLOCKMAN.
+Get Source Code Now
+Game Features:
+
+    * 26 built-in levels
+    * Realistic physics engine
+    * Squash baddies with falling crates
+    * Antigravity & Rocket boost
+    * Touch-sensitive platforms
+    * Edit existing levels (once conquered) and design new ones
+    * Three graphics modes: Space, Xmas and 8-bit
+    * 4 ambient/techno soundtracks for a cool, spacey feeling!
+
+Get it now:
