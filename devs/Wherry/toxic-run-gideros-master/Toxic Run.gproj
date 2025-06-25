@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="0" logicalWidth="320" logicalHeight="480" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="1" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain." atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/animatedSprite.lua"/>
+    <file name="assets/background.lua"/>
+    <file name="assets/coin.lua"/>
+    <file name="assets/dataSaver.lua"/>
+    <file name="assets/gameScreen.lua"/>
+    <file name="assets/ground.lua"/>
+    <file name="assets/json.lua"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/menuScreen.lua"/>
+    <file name="assets/obstacle.lua"/>
+    <file name="assets/player.lua"/>
+    <file name="assets/scoresScreen.lua"/>
+    <file name="assets/screens.lua"/>
+    <file name="assets/utils.lua"/>
+    <file name="assets/zombie.lua"/>
+    <folder name="sounds">
+        <file name="assets/sounds/coin.wav"/>
+        <file name="assets/sounds/fail.wav"/>
+        <file name="assets/sounds/ground.wav"/>
+        <file name="assets/sounds/jump.wav"/>
+    </folder>
+    <folder name="gfx">
+        <file name="assets/gfx/ammo.png"/>
+        <file name="assets/gfx/bg1.png"/>
+        <file name="assets/gfx/bg2.png"/>
+        <file name="assets/gfx/bg3.png"/>
+        <file name="assets/gfx/coin.png"/>
+        <file name="assets/gfx/game_over.png"/>
+        <file name="assets/gfx/ground_1.png"/>
+        <file name="assets/gfx/ground_2_1.png"/>
+        <file name="assets/gfx/ground_2_2.png"/>
+        <file name="assets/gfx/ground_2_3.png"/>
+        <file name="assets/gfx/ground_3_1.png"/>
+        <file name="assets/gfx/ground_3_2.png"/>
+        <file name="assets/gfx/ground_4_1.png"/>
+        <file name="assets/gfx/ground_4_2.png"/>
+        <file name="assets/gfx/ground_5.png"/>
+        <file name="assets/gfx/ground_6.png"/>
+        <file name="assets/gfx/logo.png"/>
+        <file name="assets/gfx/obstacle_1.png"/>
+        <file name="assets/gfx/obstacle_2.png"/>
+        <file name="assets/gfx/obstacle_3.png"/>
+        <file name="assets/gfx/player.png"/>
+        <file name="assets/gfx/player_dead.png"/>
+        <file name="assets/gfx/player_end.png"/>
+        <file name="assets/gfx/player_end_1.png"/>
+        <file name="assets/gfx/player_end_10.png"/>
+        <file name="assets/gfx/player_end_11.png"/>
+        <file name="assets/gfx/player_end_12.png"/>
+        <file name="assets/gfx/player_end_2.png"/>
+        <file name="assets/gfx/player_end_3.png"/>
+        <file name="assets/gfx/player_end_4.png"/>
+        <file name="assets/gfx/player_end_5.png"/>
+        <file name="assets/gfx/player_end_6.png"/>
+        <file name="assets/gfx/player_end_7.png"/>
+        <file name="assets/gfx/player_end_8.png"/>
+        <file name="assets/gfx/player_end_9.png"/>
+        <file name="assets/gfx/player_jetpack.png"/>
+        <file name="assets/gfx/player_jump.png"/>
+        <file name="assets/gfx/player_menu.png"/>
+        <file name="assets/gfx/player_run.png"/>
+        <file name="assets/gfx/player_run_old.png"/>
+        <file name="assets/gfx/start_game.png"/>
+        <file name="assets/gfx/start_game_ru.png"/>
+        <file name="assets/gfx/tree1.png"/>
+        <file name="assets/gfx/tree2.png"/>
+        <file name="assets/gfx/zombie_1.png"/>
+        <file name="assets/gfx/zombie_2.png"/>
+        <file name="assets/gfx/zombie_3.png"/>
+        <file name="assets/gfx/zombie_4.png"/>
+    </folder>
+    <folder name="fonts">
+        <file name="assets/fonts/MainFont.ttf"/>
+    </folder>
+</project>

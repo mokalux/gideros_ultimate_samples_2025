@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="0" logicalWidth="320" logicalHeight="480" windowWidth="0" windowHeight="0" autorotation="0" orientation="1" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="0" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins>
+            <plugin name="Lua Socket" enabled="0"/>
+        </plugins>
+        <exports/>
+    </properties>
+    <file name="assets/Bonus.lua" excludeFromExecution="1"/>
+    <file name="assets/Bullet.lua" excludeFromExecution="1"/>
+    <file name="assets/ExplosionParticle.lua" excludeFromExecution="1"/>
+    <file name="assets/GameUI.lua" excludeFromExecution="1"/>
+    <file name="assets/InputManager.lua" excludeFromExecution="1"/>
+    <file name="assets/NetworkManager.lua" excludeFromExecution="1"/>
+    <file name="assets/Particle.lua" excludeFromExecution="1"/>
+    <file name="assets/Plane.lua" excludeFromExecution="1"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/utils.lua" excludeFromExecution="1"/>
+    <folder name="screens">
+        <file name="assets/screens/GameScreen.lua" excludeFromExecution="1"/>
+        <file name="assets/screens/HostScreen.lua" excludeFromExecution="1"/>
+        <file name="assets/screens/JoinScreen.lua" excludeFromExecution="1"/>
+        <file name="assets/screens/MenuScreen.lua" excludeFromExecution="1"/>
+        <file name="assets/screens/Screen.lua" excludeFromExecution="1"/>
+        <file name="assets/screens/ScreenManager.lua" excludeFromExecution="1"/>
+    </folder>
+    <folder name="menu">
+        <file name="assets/menu/Background.lua" excludeFromExecution="1"/>
+    </folder>
+    <folder name="lib">
+        <file name="assets/lib/Unite.lua"/>
+        <file name="assets/lib/socket.lua"/>
+    </folder>
+    <folder name="assets">
+        <file name="assets/assets/bonus.png"/>
+        <file name="assets/assets/bonus1.png"/>
+        <file name="assets/assets/bonus2.png"/>
+        <file name="assets/assets/bullet.png"/>
+        <file name="assets/assets/logo.png"/>
+        <file name="assets/assets/plane_blue.png"/>
+        <file name="assets/assets/plane_red.png"/>
+        <folder name="ui">
+            <file name="assets/assets/ui/bar.png"/>
+            <file name="assets/assets/ui/bar_l.png"/>
+            <file name="assets/assets/ui/down.png"/>
+            <file name="assets/assets/ui/fire.png"/>
+            <file name="assets/assets/ui/left.png"/>
+            <file name="assets/assets/ui/right.png"/>
+            <file name="assets/assets/ui/up.png"/>
+        </folder>
+        <folder name="particles">
+            <file name="assets/assets/particles/fire.png"/>
+            <file name="assets/assets/particles/smoke.png"/>
+        </folder>
+        <folder name="background">
+            <folder name="4">
+                <file name="assets/assets/background/4/1.png"/>
+                <file name="assets/assets/background/4/2.png"/>
+                <file name="assets/assets/background/4/3.png"/>
+            </folder>
+            <folder name="3">
+                <file name="assets/assets/background/3/1.png"/>
+                <file name="assets/assets/background/3/2.png"/>
+                <file name="assets/assets/background/3/3.png"/>
+                <file name="assets/assets/background/3/effects.png"/>
+            </folder>
+            <folder name="2">
+                <file name="assets/assets/background/2/1.png"/>
+                <file name="assets/assets/background/2/2.png"/>
+                <file name="assets/assets/background/2/3.png"/>
+            </folder>
+            <folder name="1">
+                <file name="assets/assets/background/1/1.png"/>
+                <file name="assets/assets/background/1/2.png"/>
+                <file name="assets/assets/background/1/3.png"/>
+            </folder>
+        </folder>
+    </folder>
+</project>
