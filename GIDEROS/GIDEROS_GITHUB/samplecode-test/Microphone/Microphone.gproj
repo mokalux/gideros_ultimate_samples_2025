@@ -1,0 +1,24 @@
+<project>
+ <properties autorotation="0" osx_category="5" osx_org="GiderosMobile" html5_fbload="100" html5_wasm="0" osx_bundle="com.yourdomain." logicalHeight="480" vsync="0" retinaDisplay="0" logicalWidth="320" disableSplash="0" win_domain="giderosmobile.com" splash_h_image="" splash_v_image="" windowHeight="0" winrt_org="GiderosMobile" app_icon="" splashScaleMode="0" scaleMode="3" html5_mem="256" mouseTouchOrder="0" packageName="com.yourdomain.yourapp" touchToMouse="1" exportMode="0" app_name="" html5_fbinstant="0" windowWidth="0" osx_signingId="" version_code="1" build_number="1" mouseToTouch="1" win_org="GiderosMobile" ios_bundle="com.yourdomain." fps="60" osx_domain="giderosmobile.com" version="1.0" html5_crash="" android_template="0" architecture="0" winrt_package="com.yourdomain.yourapp" orientation="0" tv_icon="" osx_installerId="" encryptCode="0" iosDevice="0" html5_symbols="0" html5_host="" html5_pack="0" backgroundColor="#ffffff" encryptAssets="0">
+  <imageScales/>
+  <plugins>
+   <plugin name="Microphone" enabled="1"/>
+  </plugins>
+  <exports/>
+ </properties>
+ <folder name="gfx">
+  <file name="assets/gfx/play-disabled.png"/>
+  <file name="assets/gfx/play-down.png"/>
+  <file name="assets/gfx/play-up.png"/>
+  <file name="assets/gfx/record-disabled.png"/>
+  <file name="assets/gfx/record-down.png"/>
+  <file name="assets/gfx/record-up.png"/>
+  <file name="assets/gfx/stop-down.png"/>
+  <file name="assets/gfx/stop-up.png"/>
+ </folder>
+ <folder name="ui">
+  <file name="assets/ui/buttonUDD.lua"/>
+  <file name="assets/ui/levelmeter.lua"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>

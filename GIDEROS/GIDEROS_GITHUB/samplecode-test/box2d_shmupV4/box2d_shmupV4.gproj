@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties encryptAssets="0" version_code="1" html5_fbload="100" tv_icon="" win_org="GiderosMobile" splash_v_image="" osx_domain="giderosmobile.com" windowHeight="0" osx_bundle="com.yourdomain." mouseToTouch="1" osx_org="GiderosMobile" autorotation="0" encryptCode="0" exportMode="0" logicalWidth="320" osx_installerId="" html5_host="" windowWidth="0" osx_category="5" html5_pwa="0" logicalHeight="480" macos_category="5" fps="60" html5_symbols="0" iosDevice="0" scaleMode="6" retinaDisplay="0" mainluaOnly="0" vsync="1" html5_pack="0" splash_h_image="" app_name="gideros_2d_shmupV2" touchToMouse="1" html5_mem="256" html5_crash="" win_domain="giderosmobile.com" architecture="0" version="1.0" mouseTouchOrder="0" winrt_org="GiderosMobile" macos_bundle="com.yourdomain.yourapp-macos" orientation="1" html5_wasm="0" backgroundColor="#ffffff" osx_signingId="" winrt_package="com.yourdomain.yourapp" ios_bundle="com.yourdomain." app_icon="" splashScaleMode="0" atv_bundle="com.yourdomain.yourapp-atv" html5_fbinstant="0" disableSplash="0" build_number="1">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="gfx">
+  <folder name="boss">
+   <file name="assets/gfx/boss/enemy_boss.lua"/>
+   <file name="assets/gfx/boss/enemy_boss_ts.png"/>
+  </folder>
+  <folder name="bullets">
+   <file name="assets/gfx/bullets/bulletlayer.lua"/>
+   <file name="assets/gfx/bullets/bullets_ts.png"/>
+  </folder>
+  <folder name="explosions">
+   <file name="assets/gfx/explosions/explosionlayer.lua"/>
+   <file name="assets/gfx/explosions/explosions_ts.png"/>
+  </folder>
+  <folder name="player">
+   <file name="assets/gfx/player/player.lua"/>
+   <file name="assets/gfx/player/tyrian_ts.png"/>
+  </folder>
+ </folder>
+ <folder name="scenes">
+  <file name="assets/scenes/game.lua"/>
+ </folder>
+ <folder name="sound">
+  <file name="assets/sound/hit.wav"/>
+  <file name="assets/sound/soundmanager.lua"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>

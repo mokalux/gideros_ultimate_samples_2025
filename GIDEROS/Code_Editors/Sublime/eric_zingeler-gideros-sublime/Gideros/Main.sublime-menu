@@ -1,0 +1,18 @@
+[
+{
+    "id": "tools",
+    "children":
+    [
+    	{
+    		"caption": "Gideros",
+    		"children":
+    		[	
+    			{ "command": "gideros_start_player", "caption": "Start Player" },
+				{ "command": "gideros_stop_player", "caption": "Stop Player" },    
+    			{ "command": "gideros_set_ip", "caption": "Set IP Address" },
+    			{ "command": "gideros_clear_output", "caption": "Clear Output" }
+    		]
+    	}
+    ]
+}
+]

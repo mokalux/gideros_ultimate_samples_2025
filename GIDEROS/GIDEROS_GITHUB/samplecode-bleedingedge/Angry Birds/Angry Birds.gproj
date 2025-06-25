@@ -1,0 +1,38 @@
+<project>
+ <properties winrt_package="com.yourdomain.yourapp" orientation="1" mouseToTouch="1" android_template="0" osx_signingId="" windowHeight="0" logicalHeight="480" html5_pack="0" app_icon="" osx_bundle="com.yourdomain." retinaDisplay="0" architecture="0" osx_domain="giderosmobile.com" build_number="1" logicalWidth="320" version="1.0" osx_category="5" html5_crash="" autorotation="0" packageName="com.yourdomain.yourapp" osx_installerId="" html5_fbload="100" touchToMouse="1" splash_v_image="" fps="60" exportMode="0" splash_h_image="" winrt_org="GiderosMobile" mouseTouchOrder="0" osx_org="GiderosMobile" html5_host="" splashScaleMode="0" html5_mem="256" windowWidth="0" scaleMode="3" html5_symbols="0" html5_wasm="0" win_org="GiderosMobile" tv_icon="" version_code="1" iosDevice="0" html5_fbinstant="0" backgroundColor="#ffffff" win_domain="giderosmobile.com" vsync="1" encryptAssets="0" encryptCode="0" ios_bundle="com.yourdomain." disableSplash="0" app_name="">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="classes">
+  <file name="assets/classes/easing.lua"/>
+  <file name="assets/classes/gtween.lua"/>
+ </folder>
+ <folder name="gfx">
+  <folder name="puf">
+   <file name="assets/gfx/puf/puf.lua"/>
+   <file name="assets/gfx/puf/puf1.png"/>
+   <file name="assets/gfx/puf/puf2.png"/>
+   <file name="assets/gfx/puf/puf3.png"/>
+   <file name="assets/gfx/puf/puf4.png"/>
+   <file name="assets/gfx/puf/puf5.png"/>
+  </folder>
+  <folder name="sling">
+   <file name="assets/gfx/sling/sling.lua"/>
+   <file name="assets/gfx/sling/sling1.png"/>
+   <file name="assets/gfx/sling/sling2.png"/>
+  </folder>
+  <file name="assets/gfx/acorn.png"/>
+  <file name="assets/gfx/bg.png"/>
+  <file name="assets/gfx/brick_1.png"/>
+  <file name="assets/gfx/brick_2.png"/>
+  <file name="assets/gfx/brick_3.png"/>
+  <file name="assets/gfx/brick_platform.png"/>
+  <file name="assets/gfx/fg.png"/>
+  <file name="assets/gfx/head_cat.png"/>
+  <file name="assets/gfx/head_dog.png"/>
+ </folder>
+ <file name="assets/game.lua"/>
+ <file name="assets/init.lua"/>
+ <file name="assets/main.lua"/>
+</project>

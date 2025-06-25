@@ -1,0 +1,33 @@
+<project>
+ <properties win_org="GiderosMobile" version="1.0" windowWidth="0" osx_domain="giderosmobile.com" version_code="1" exportMode="0" vsync="1" mouseTouchOrder="0" app_icon="" html5_fbload="100" winrt_package="com.yourdomain.yourapp" splash_h_image="" html5_pack="0" logicalWidth="320" ios_bundle="com.yourdomain." disableSplash="0" win_domain="giderosmobile.com" winrt_org="GiderosMobile" osx_category="5" html5_fbinstant="0" autorotation="0" encryptCode="0" backgroundColor="#ffffff" osx_bundle="com.yourdomain." scaleMode="5" splash_v_image="" splashScaleMode="0" fps="60" osx_signingId="" android_template="0" logicalHeight="480" mouseToTouch="1" tv_icon="" retinaDisplay="0" html5_symbols="0" iosDevice="0" osx_installerId="" windowHeight="0" html5_wasm="0" architecture="0" orientation="0" touchToMouse="1" html5_crash="" app_name="gideros_2d_shmupV2" build_number="1" osx_org="GiderosMobile" html5_host="" html5_mem="256" packageName="com.yourdomain.yourapp" encryptAssets="0">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="gfx">
+  <folder name="boss">
+   <file name="assets/gfx/boss/enemy_boss.lua"/>
+   <file name="assets/gfx/boss/enemy_boss_ts.png"/>
+  </folder>
+  <folder name="bullets">
+   <file name="assets/gfx/bullets/bulletlayer.lua"/>
+   <file name="assets/gfx/bullets/bullets_ts.png"/>
+  </folder>
+  <folder name="explosions">
+   <file name="assets/gfx/explosions/explosionlayer.lua"/>
+   <file name="assets/gfx/explosions/explosions_ts.png"/>
+  </folder>
+  <folder name="player">
+   <file name="assets/gfx/player/player.lua"/>
+   <file name="assets/gfx/player/tyrian_ts.png"/>
+  </folder>
+ </folder>
+ <folder name="scenes">
+  <file name="assets/scenes/game.lua"/>
+ </folder>
+ <folder name="sound">
+  <file name="assets/sound/hit.wav"/>
+  <file name="assets/sound/soundmanager.lua"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>

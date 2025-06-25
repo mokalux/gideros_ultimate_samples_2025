@@ -1,0 +1,5 @@
+
+[
+{"keys": ["f10"], "command": "gideros_start_player"},
+{"keys": ["f9"], "command": "gideros_stop_player"}
+]

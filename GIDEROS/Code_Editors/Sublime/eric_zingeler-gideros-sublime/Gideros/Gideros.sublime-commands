@@ -1,0 +1,8 @@
+[
+
+	{ "caption": "Gideros: Start Player", "command": "gideros_start_player"},
+	{ "caption": "Gideros: Stop Player", "command": "gideros_stop_player"},
+	{ "caption": "Gideros: Set IP Address", "command": "gideros_set_ip" },
+	{ "caption": "Gideros: Clear Output", "command": "gideros_clear_output" }
+
+]
