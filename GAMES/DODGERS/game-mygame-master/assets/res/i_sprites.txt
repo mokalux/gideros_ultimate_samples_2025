@@ -1,0 +1,16 @@
+i_text_gameover.png, 1, 1, 412, 78, 0, 0, 0, 0
+i_sword_3.png, 415, 1, 10, 50, 0, 0, 0, 0
+i_sword_2.png, 427, 1, 10, 34, 0, 0, 0, 0
+i_sword_1.png, 439, 1, 10, 44, 0, 0, 0, 0
+i_player_right_4.png, 451, 1, 28, 47, 0, 0, 0, 0
+i_player_right_3.png, 481, 1, 27, 48, 0, 0, 0, 0
+i_player_right_2.png, 427, 50, 26, 47, 0, 0, 0, 0
+i_player_right_1.png, 455, 51, 27, 48, 0, 0, 0, 0
+i_player_left_4.png, 484, 51, 27, 47, 0, 0, 0, 0
+i_player_left_3.png, 484, 100, 25, 48, 0, 0, 0, 0
+i_player_left_2.png, 1, 150, 25, 47, 0, 0, 0, 0
+i_player_left_1.png, 1, 99, 25, 48, 0, 0, 0, 0
+i_player_front_4.png, 1, 199, 26, 47, 0, 0, 0, 0
+i_player_front_3.png, 28, 101, 31, 48, 0, 0, 0, 0
+i_player_front_2.png, 29, 151, 25, 47, 0, 0, 0, 0
+i_player_front_1.png, 29, 200, 31, 48, 0, 0, 0, 0

@@ -1,0 +1,19 @@
+<library>
+ <properties forceSquare="0" alphaThreshold="0" extrude="0" padding="1" showUnusedAreas="0" removeAlphaBorder="0"/>
+ <file file="../i_player_front_1.png"/>
+ <file file="../i_player_front_2.png"/>
+ <file file="../i_player_front_3.png"/>
+ <file file="../i_player_front_4.png"/>
+ <file file="../i_player_left_1.png"/>
+ <file file="../i_player_left_2.png"/>
+ <file file="../i_player_left_3.png"/>
+ <file file="../i_player_left_4.png"/>
+ <file file="../i_player_right_1.png"/>
+ <file file="../i_player_right_2.png"/>
+ <file file="../i_player_right_3.png"/>
+ <file file="../i_player_right_4.png"/>
+ <file file="../i_sword_1.png"/>
+ <file file="../i_sword_2.png"/>
+ <file file="../i_sword_3.png"/>
+ <file file="../i_text_gameover.png"/>
+</library>

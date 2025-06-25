@@ -1,0 +1,19 @@
+<library>
+ <properties forceSquare="0" alphaThreshold="0" extrude="0" padding="1" showUnusedAreas="1" removeAlphaBorder="0"/>
+ <file file="villano_4.png"/>
+ <file file="villano_3.png"/>
+ <file file="villano_2.png"/>
+ <file file="villano_1.png"/>
+ <file file="nave12.png"/>
+ <file file="nave11.png"/>
+ <file file="nave10.png"/>
+ <file file="nave9.png"/>
+ <file file="nave8.png"/>
+ <file file="nave7.png"/>
+ <file file="heroe_6.png"/>
+ <file file="heroe_5.png"/>
+ <file file="heroe_4.png"/>
+ <file file="heroe_3.png"/>
+ <file file="heroe_2.png"/>
+ <file file="heroe_1.png"/>
+</library>

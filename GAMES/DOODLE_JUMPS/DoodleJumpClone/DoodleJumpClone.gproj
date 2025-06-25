@@ -1,0 +1,22 @@
+<project>
+ <properties osx_category="5" splashScaleMode="0" version_code="1" html5_crash="" tv_icon="" windowWidth="0" scaleMode="3" retinaDisplay="0" android_template="0" app_icon="" logicalHeight="480" winrt_org="GiderosMobile" splash_v_image="" html5_wasm="0" osx_installerId="" architecture="0" backgroundColor="#ffffff" touchToMouse="1" exportMode="0" encryptAssets="0" ios_bundle="com.yourdomain." osx_bundle="com.yourdomain." html5_pack="0" osx_signingId="" iosDevice="0" logicalWidth="320" disableSplash="0" packageName="com.yourdomain.yourapp" windowHeight="0" autorotation="0" app_name="" winrt_package="com.yourdomain.yourapp" html5_mem="256" fps="60" version="1.0" html5_fbinstant="0" osx_domain="giderosmobile.com" win_org="GiderosMobile" win_domain="giderosmobile.com" splash_h_image="" vsync="1" html5_symbols="0" build_number="1" html5_fbload="100" osx_org="GiderosMobile" mouseToTouch="1" orientation="0" mouseTouchOrder="0" encryptCode="0" html5_host="">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="gfx">
+  <folder name="platform">
+   <file name="assets/gfx/platform/platform.lua"/>
+   <file name="assets/gfx/platform/platform.png"/>
+  </folder>
+  <folder name="player">
+   <file name="assets/gfx/player/char.png"/>
+   <file name="assets/gfx/player/character.lua"/>
+  </folder>
+ </folder>
+ <folder name="levels">
+  <file name="assets/levels/level.lua"/>
+ </folder>
+ <file name="assets/init.lua"/>
+ <file name="assets/main.lua"/>
+</project>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <properties scaleMode="3" logicalWidth="720" logicalHeight="1280" windowWidth="0" windowHeight="0" autorotation="0" orientation="0" fps="60" vsync="0" version="1.0" version_code="1" build_number="1" mainluaOnly="0" retinaDisplay="0" mouseToTouch="1" touchToMouse="1" mouseTouchOrder="0" architecture="1" exportMode="0" iosDevice="0" ios_bundle="com.yourdomain.yourapp-ios" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" macos_category="5" qtexp_platform="0" qtexp_org="GiderosMobile" qtexp_domain="giderosmobile.com" osx_bundle="com.yourdomain." osx_signingId="" osx_installerId="" osx_category="5" winrt_org="GiderosMobile" winrt_package="com.yourdomain.yourapp" html5_host="" html5_crash="" html5_mem="256" html5_pack="0" html5_wasm="0" html5_symbols="0" html5_fbinstant="0" html5_pwa="0" html5_fbload="100" encryptCode="0" encryptAssets="0" app_icon="" tv_icon="" disableSplash="0" backgroundColor="#ffffff" splash_h_image="" splash_v_image="" app_name="" splashScaleMode="0">
+        <imageScales/>
+        <plugins/>
+        <exports/>
+    </properties>
+    <file name="assets/config.lua"/>
+    <file name="assets/help.lua"/>
+    <file name="assets/level.lua"/>
+    <file name="assets/level_select.lua"/>
+    <file name="assets/main.lua"/>
+    <file name="assets/options.lua"/>
+    <file name="assets/pack_select.lua"/>
+    <file name="assets/packs.json"/>
+    <file name="assets/policePool.lua"/>
+    <file name="assets/start.lua"/>
+    <folder name="src">
+        <file name="assets/src/gun.lua" excludeFromExecution="1"/>
+        <file name="assets/src/map.lua"/>
+        <file name="assets/src/obstacle.lua"/>
+        <file name="assets/src/obstaclePool.lua"/>
+        <file name="assets/src/pistolGun.lua"/>
+        <file name="assets/src/police.lua"/>
+        <file name="assets/src/projectile.lua"/>
+        <file name="assets/src/projectilePool.lua"/>
+    </folder>
+    <folder name="level_map">
+        <file name="assets/level_map/level_map_1.lua" excludeFromExecution="1"/>
+        <file name="assets/level_map/level_map_2.lua" excludeFromExecution="1"/>
+        <file name="assets/level_map/level_map_3.lua" excludeFromExecution="1"/>
+    </folder>
+    <folder name="images">
+        <file name="assets/images/back_clicked.png"/>
+        <file name="assets/images/back_normal.png"/>
+        <file name="assets/images/bottom_bg.png"/>
+        <file name="assets/images/bullet.png"/>
+        <file name="assets/images/car.png"/>
+        <file name="assets/images/controller.png"/>
+        <file name="assets/images/controller_bg.png"/>
+        <file name="assets/images/cop_flame_fire.png"/>
+        <file name="assets/images/cop_flame_idle.png"/>
+        <file name="assets/images/cop_grenade_fire.png"/>
+        <file name="assets/images/cop_grenade_idle.png"/>
+        <file name="assets/images/cop_pistol_fire.png"/>
+        <file name="assets/images/cop_pistol_idle.png"/>
+        <file name="assets/images/easy_clicked.png"/>
+        <file name="assets/images/easy_normal.png"/>
+        <file name="assets/images/fire.png"/>
+        <file name="assets/images/game_over.png"/>
+        <file name="assets/images/grenade.png"/>
+        <file name="assets/images/hard_clicked.png"/>
+        <file name="assets/images/hard_normal.png"/>
+        <file name="assets/images/heart.png"/>
+        <file name="assets/images/level.png"/>
+        <file name="assets/images/music_clicked.png"/>
+        <file name="assets/images/music_normal.png"/>
+        <file name="assets/images/normal_clicked.png"/>
+        <file name="assets/images/normal_normal.png"/>
+        <file name="assets/images/options_clicked.png"/>
+        <file name="assets/images/options_normal.png"/>
+        <file name="assets/images/pause.png"/>
+        <file name="assets/images/pause_clicked.png"/>
+        <file name="assets/images/pause_normal.png"/>
+        <file name="assets/images/play_clicked.png"/>
+        <file name="assets/images/play_normal.png"/>
+        <file name="assets/images/plus_clicked.png"/>
+        <file name="assets/images/plus_normal.png"/>
+        <file name="assets/images/police_line.png"/>
+        <file name="assets/images/robber.png"/>
+        <file name="assets/images/screen_bg.png"/>
+        <file name="assets/images/sound_clicked.png"/>
+        <file name="assets/images/sound_normal.png"/>
+        <file name="assets/images/upgrade_clicked.png"/>
+        <file name="assets/images/upgrade_normal.png"/>
+    </folder>
+    <folder name="classes">
+        <file name="assets/classes/Ace.Slide.lua"/>
+        <file name="assets/classes/Controller.lua"/>
+        <file name="assets/classes/Nick.lua"/>
+        <file name="assets/classes/SeamlessPattern.lua"/>
+        <file name="assets/classes/TextWrap.lua"/>
+        <file name="assets/classes/button.lua"/>
+        <file name="assets/classes/dataSaver.lua"/>
+        <file name="assets/classes/easing.lua"/>
+        <file name="assets/classes/gtween.lua"/>
+        <file name="assets/classes/json.lua"/>
+        <file name="assets/classes/lib.lua"/>
+        <file name="assets/classes/scenemanager.lua"/>
+        <file name="assets/classes/util.lua"/>
+    </folder>
+    <folder name="audio">
+        <file name="assets/audio/complete.mp3"/>
+        <file name="assets/audio/flame.wav"/>
+        <file name="assets/audio/grunt.wav"/>
+        <file name="assets/audio/gunshot.wav"/>
+        <file name="assets/audio/hit.wav"/>
+        <file name="assets/audio/main.mp3"/>
+        <file name="assets/audio/throw.wav"/>
+    </folder>
+    <folder name="asset">
+        <file name="assets/asset/pricedown bl.ttf"/>
+    </folder>
+</project>

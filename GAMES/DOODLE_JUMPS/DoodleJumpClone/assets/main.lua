@@ -1,0 +1,1 @@
+stage:addChild(GClevel.new())

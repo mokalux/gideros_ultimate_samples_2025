@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties windowWidth="480" osx_category="2" osx_bundle="com.e1e5en.dashingball" touchToMouse="1" mouseToTouch="1" atv_bundle="com.yourdomain.yourapp-atv" macos_bundle="com.yourdomain.yourapp-macos" splash_v_image="" osx_installerId="" html5_wasm="0" win_org="Dashing Ball" windowHeight="800" version_code="1" vsync="0" encryptCode="1" osx_org="E1e5en" html5_fbinstant="0" backgroundColor="#316395" html5_pwa="0" splashScaleMode="0" osx_signingId="" architecture="0" html5_host="" tv_icon="" fps="60" autorotation="0" html5_pack="0" html5_symbols="0" retinaDisplay="0" mouseTouchOrder="0" logicalWidth="480" exportMode="0" disableSplash="1" win_domain="Dashing Ball" winrt_org="GiderosMobile" mainluaOnly="0" version="1.0" splash_h_image="" ios_bundle="com.yourdomain.yourapp-ios" osx_domain="https://e1e5en.itch.io/" build_number="0" html5_mem="256" logicalHeight="800" orientation="0" html5_fbload="100" app_icon="" winrt_package="com.yourdomain.yourapp" html5_crash="" iosDevice="0" macos_category="5" scaleMode="5" encryptAssets="1" app_name="DashingBall">
+  <imageScales/>
+  <plugins>
+   <plugin name="Easing" enabled="1"/>
+   <plugin name="JSON" enabled="1"/>
+   <plugin name="LiquidFun" enabled="1"/>
+   <plugin name="Native" enabled="1"/>
+   <plugin name="Require" enabled="1">
+    <property name="reqAccel" value="0"/>
+    <property name="reqAlphaCanvas" value="0"/>
+    <property name="reqCanOpenUrl" value=""/>
+    <property name="reqCanRespondUrl" value=""/>
+    <property name="reqCompass" value="0"/>
+    <property name="reqDisable32bits" value="0"/>
+    <property name="reqDisable64bits" value="0"/>
+    <property name="reqDisableArm" value="0"/>
+    <property name="reqDisableX86" value="0"/>
+    <property name="reqExpRegCompliance" value="0"/>
+    <property name="reqFullOrientation" value="0"/>
+    <property name="reqGps" value="0"/>
+    <property name="reqGpsBackground" value="0"/>
+    <property name="reqGpsReason" value=""/>
+    <property name="reqGyro" value="0"/>
+    <property name="reqMaxAspect" value="1"/>
+    <property name="reqMinSdk" value=""/>
+    <property name="reqNoGps" value="1"/>
+    <property name="reqNoInternet" value="1"/>
+    <property name="reqNoMP3" value="0"/>
+    <property name="reqNoSensor" value="0"/>
+    <property name="reqNoVibrator" value="1"/>
+    <property name="reqNoXMP" value="0"/>
+    <property name="reqPhoneOnly" value="0"/>
+    <property name="reqPreventBackup" value="0"/>
+    <property name="reqScreenShape" value="1"/>
+    <property name="reqServerMode" value="0"/>
+    <property name="reqTVCompat" value="0"/>
+    <property name="reqTVExtCompat" value="0"/>
+    <property name="reqTouch" value="0"/>
+    <property name="reqTrackingReason" value=""/>
+    <property name="reqWriteExternalStorage" value="0"/>
+   </plugin>
+   <plugin name="SceneManager" enabled="1"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property name="androidPath" value=""/>
+    <property name="androidSdk" value=""/>
+    <property name="androidTarget" value="30"/>
+    <property name="androidTools" value=""/>
+    <property name="buildAab" value="0"/>
+    <property name="buildApk" value="1"/>
+    <property name="deployApk" value="0"/>
+    <property name="forOculus" value="0"/>
+    <property name="javaPath" value=""/>
+    <property name="keyAlias" value=""/>
+    <property name="keyStore" value=""/>
+    <property name="oculusHT" value="0"/>
+    <property name="oculusHTR" value="0"/>
+    <property name="packageName" value="com.e1e5en.dashingball"/>
+    <property name="timestampApk" value="0"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="fonts">
+  <file name="assets/fonts/Galada.ttf"/>
+ </folder>
+ <folder name="images">
+  <file name="assets/images/res.png"/>
+  <file name="assets/images/res.txt"/>
+ </folder>
+ <folder name="libs">
+  <file name="assets/libs/button.lua"/>
+  <file name="assets/libs/dataSaver.lua"/>
+  <file name="assets/libs/gtween.lua"/>
+ </folder>
+ <folder name="src">
+  <folder name="scenes">
+   <folder name="objects">
+    <file name="assets/src/scenes/objects/break.lua"/>
+    <file name="assets/src/scenes/objects/coin.lua"/>
+    <file name="assets/src/scenes/objects/field.lua"/>
+    <file name="assets/src/scenes/objects/player.lua"/>
+    <file name="assets/src/scenes/objects/wall.lua"/>
+   </folder>
+   <folder name="ui">
+    <file name="assets/src/scenes/ui/ui_game.lua"/>
+    <file name="assets/src/scenes/ui/ui_gameover.lua"/>
+    <file name="assets/src/scenes/ui/ui_pause.lua"/>
+    <file name="assets/src/scenes/ui/ui_start.lua"/>
+   </folder>
+   <file name="assets/src/scenes/sc_game.lua"/>
+   <file name="assets/src/scenes/sc_mainmenu.lua"/>
+  </folder>
+  <folder name="utils">
+   <file name="assets/src/utils/math_ex.lua"/>
+   <file name="assets/src/utils/vfx.lua"/>
+  </folder>
+  <file name="assets/src/bg.lua"/>
+ </folder>
+ <file name="assets/const.lua"/>
+ <file name="assets/global.lua"/>
+ <file name="assets/main.lua"/>
+ <dependency from="assets/src/scenes/sc_game.lua" to="assets/src/scenes/ui/ui_pause.lua"/>
+ <dependency from="assets/src/scenes/sc_game.lua" to="assets/src/scenes/ui/ui_game.lua"/>
+ <dependency from="assets/src/scenes/sc_game.lua" to="assets/src/scenes/ui/ui_gameover.lua"/>
+ <dependency from="assets/src/scenes/sc_game.lua" to="assets/src/scenes/ui/ui_start.lua"/>
+</project>
