@@ -4,7 +4,7 @@ This is a collection of Gideros projects and samples, gathered throughout the ye
 
 I didn't write any of those!
 
-My contribution here, is bringing them most of them back to life and running on latest **Gideros 2025.3+**.
+My contribution here, is bringing most of them back to life and running on latest **Gideros 2025.3+**.
 
 
 Most projects in here have a license, please act accordingly.
