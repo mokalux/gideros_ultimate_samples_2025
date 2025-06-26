@@ -16,6 +16,4 @@ Some links:
 
 >Viva Gideros!
 
-**PS**: WIP
-
 *mokalux*
